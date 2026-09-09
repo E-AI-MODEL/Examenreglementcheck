@@ -1,0 +1,51 @@
+{
+  "version": "0.4.2",
+  "delivery": "functional-v3.2-no-ai",
+  "created_at": "2026-09-08",
+  "source_snapshot": "2026-09-07-first-content",
+  "html_version": "3.1",
+  "original_v1_files": 34,
+  "source_records": 40,
+  "full_article_fragments": 109,
+  "candidate_rules": 40,
+  "normalized_court_cases": 4,
+  "comparison_records": 9,
+  "production_ready": false,
+  "notes": [
+    "V3.2 draait zonder AI en behoudt de uitgeschakelde AI-toggle.",
+    "Bugfix in _start_event: beperkt tot eerste kern-zelfstandignaamwoord; herkansing-termijnconflicten worden nu gedetecteerd.",
+    "schemas/README.md en scripts/README.md toegevoegd (V3-002).",
+    "Nieuwe regressietests bewaken de bugfix.",
+    "Bronpoort draait per bronkandidaat; semantische evidence-validatie ontbreekt nog; juridische must blijft geblokkeerd."
+  ],
+  "analysis_modes": {
+    "without_ai": "implemented",
+    "with_ai": "skeleton_disabled"
+  },
+  "runtime": {
+    "server": "FastAPI",
+    "parsers": [
+      "docx_native",
+      "pdf_text"
+    ],
+    "ocr": "not_connected",
+    "implemented_phases": [
+      "A",
+      "C"
+    ],
+    "partial_phases": [
+      "D",
+      "I"
+    ],
+    "not_implemented_phases": [
+      "B",
+      "E",
+      "F",
+      "G",
+      "H"
+    ]
+  },
+  "distribution_files_excluding_manifest_sha256": 177,
+  "tests_passed": 41,
+  "integration_test": "health + parse + context confirmation + analyze + review + change set passed"
+}

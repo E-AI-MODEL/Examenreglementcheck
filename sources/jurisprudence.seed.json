@@ -1,0 +1,148 @@
+[
+  {
+    "case_id": "ECLI:NL:RBMNE:2025:4637",
+    "date": "2025-08-22",
+    "court": "Rechtbank Midden-Nederland",
+    "procedure_type": "civiel_kort_geding",
+    "legal_regime": "WVO 2020",
+    "exam_type": [
+      "CE"
+    ],
+    "topics": [
+      "inzage",
+      "score",
+      "herbeoordeling",
+      "rechtsbescherming"
+    ],
+    "issue": "Zorgvuldigheid van de behandeling van een geschil over de beoordeling van centraal-examenwerk.",
+    "holding": "De voorzieningenrechter droeg de rector op het vwo-diploma alsnog uit te reiken. De bezwaarafhandeling was apert onzorgvuldig: niet-kenbare fouten waren betrokken of buiten de bestreden onderdelen was opnieuw beoordeeld.",
+    "decisive_reasoning": "De rechter toetst terughoudend, maar greep in wegens de concrete procedurele onzorgvuldigheid en de gevolgen voor de score. Het uitgangspunt over de omvang van herbeoordeling staat mede in wat partijen in deze zaak niet betwistten.",
+    "may_infer": [
+      "Maak bij inzage de relevante beoordelingsinformatie kenbaar.",
+      "Leg vast welke vragen het geschil betreft en hoe de correctoren daarop reageren."
+    ],
+    "must_not_infer": [
+      "Iedere kandidaat heeft recht op een volledige herbeoordeling.",
+      "Iedere procedurefout geeft recht op een diploma.",
+      "Een partijstandpunt is zonder nadere toetsing een algemeen bindende rechtsregel."
+    ],
+    "review_status": "full_text_normalized_human_review_pending",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBMNE%3A2025%3A4637",
+    "decisive_locations": "3.8; 3.11-3.22; 4.1",
+    "production_approved": false,
+    "appeal_status": "not_checked",
+    "retrieved_at": "2026-09-07",
+    "source_id": "ecli-rbmne-2025-4637",
+    "content_path": "sources/content/ecli-rbmne-2025-4637.txt"
+  },
+  {
+    "case_id": "ECLI:NL:HR:2019:1243",
+    "date": "2019-07-19",
+    "court": "Hoge Raad",
+    "procedure_type": "civiel_cassatie",
+    "legal_regime": "pre-WVO-2020",
+    "exam_type": [
+      "CE"
+    ],
+    "topics": [
+      "cijfer",
+      "rechtsbescherming",
+      "bevoegdheidsverdeling"
+    ],
+    "issue": "Verhouding burgerlijke rechter en bestuursrechtelijke toetsing rond verandering van een centraal-examencijfer.",
+    "holding": "De Hoge Raad vernietigde de niet-ontvankelijkverklaring en verwees de zaak. De leerling had het geschil over het correctievoorschrift en de N-term terecht aan de burgerlijke rechter voorgelegd.",
+    "decisive_reasoning": "Correctievoorschrift en N-term zijn beoordelingsnormen in de zin van Awb 8:4 lid 3 onder b. De bestuursrechter kon deze niet beoordelen, ook niet langs de door het hof genoemde omwegen.",
+    "may_infer": [
+      "Onderscheid inhoudelijke beoordelingsnormen van andere besluiten bij het kiezen van een rechtsroute."
+    ],
+    "must_not_infer": [
+      "De Hoge Raad kende de leerling een extra scorepunt toe.",
+      "Alle examengeschillen vallen buiten de bestuursrechter.",
+      "De wettelijke context van 2017 is zonder controle actueel toepasbaar."
+    ],
+    "review_status": "full_text_normalized_human_review_pending",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2019%3A1243",
+    "decisive_locations": "3.1.2-3.1.5; beslissing 4",
+    "production_approved": false,
+    "appeal_status": "not_checked",
+    "retrieved_at": "2026-09-07",
+    "source_id": "ecli-hr-2019-1243",
+    "content_path": "sources/content/ecli-hr-2019-1243.txt"
+  },
+  {
+    "case_id": "ECLI:NL:RBAMS:2020:3552",
+    "date": "2020-07-17",
+    "court": "Rechtbank Amsterdam",
+    "procedure_type": "bestuursrecht_voorlopige_voorziening",
+    "legal_regime": "pre-WVO-2020; bijzondere coronaregeling examenjaar 2020",
+    "exam_type": [
+      "SE"
+    ],
+    "topics": [
+      "afronding",
+      "administratief_beroep",
+      "diplomering",
+      "fraudevermoeden",
+      "bewijs",
+      "corona-2020"
+    ],
+    "issue": "SE-afronding, diplomering en twijfel over onderbouwing van enkele fraudemaatregelen.",
+    "holding": "De voorlopige voorziening werd afgewezen omdat CKV en Frans niet tijdig waren afgerond. Over het beroep werd niet meteen beslist, mede door vragen rond andere fraudebeschuldigingen.",
+    "decisive_reasoning": "De rechter vond een waarschijnlijkheidsoordeel over fraude onvoldoende vanzelfsprekend, mede gezien mogelijke kennis van openbare oude examens en onduidelijkheid over de gelegenheid tot fraude. Die twijfel veranderde de andere belemmeringen voor diplomering niet.",
+    "may_infer": [
+      "Een vermoeden en een vastgestelde onregelmatigheid onderscheiden.",
+      "Onderzoek alternatieve verklaringen en de feitelijke mogelijkheid tot fraude.",
+      "Niet iedere afwijzing van een voorziening bevestigt alle argumenten van de school."
+    ],
+    "must_not_infer": [
+      "Fraude was voor alle betwiste toetsen bewezen.",
+      "De rechter verbood ieder gebruik van oude examenvragen.",
+      "De coronatermijn van 4 juni 2020 geldt voor andere examenjaren."
+    ],
+    "review_status": "full_text_normalized_human_review_pending",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2020%3A3552",
+    "decisive_locations": "14-20; 23-30; beslissing",
+    "production_approved": false,
+    "appeal_status": "not_checked",
+    "retrieved_at": "2026-09-07",
+    "source_id": "ecli-rbams-2020-3552",
+    "content_path": "sources/content/ecli-rbams-2020-3552.txt"
+  },
+  {
+    "case_id": "ECLI:NL:RBOVE:2026:2055",
+    "date": "2026-04-07",
+    "court": "Rechtbank Overijssel",
+    "procedure_type": "voorlopige_voorziening_en_beroep_met_toepassing_Awb_8_86",
+    "legal_regime": "WVO 2020",
+    "exam_type": [
+      "SE"
+    ],
+    "topics": [
+      "onregelmatigheid",
+      "maatregel",
+      "uitsluiting",
+      "medische_onderbouwing",
+      "AI_incidenteel"
+    ],
+    "issue": "Maatregelen wegens onregelmatigheden/afwezigheid en medische onderbouwing.",
+    "holding": "Het beroep werd ongegrond verklaard en de voorlopige voorziening afgewezen. Het verzuim en niet-inleveren waren onvoldoende medisch onderbouwd; succesvolle afronding was ook praktisch niet meer haalbaar.",
+    "decisive_reasoning": "De rechter beoordeelde de concrete onderbouwing van geldige reden of overmacht en de zorgvuldigheid van school en beroepscommissie. De AI-bepaling komt alleen voor in de geciteerde reglementsbijlage.",
+    "may_infer": [
+      "Beoordeel medische onderbouwing en uitvoerbaarheid in de concrete situatie.",
+      "Scheid geciteerde reglementtekst van rechterlijk getoetste geschilpunten."
+    ],
+    "must_not_infer": [
+      "AI-gegenereerd werk is door deze uitspraak als fraude bewezen.",
+      "De rechter keurde de AI-bepaling inhoudelijk goed.",
+      "Ziekte rechtvaardigt in het algemeen uitsluiting van alle examens."
+    ],
+    "review_status": "full_text_normalized_human_review_pending",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBOVE%3A2026%3A2055",
+    "decisive_locations": "3.4-3.7; beslissing 2; bijlage artikel 37 lid 4",
+    "production_approved": false,
+    "appeal_status": "not_checked",
+    "retrieved_at": "2026-09-07",
+    "source_id": "ecli-rbove-2026-2055",
+    "content_path": "sources/content/ecli-rbove-2026-2055.txt"
+  }
+]

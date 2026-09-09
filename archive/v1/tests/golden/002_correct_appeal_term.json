@@ -1,0 +1,15 @@
+{
+  "case_id": "golden-002",
+  "title": "Correcte beroepstermijn - negative legal control",
+  "input_excerpt": "De kandidaat kan binnen de wettelijk geldende termijn van vijf dagen beroep instellen.",
+  "context": {
+    "topic": "beroep",
+    "school_year": "2026-2027"
+  },
+  "expected": {
+    "severity": null,
+    "must_not_flag_as": "must"
+  },
+  "rationale": "Voorkomt dat de analyzer standaard ieder beroepartikel als probleem markeert.",
+  "evidence_expectation": []
+}

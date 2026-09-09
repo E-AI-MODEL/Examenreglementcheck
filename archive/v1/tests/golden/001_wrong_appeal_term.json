@@ -1,0 +1,18 @@
+{
+  "case_id": "golden-001",
+  "title": "Verkeerde beroepstermijn",
+  "input_excerpt": "De kandidaat kan binnen twee dagen beroep instellen.",
+  "context": {
+    "topic": "beroep",
+    "school_year": "2026-2027"
+  },
+  "expected": {
+    "severity": "must",
+    "confidence": "high",
+    "requires_evidence": true
+  },
+  "rationale": "Test dat een harde termijnfinding alleen met gevalideerde primaire rule wordt gemaakt.",
+  "evidence_expectation": [
+    "binding_rule"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "golden-006",
+  "title": "Meerdere scholen zijn geen wettelijke norm",
+  "input_excerpt": "Drie vergelijkingsscholen noemen een termijn van vijf werkdagen.",
+  "context": {
+    "source_type": "comparison"
+  },
+  "expected": {
+    "severity": "comparison",
+    "must_not_flag_as": "must"
+  },
+  "rationale": "Test authority flattening en majority fallacy.",
+  "evidence_expectation": []
+}

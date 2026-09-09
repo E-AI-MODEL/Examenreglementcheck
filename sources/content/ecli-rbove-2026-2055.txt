@@ -1,0 +1,115 @@
+ECLI:NL:RBOVE:2026:2055
+text/xml
+public
+2026-08-05T10:08:54
+2026-04-15
+Raad voor de Rechtspraak
+nl
+Rechtbank Overijssel
+2026-04-07
+AK_26_1060 en AK_26_1061
+Uitspraak
+Eerste aanleg - enkelvoudig
+NL
+Zwolle
+Bestuursrecht; Bestuursprocesrecht
+Rechtspraak.nl
+School en Wet 2026/135
+http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBOVE:2026:2055
+text/html
+public
+2026-04-15T11:44:27
+2026-04-15
+Raad voor de Rechtspraak
+nl
+ECLI:NL:RBOVE:2026:2055 Rechtbank Overijssel , 07-04-2026 / AK_26_1060 en AK_26_1061
+vovo. Wet voortgezet onderwijs artikel 2.61. onregelmatigheden. Uitgesloten van verdere deelname examens. Onvoldoende onderbouwing medische situatie.
+RECHTBANK OVERIJSSEL
+Zittingsplaats Zwolle
+Bestuursrecht
+zaaknummers: ZWO 26/1060 en ZWO 26/1061
+proces-verbaal van de mondelinge uitspraak van de voorzieningenrechter van 7 april 2026 op het verzoek om voorlopige voorziening en het beroep in de zaken tussen
+[eiser 1],
+[eiser 2],
+uit [woonplaats],
+hierna: eisers,
+en
+De commissie van beroep van de stichting OSG Twente
+hierna: de commissie,
+(gemachtigde: mr. H. Eillert).
+1
+Inleiding
+1.1.
+Eisers hebben namens hun 16-jarige dochter [minderjarige] beroep ingesteld en verzocht een voorlopige voorziening te treffen. [minderjarige] is leerling op het [school] college in [plaats], waar zij in het examenjaar zit.
+1.2.
+Op 9 februari 2026 is vanuit de afdelingen TGL en Economie en ondernemen (hierna: de afdelingen) geadviseerd om aan [minderjarige] het cijfer 1 toe te kennen voor het schoolexamen “Spreken of Gesprekken” van het vak Nederlands, omdat zij zonder geldige reden afwezig is geweest bij het schoolexamen, waarvoor haar op meerdere momenten de kans is gegeven.
+1.3.
+Op diezelfde datum is vanuit de afdelingen ook geadviseerd om [minderjarige] uit te sluiten van verdere deelname aan de schoolexamens. Reden daarvoor is dat [minderjarige] ondanks meerdere verschoven deadlines het schoolexamen “Stylingmap en presentatie” van het vak Mode en design niet heeft ingeleverd, en zij zeer weinig bij de lessen aanwezig is geweest, waarbij van belang is dat het een praktijkvak is.
+1.4.
+Op 18 februari 2026 heeft de directeur van het [school] college met toepassing van artikel 37 en 38 van het examenreglement het besluit maatregel na onregelmatigheid SE genomen. Daarbij heeft hij de adviezen van 9 februari 2026 overgenomen. Dit betekent dat [minderjarige] op grond van artikel 37, vijfde lid, onder c in samenhang met artikel 38, eerste lid onder a, van het examenreglement voor het schoolexamen “Spreken of Gesprekken” een cijfer 1 is toegekend, en dat zij vanwege de situatie bij het vak Mode en design op grond van artikel 37, vijfde lid, onder b in samenhang met artikel 38, eerste lid, onder b van het examenreglement is uitgesloten van deelname aan alle verdere schoolexamens.
+1.5.
+Namens [minderjarige] is door eisers tegen dit besluit administratief beroep ingesteld bij de commissie. Met het besluit van 26 maart 2026 heeft de commissie het beroep ongegrond verklaard en het besluit van 18 februari 2026 gehandhaafd.
+1.6.
+Eisers hebben tegen dit besluit op 30 maart 2026 beroep ingesteld. Ook hebben zij de voorzieningenrechter verzocht om een voorlopige voorziening te treffen. Daarbij is verzocht het besluit van 26 maart 2026 te schorsen en te bepalen dat [minderjarige] weer aan alle examens kan deelnemen, te beginnen met een herkansing Mode en design op 7 april 2026 om 15:15 uur.
+1.7.
+Op 2 april 2026 heeft het [school] college aan eisers en [minderjarige] – mede vanwege het ingestelde beroep en verzoek – een brief gestuurd. Daarin informeert het college dat, naast dat [minderjarige] (al) is uitgesloten voor de landelijke examens vanwege de getroffen maatregelen, zij ook vanwege haar onvoldoende voor het vak Lichamelijke Opvoeding niet aan de landelijke examens kan deelnemen. Daarvoor dienen namelijk alle vakken te zijn afgesloten, en met de onvoldoende voor Lichamelijke Opvoeding is daarvan geen sprake.
+1.8.
+De voorzieningenrechter heeft het verzoek op 7 april 2026 om 11:00 uur op zitting behandeld. Hieraan hebben deelgenomen: namens eisers: [eiser 1], samen met [minderjarige] en de gemachtigde van de commissie, bijgestaan door [naam 1], [naam 2] en [naam 3].
+1.9.
+Gezien het spoedeisende karakter van deze zaak – waarbij de zitting ook niet eerder kon plaatsvinden dan 7 april 2026 om 11:00 uur en de herkansing stond gepland op dezelfde dag om 15:15 uur – heeft de voorzieningenrechter mondeling uitspraak gedaan op het verzoek en aan partijen vermeld dat de schriftelijke vastlegging van die beslissing ook een beslissing op het beroep zal inhouden, omdat – zoals op zitting met partijen is besproken en waarmee door hen is ingestemd – het beslissen op de hoofdzaak
+, mede gezien de aard van de zaak, in de rede ligt.
+2
+De beslissing
+De voorzieningenrechter:
+wijst het verzoek om voorlopige voorziening af;
+verklaart het beroep ongegrond.
+3
+Beoordeling door de voorzieningenrechter
+3.1.
+Door eisers is aangevoerd dat er medische redenen zijn die maken dat [minderjarige] niet kon en kan voldoen aan de schoolexamens en voorwaarden die horen bij de vakken Nederlands, Mode en design en Lichamelijke Opvoeding. Ter onderbouwing daarvan hebben eisers een verklaring overgelegd van [minderjarige], gedateerd op 25 november 2025, en een verklaring van haar vader van dezelfde datum. Daarnaast hebben eisers een bericht van de huisarts van 2 april 2026 overgelegd. Het is eisers nog niet gelukt om een verklaring van Mediant te overleggen. Verder hebben eisers aangevoerd dat de school niet zorgvuldig heeft gehandeld en dat de school kan worden verweten dat [minderjarige] door hen in deze positie is gebracht.
+3.2.
+De commissie meent dat er geen omstandigheden zijn gebleken die kunnen worden gekwalificeerd als een geldige reden of overmacht zoals bedoeld in artikel 37, vijfde lid, van het examenreglement en dat daarom het besluit op goede gronden is genomen. Ten aanzien van de uitsluiting van
+alle
+verdere schoolexamens heeft de commissie op zitting toegelicht dat voor die opname in het besluit is gekozen, omdat door uitsluiting vanwege het vak Mode en design [minderjarige] op geen enkele wijze haar diploma meer kan halen. Het afleggen van de overige schoolexamens heeft daarmee geen zin meer.
+3.3.
+Verder heeft de commissie op zitting desgevraagd toegelicht dat ook indien alsnog voldoende zou worden onderbouwd dat sprake is van een medische situatie die kan worden aangemerkt als geldige reden of overmacht, dit er niet toe zal leiden [minderjarige] deel kan nemen aan de verdere (landelijke) examens. Dit is feitelijk niet meer mogelijk, enerzijds omdat het gezien het aantal gemiste lesuren (plusminus 40) niet haalbaar is om afronding van het vak Mode en design alsnog praktisch te realiseren, maar ook omdat de schoolexamens inmiddels zijn afgesloten.
+3.4.
+De voorzieningenrechter is van oordeel dat van de zijde van eisers en [minderjarige] het frequente verzuim, de afwezigheid bij een aantal schoolexamens en het niet inleveren van verplicht werk onvoldoende medisch is onderbouwd, om daaraan de gevolgen te verbinden dat [minderjarige] alsnog zou moeten kunnen deelnemen aan de school- en landelijke examens. De summiere verklaring van de huisarts van 2 april 2026 en de beide verklaringen van [minderjarige] en haar vader van 25 november 2025 zijn onvoldoende om daartoe te kunnen oordelen. Ter zitting is door [minderjarige] en haar vader ook niet naar voren gebracht of anderszins gebleken dat zij nieuwe medische stukken kunnen overleggen die dit wel onderbouwen. Daarmee heeft de commissie naar het oordeel van de voorzieningenrechter dan ook in redelijkheid kunnen stellen dat er geen sprake is van een geldige reden of overmacht zoals bedoeld in artikel 37, vijfde lid, van het examenreglement en het besluit op goede gronden genomen.
+3.5.
+Van eisers en [minderjarige] had mogen worden verwacht dat zij het afgelopen schooljaar de medische situatie beter hadden gemotiveerd via onder meer medische stukken. Wellicht had de school op sommige momenten anders kunnen handelen, waardoor de nu ontstane situatie wellicht positiever voor [minderjarige] was geweest, maar alles overziende is van de zijde van de school naar het oordeel van de voorzieningenrechter voldoende zorgvuldig gehandeld, zoals ook blijkt uit de beslissing van de commissie.
+3.6.
+Verder vindt de voorzieningenrechter in deze zaken van belang dat, als er alsnog een afdoende medische onderbouwing zou komen, er geen goede mogelijkheden meer zijn om de examens succesvol af te sluiten, en dat de school heeft aangegeven dat indien [minderjarige] dat wenst, zij het jaar over kan doen.
+3.7.
+Uit het voorgaande volgt dat het beroep van eisers niet slaagt en het verzoek om voorlopige voorziening moet worden afgewezen.
+Deze uitspraak is uitgesproken in het openbaar op 7 april 2026 door mr. A.T. de Kwaasteniet, voorzieningenrechter, in aanwezigheid van mr. J.C. Smitstra, griffier.
+griffier
+voorzieningenrechter
+Een afschrift van dit proces-verbaal is verzonden aan partijen op:
+Informatie over hoger beroep
+Een partij die het niet eens is met deze uitspraak voor zover daarbij is beslist op het beroep, kan een hogerberoepschrift sturen naar de Afdeling bestuursrechtspraak van de Raad van State waarin wordt uitgelegd waarom deze partij het niet eens is met deze uitspraak voor zover daarbij is beslist op het beroep. Het hogerberoepschrift moet worden ingediend binnen zes weken na de dag waarop dit proces-verbaal is verzonden. Kan de indiener de behandeling van het hoger beroep niet afwachten, omdat de zaak spoed heeft, dan kan de indiener de voorzieningenrechter van de Afdeling bestuursrechtspraak van de Raad van State vragen om een voorlopige voorziening (een tijdelijke maatregel) te treffen. Tegen deze uitspraak voor zover deze gaat over de voorlopige voorziening staat geen hoger beroep open.
+BIJLAGE
+Examenreglement 2025-2026
+Artikel 37. Onregelmatigheden; onvoorziene omstandigheden; maatregelen
+1. Indien een examenkandidaat zich bij een onderdeel van het eindexamen of bij een aanspraak op ontheffing aan een onregelmatigheid schuldig maakt of heeft gemaakt, of zonder geldige reden afwezig is op het eindexamen, kan de rector of directeur van de school maatregelen nemen.
+[…]
+4. Onder een onregelmatigheid wordt in elk geval verstaan:
+het op onrechtmatige wijze vooraf kennis verkrijgen van opgaven van het schoolexamen en/of het centraal examen;
+het tijdens het schoolexamen en/of centraal examen bij zich hebben van middelen die op de aan de orde zijnde stof betrekking hebben, dan wel van andere middelen die de uitslag kunnen beïnvloeden, zonder dat dit blijkens de omschrijving in het examenreglement en/of programma van toetsing en afsluiting is toegestaan;
+het tijdens het schoolexamen en/of het centraal examen mondeling, schriftelijk of anderszins communiceren met anderen zonder uitdrukkelijke toestemming van de toezichthouder op het examen;
+het frauderen, waaronder spieken, tijdens het schoolexamen en/of het centraal examen;
+het zonder geldige reden, ter beoordeling van de schoolleider, afwezig zijn gedurende een toets van het centraal examen;
+het als eigen werk inleveren van inhoud (bv. teksten, afbeeldingen) die gegenereerd is door artificiële intelligentie
+5.Onder een onregelmatigheid kán worden verstaan:
+het plegen van plagiaat (onrechtmatige toe-eigening van geestesvoortbrengselen van een ander), tenzij in de opdracht vooraf aan de leerlingen aangegeven wordt hoe plagiaat beoordeeld wordt, bv. met het cijfer 1;
+het niet binnen de gestelde termijn inleveren van schriftelijk of praktisch werk dat deel uitmaakt van het schoolexamen zonder dat er naar het oordeel van de schoolleider sprake is van overmacht;
+het zonder geldige reden, ter beoordeling van de schoolleider, afwezig zijn gedurende een toets van het schoolexamen, waaronder begrepen het zonder bericht meer dan 15 minuten te laat komen;
+[…]
+Artikel 38. Maatregelen in geval van onregelmatigheden of afwezigheid
+1. De maatregelen, bedoeld in artikel 37, eerste lid, die de rector of directeur jegens een examenkandidaat kan nemen, zijn:
+het toekennen van het cijfer 1 voor een toets van het schoolexamen of het centraal examen;
+het ontzeggen van de deelname of de verdere deelname aan een of meer toetsen van het schoolexamen of het centraal examen;
+het ongeldig verklaren van een of meer toetsen van het al afgelegde deel van het schoolexamen 	of het centraal examen; of
+het bepalen dat het diploma en de cijferlijst alleen kunnen worden uitgereikt na een hernieuwd examen in door de rector of directeur aan te wijzen onderdelen.
+2. De maatregelen, bedoeld in het eerste lid, kunnen afhankelijk van de aard van de onregelmatigheid afzonderlijk of in combinatie met elkaar genomen worden.
+[…]
+Op grond van artikel 8:86, eerste lid, van de Algemene wet bestuursrecht.

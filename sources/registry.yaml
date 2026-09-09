@@ -1,0 +1,1204 @@
+version: 0.3.0
+generated_at: '2026-09-07'
+canonical: registry.json
+notes:
+- Gegenereerde compatibiliteitskopie; registry.json is leidend. Geen automatische
+  activering.
+sources:
+- id: wvo-2020
+  title: Wet voortgezet onderwijs 2020
+  publisher: Overheid.nl
+  source_type: law
+  authority_class: binding
+  binding_status: binding
+  url: https://wetten.overheid.nl/BWBR0044212/
+  legal_regime: WVO 2020
+  tags:
+  - examenreglement
+  - se
+  - ce
+  - beroep
+  - examencommissie
+  fetch_url: https://wetten.overheid.nl/BWBR0044212/
+  resolved_url: https://wetten.overheid.nl/BWBR0044212/2026-08-01
+  fetch_status: retrieved
+  sha256: 8f9d9a634d5b1f1a3d0735c0930fc97c2aaed48ddcbb6a72245e2863acb7132c
+  bytes: 4334261
+  mime: text/html;charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 8f9d9a634d5b1f1a3d0735c0930fc97c2aaed48ddcbb6a72245e2863acb7132c
+  valid_from: '2026-08-01'
+  valid_to: null
+  summary: De opgehaalde versie geldt vanaf 1 augustus 2026. De examenartikelen regelen
+    onder meer SE-afsluiting, examenreglement, inhalen, examencommissie, maatregelen
+    en twee routes voor het aanvechten van maatregelen. Artikel 2.60 lid 1 onder c
+    noemt expliciet een inhaalmogelijkheid bij ziekte of bijzondere, van de kandidaat
+    onafhankelijke omstandigheden. Artikel 2.55 lid 2 noemt afsluiting van het schoolexamen
+    voor het eerste CE-tijdvak. Uitzonderingen staan in lid 3 en 4 en in het Uitvoeringsbesluit.
+    Gebruik een ontbrekende reglementpassage niet automatisch als bewijs dat een uitvoeringsplicht
+    niet is nagekomen.
+  content_form: full_relevant_articles
+  validity_basis: Geldend van 01-08-2026 t/m heden op opgehaalde officiële pagina;
+    geen garantie voor latere wijzigingen.
+  fragment_count: 22
+  content_path: sources/content/wvo-2020.json
+  original_path: sources/originals/wvo-2020.html
+  extraction_notes:
+  - Artikel 2.60 lid 4 bevat in de opgehaalde HTML het woord "hoeft". Niet stilzwijgend
+    aangepast; instemmingscontrole moet ook tegen WMS artikel 10 worden getoetst.
+- id: uitvoeringsbesluit-wvo-2020
+  title: Uitvoeringsbesluit WVO 2020
+  publisher: Overheid.nl
+  source_type: decree
+  authority_class: binding
+  binding_status: binding
+  url: https://wetten.overheid.nl/BWBR0045787/
+  legal_regime: WVO 2020
+  tags:
+  - examenreglement
+  - se
+  - ce
+  - maatregelen
+  - correctie
+  - uitslag
+  fetch_url: https://wetten.overheid.nl/BWBR0045787/
+  resolved_url: https://wetten.overheid.nl/BWBR0045787/2026-08-01
+  fetch_status: retrieved
+  sha256: fdfce22ea23cb2129b42c3d8cba244470c99655609a7ce7481b7a9eb6df2743a
+  bytes: 2647639
+  mime: text/html;charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: fdfce22ea23cb2129b42c3d8cba244470c99655609a7ce7481b7a9eb6df2743a
+  valid_from: '2026-08-01'
+  valid_to: null
+  summary: De versie vanaf 1 augustus 2026 werkt de examenregels uit. De opgenomen
+    hoofdstuk-3-artikelen bevatten regels voor het examendossier, SE-beoordeling,
+    afname en correctie van het CE, uitslag, herkansing, afwijkende examinering en
+    maatregelen. De toepasselijkheid verschilt per schoolsoort en examenvorm. Volledige
+    artikelen zijn opgenomen om voorwaarden en uitzonderingen bij een controle te
+    kunnen betrekken.
+  content_form: full_relevant_articles
+  validity_basis: Geldend van 01-08-2026 t/m heden op opgehaalde officiële pagina;
+    geen garantie voor latere wijzigingen.
+  fragment_count: 74
+  content_path: sources/content/uitvoeringsbesluit-wvo-2020.json
+  original_path: sources/originals/uitvoeringsbesluit-wvo-2020.html
+- id: beleidsregel-onregelmatigheden-ce-2023
+  title: Beleidsregel onregelmatigheden centraal examen in voortgezet onderwijs en
+    van staatsexamen 2023
+  publisher: Inspectie van het Onderwijs / Overheid.nl
+  source_type: policy_rule
+  authority_class: official_application
+  binding_status: context_dependent
+  url: https://wetten.overheid.nl/BWBR0048744/
+  legal_regime: WVO 2020
+  tags:
+  - ce
+  - onregelmatigheid
+  - inspectie
+  fetch_url: https://wetten.overheid.nl/BWBR0048744/
+  resolved_url: https://wetten.overheid.nl/BWBR0048744/2023-10-18
+  fetch_status: retrieved
+  sha256: ce5436b3d0b8003e4f72cb986b84fd7a2f7da4be707bff8dcbf2ac28b47a4106
+  bytes: 118719
+  mime: text/html;charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: ce5436b3d0b8003e4f72cb986b84fd7a2f7da4be707bff8dcbf2ac28b47a4106
+  valid_from: '2023-10-18'
+  valid_to: null
+  summary: Deze beleidsregel beschrijft hoe de Inspectie handelt bij onregelmatige
+    CE-afname. Artikelen 2 tot en met 5 behandelen onder meer niet-toegestane hulpmiddelen,
+    ontoereikend toezicht, extra tijd zonder grondslag, wijzigingen in examenwerk
+    en opnieuw afnemen. Dit is geen algemene sanctielijst voor de rector; daarvoor
+    zijn WVO 2.61 en Uitvoeringsbesluit 3.58 relevant. Het tweede deel betreft staatsexamens
+    en valt buiten de gewone schoolcontrole.
+  content_form: full_relevant_articles
+  fragment_count: 13
+  content_path: sources/content/beleidsregel-onregelmatigheden-ce-2023.json
+  original_path: sources/originals/beleidsregel-onregelmatigheden-ce-2023.html
+- id: examenblad-hulpmiddelen-2027
+  title: Regeling toegestane hulpmiddelen voor de centrale examens 2027
+  publisher: College voor Toetsen en Examens
+  source_type: cvte_regulation
+  authority_class: binding
+  binding_status: binding
+  url: https://www.examenblad.nl/2025/publicaties/cvte-25-00949
+  legal_regime: WVO 2020
+  exam_year: 2027
+  tags:
+  - ce
+  - hulpmiddelen
+  - '2027'
+  fetch_url: https://www.examenblad.nl/2025/publicaties/cvte-25-00949
+  resolved_url: https://www.examenblad.nl/2025/publicaties/cvte-25-00949
+  fetch_status: retrieved
+  sha256: dbb9545f997747cfc54293882dcc0e7f04cf0f5527d2d1f2f71156addca576b5
+  bytes: 26883
+  mime: text/html; charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: dbb9545f997747cfc54293882dcc0e7f04cf0f5527d2d1f2f71156addca576b5
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: examenblad-roosters-2027
+  title: Roosters en tijdvakken centrale examens 2027
+  publisher: College voor Toetsen en Examens
+  source_type: official_exam_info
+  authority_class: official_application
+  binding_status: official
+  url: https://www.examenblad.nl/2027/onderwerpen/roosters-tijdvakken
+  legal_regime: WVO 2020
+  exam_year: 2027
+  tags:
+  - ce
+  - tijdvakken
+  - rooster
+  - '2027'
+  fetch_url: https://www.examenblad.nl/2027/onderwerpen/roosters-tijdvakken
+  resolved_url: https://www.examenblad.nl/2027/onderwerpen/roosters-tijdvakken
+  fetch_status: retrieved
+  sha256: b7a7cc95540c386983581adcd2053394aa1e5be4321c02965caa1f010823df9d
+  bytes: 30494
+  mime: text/html; charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: b7a7cc95540c386983581adcd2053394aa1e5be4321c02965caa1f010823df9d
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: inspectie-onderzoekskaders
+  title: Onderzoekskaders Inspectie van het Onderwijs
+  publisher: Inspectie van het Onderwijs
+  source_type: oversight_framework
+  authority_class: official_application
+  binding_status: oversight
+  url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskaders
+  tags:
+  - toezicht
+  - afsluiting
+  - kwaliteitszorg
+  fetch_url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskaders
+  resolved_url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskaders
+  fetch_status: retrieved
+  sha256: 607e10b4a8e04c3acde14226adbac9a58a12f59d525b8b872dfffe19a401420e
+  bytes: 280758
+  mime: text/html; charset=utf-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 607e10b4a8e04c3acde14226adbac9a58a12f59d525b8b872dfffe19a401420e
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: vo-raad-examinering
+  title: Examinering en toetsing - publicaties en handreikingen
+  publisher: VO-raad
+  source_type: professional_guidance
+  authority_class: guidance
+  binding_status: non_binding
+  url: https://www.vo-raad.nl/onderwerpen/examinering
+  school_year: 2026-2027
+  tags:
+  - checklist
+  - examenreglement
+  - pta
+  - inzage
+  - examencommissie
+  fetch_url: https://www.vo-raad.nl/onderwerpen/examinering
+  resolved_url: https://www.vo-raad.nl/onderwerpen/examinering
+  fetch_status: retrieved
+  sha256: e8bb6fb312f493877a281cb3508dac562b2872538d3face3339dc7c3d6fd6f7a
+  bytes: 654525
+  mime: text/html; charset=utf-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: e8bb6fb312f493877a281cb3508dac562b2872538d3face3339dc7c3d6fd6f7a
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: ecli-rbmne-2025-4637
+  title: ECLI:NL:RBMNE:2025:4637
+  publisher: Rechtspraak.nl
+  source_type: case_law
+  authority_class: official_application
+  binding_status: case_specific
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBMNE%3A2025%3A4637
+  legal_regime: WVO 2020
+  tags:
+  - ce
+  - civiel
+  - inzage
+  - score
+  - herbeoordeling
+  fetch_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2025:4637
+  resolved_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBMNE:2025:4637
+  fetch_status: retrieved
+  sha256: 842e24b56c77a71b703d899ec45ce4959773400e054652cff7444f326147385e
+  bytes: 31901
+  mime: application/xml
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 842e24b56c77a71b703d899ec45ce4959773400e054652cff7444f326147385e
+  valid_from: null
+  valid_to: null
+  summary: 'De voorzieningenrechter droeg de rector op het vwo-diploma alsnog uit
+    te reiken. De bezwaarafhandeling was apert onzorgvuldig: niet-kenbare fouten waren
+    betrokken of buiten de bestreden onderdelen was opnieuw beoordeeld. Vindplaatsen:
+    3.8; 3.11-3.22; 4.1'
+  content_form: full_text
+  content_path: sources/content/ecli-rbmne-2025-4637.txt
+  original_path: sources/originals/ecli-rbmne-2025-4637.xml
+- id: ecli-hr-2019-1243
+  title: ECLI:NL:HR:2019:1243
+  publisher: Rechtspraak.nl
+  source_type: case_law
+  authority_class: official_application
+  binding_status: case_specific
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2019%3A1243
+  legal_regime: pre-WVO-2020
+  tags:
+  - ce
+  - civiel
+  - cijfer
+  - rechtsbescherming
+  - oud-regime
+  fetch_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:HR:2019:1243
+  resolved_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:HR:2019:1243
+  fetch_status: retrieved
+  sha256: c7819dc3c422dc87f16e4e7ce9b801f919e52c18d0c5f78f9337aacec0aa2a16
+  bytes: 24699
+  mime: application/xml
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: c7819dc3c422dc87f16e4e7ce9b801f919e52c18d0c5f78f9337aacec0aa2a16
+  valid_from: null
+  valid_to: null
+  summary: 'De Hoge Raad vernietigde de niet-ontvankelijkverklaring en verwees de
+    zaak. De leerling had het geschil over het correctievoorschrift en de N-term terecht
+    aan de burgerlijke rechter voorgelegd. Vindplaatsen: 3.1.2-3.1.5; beslissing 4'
+  content_form: full_text
+  content_path: sources/content/ecli-hr-2019-1243.txt
+  original_path: sources/originals/ecli-hr-2019-1243.xml
+- id: ecli-rbams-2020-3552
+  title: ECLI:NL:RBAMS:2020:3552
+  publisher: Rechtspraak.nl
+  source_type: case_law
+  authority_class: official_application
+  binding_status: case_specific
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2020%3A3552
+  legal_regime: pre-WVO-2020; bijzondere coronaregeling examenjaar 2020
+  tags:
+  - se
+  - bestuursrecht
+  - afronding
+  - beroep
+  - oud-regime
+  fetch_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2020:3552
+  resolved_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2020:3552
+  fetch_status: retrieved
+  sha256: 3cb8df5f56ee28fc8922841afdc5d188fa741fdc25a382b5c0a98d040109cb8f
+  bytes: 25144
+  mime: application/xml
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 3cb8df5f56ee28fc8922841afdc5d188fa741fdc25a382b5c0a98d040109cb8f
+  valid_from: null
+  valid_to: null
+  summary: 'De voorlopige voorziening werd afgewezen omdat CKV en Frans niet tijdig
+    waren afgerond. Over het beroep werd niet meteen beslist, mede door vragen rond
+    andere fraudebeschuldigingen. Vindplaatsen: 14-20; 23-30; beslissing'
+  content_form: full_text
+  content_path: sources/content/ecli-rbams-2020-3552.txt
+  original_path: sources/originals/ecli-rbams-2020-3552.xml
+- id: ecli-rbove-2026-2055
+  title: ECLI:NL:RBOVE:2026:2055
+  publisher: Rechtspraak.nl
+  source_type: case_law
+  authority_class: official_application
+  binding_status: case_specific
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBOVE%3A2026%3A2055
+  legal_regime: WVO 2020
+  tags:
+  - se
+  - onregelmatigheden
+  - maatregelen
+  - medische-onderbouwing
+  - bestuursrecht
+  fetch_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOVE:2026:2055
+  resolved_url: https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBOVE:2026:2055
+  fetch_status: retrieved
+  sha256: c31c1e6c6385405fe48fda426661b60eeb92b2b8c910c399d384fd9165718d0a
+  bytes: 22099
+  mime: application/xml
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: c31c1e6c6385405fe48fda426661b60eeb92b2b8c910c399d384fd9165718d0a
+  valid_from: null
+  valid_to: null
+  summary: 'Het beroep werd ongegrond verklaard en de voorlopige voorziening afgewezen.
+    Het verzuim en niet-inleveren waren onvoldoende medisch onderbouwd; succesvolle
+    afronding was ook praktisch niet meer haalbaar. Vindplaatsen: 3.4-3.7; beslissing
+    2; bijlage artikel 37 lid 4'
+  content_form: full_text
+  content_path: sources/content/ecli-rbove-2026-2055.txt
+  original_path: sources/originals/ecli-rbove-2026-2055.xml
+- id: lkc-101642
+  title: LKC zaak 101642 - gemiste herkansing schoolexamen
+  publisher: Onderwijsgeschillen
+  source_type: dispute_opinion
+  authority_class: dispute_guidance
+  binding_status: non_judicial
+  url: https://www.onderwijsgeschillen.nl/uitspraken/klacht-over-niet-inhalen-herkansing-ongegrond-de-school-mocht-bepalen-dat-een-leerling-een-herkansing-van-een-schoolexamen-niet-mocht-inhalen/
+  tags:
+  - se
+  - herkansing
+  - ziekte
+  fetch_url: https://www.onderwijsgeschillen.nl/uitspraken/klacht-over-niet-inhalen-herkansing-ongegrond-de-school-mocht-bepalen-dat-een-leerling-een-herkansing-van-een-schoolexamen-niet-mocht-inhalen/
+  resolved_url: https://www.onderwijsgeschillen.nl/uitspraken/klacht-over-niet-inhalen-herkansing-ongegrond-de-school-mocht-bepalen-dat-een-leerling-een-herkansing-van-een-schoolexamen-niet-mocht-inhalen/
+  fetch_status: retrieved
+  sha256: dabc61d009d3acf451fb84e1ebe9f101f9a909c99361a6bce3abbe24d2c6cef5
+  bytes: 78322
+  mime: text/html; charset=utf-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: dabc61d009d3acf451fb84e1ebe9f101f9a909c99361a6bce3abbe24d2c6cef5
+  valid_from: null
+  valid_to: null
+  summary: De openbare samenvatting beschrijft een leerling die een eerste toets zonder
+    antwoorden inleverde en daarna door ziekte de herkansing miste. De LKC achtte
+    de klacht tegen het niet opnieuw aanbieden van die herkansing ongegrond. Het reglement
+    was duidelijk en de leerling had een eerste afnamekans gehad. Dit is een niet-rechterlijk
+    advies uit 2025. Het volledige advies kon niet worden opgehaald. Gebruik deze
+    samenvatting niet voor een algemene regel dat inhalen bij ziekte mag worden uitgesloten;
+    controleer bovendien de actuele WVO 2.60 lid 1 onder c.
+  content_form: summary
+  content_path: sources/content/lkc-101642.md
+- id: mensenrechten-2018-44
+  title: College voor de Rechten van de Mens - oordeel 2018-44
+  publisher: College voor de Rechten van de Mens
+  source_type: equality_opinion
+  authority_class: equality_guidance
+  binding_status: non_judicial
+  url: https://oordelen.mensenrechten.nl/oordeel/2018-44/15525b01-aa8f-4447-b61c-a8b8e78e8f69
+  tags:
+  - se
+  - dyslexie
+  - aanpassing
+  - kurzweil
+  fetch_url: https://oordelen.mensenrechten.nl/oordeel/2018-44/15525b01-aa8f-4447-b61c-a8b8e78e8f69
+  resolved_url: https://oordelen.mensenrechten.nl/oordeel/2018-44/15525b01-aa8f-4447-b61c-a8b8e78e8f69
+  fetch_status: retrieved
+  sha256: d2225c0a0abc3409b28b6a1e73b676ee360a2b190c8204dcc5511f23ef84948f
+  bytes: 29389
+  mime: text/html; charset=utf-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: d2225c0a0abc3409b28b6a1e73b676ee360a2b190c8204dcc5511f23ef84948f
+  valid_from: null
+  valid_to: null
+  summary: 'Het College oordeelde dat afgesproken dyslexiesoftware niet, onvolledig
+    of te laat beschikbaar was bij enkele schoolexamens. Latere compensatie nam het
+    verboden onderscheid in deze zaak niet weg. Over de aanvraagprocedure en het ontbreken
+    van algemeen dyslexiebeleid oordeelde het College anders: daarmee was in deze
+    zaak geen verboden onderscheid vastgesteld. Vindplaatsen 4.6, 4.8, 4.10 en 6.
+    Dit oordeel uit 2018 is geen rechterlijk vonnis en levert geen algemeen recht
+    op één specifiek softwareproduct op.'
+  content_form: full_text
+  content_path: sources/content/mensenrechten-2018-44.txt
+  original_path: sources/originals/mensenrechten-2018-44.html
+- id: comparison-regius-2026-2027
+  title: Regius College - examenreglementen 2026-2027
+  publisher: Regius College
+  source_type: school_regulation
+  authority_class: example
+  binding_status: no_authority_for_other_schools
+  url: https://www.regiuscollege.nl/regiuswijzer/examen/
+  school_year: 2026-2027
+  tags:
+  - comparison
+  - havo
+  - vwo
+  - vmbo
+  fetch_url: https://www.regiuscollege.nl/regiuswijzer/examen/
+  resolved_url: https://www.regiuscollege.nl/regiuswijzer/examen/
+  fetch_status: retrieved
+  sha256: cd6c380050fea69949605631aa4868769e472ae66d5f852fc9f721bb558c0217
+  bytes: 30652
+  mime: text/html; charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: cd6c380050fea69949605631aa4868769e472ae66d5f852fc9f721bb558c0217
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: comparison-rsg-ter-apel-2026-2027
+  title: RSG Ter Apel - examenreglementen 2026-2027
+  publisher: RSG Ter Apel
+  source_type: school_regulation
+  authority_class: example
+  binding_status: no_authority_for_other_schools
+  url: https://rsgterapel.nl/informatie-voor-leerlingen/
+  school_year: 2026-2027
+  tags:
+  - comparison
+  - havo
+  - vwo
+  - vmbo
+  fetch_url: https://rsgterapel.nl/informatie-voor-leerlingen/
+  resolved_url: https://rsgterapel.nl/informatie-voor-leerlingen/
+  fetch_status: retrieved
+  sha256: 8b7cda6d2a95f04991770d6541e70726cbbf38f4c52935fd8621abf6cfbb83b5
+  bytes: 146439
+  mime: text/html; charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 8b7cda6d2a95f04991770d6541e70726cbbf38f4c52935fd8621abf6cfbb83b5
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: comparison-stc-vmbo-2026-2027
+  title: STC vmbo - eindexamenreglement 2026-2027
+  publisher: STC
+  source_type: school_regulation
+  authority_class: example
+  binding_status: no_authority_for_other_schools
+  url: https://stc.nl/informatie/downloads/vmbo/downloads-vmbo
+  school_year: 2026-2027
+  tags:
+  - comparison
+  - vmbo
+  fetch_url: https://stc.nl/informatie/downloads/vmbo/downloads-vmbo
+  resolved_url: https://stc.nl/informatie/downloads/vmbo/downloads-vmbo
+  fetch_status: retrieved
+  sha256: 73e46aa1cbc4506139fb98a1624f5595f4e6c0f57bd2e70efe5a2b68572ced09
+  bytes: 21413
+  mime: text/html; charset=UTF-8
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  content_hash: 73e46aa1cbc4506139fb98a1624f5595f4e6c0f57bd2e70efe5a2b68572ced09
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: vo-handreiking-examencommissie-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/711ac98066e0143a57713152003d543e198a9c9b.pdf
+  title: Handreiking Examencommissie (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/711ac98066e0143a57713152003d543e198a9c9b.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/711ac98066e0143a57713152003d543e198a9c9b.pdf
+  fetch_status: retrieved
+  sha256: 226809a64e20c9b098b4e5f82f44445af4f72bd0e67ff16b416c0feb8598a564
+  bytes: 489805
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 226809a64e20c9b098b4e5f82f44445af4f72bd0e67ff16b416c0feb8598a564
+  valid_from: null
+  valid_to: null
+  summary: De handreiking ondersteunt examencommissies bij hun rol, taken en samenwerking
+    met vakdocenten. Het toegevoegde gespreksinstrument behandelt samenhang met schoolbeleid,
+    inhoud, vorm, niveau en technische toetskwaliteit. De wettelijke bevoegdheden
+    moeten worden gekoppeld aan WVO 2.60d en 2.60e; de gespreksaanpak is professionele
+    ondersteuning.
+  content_form: summary
+  page_count: 27
+  content_path: sources/content/vo-handreiking-examencommissie-2026-2027.md
+- id: vo-handreiking-examensecretaris-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/e2b969527567b365f595535e117e3288c314e5b9.pdf
+  title: Handreiking Examensecretaris (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/e2b969527567b365f595535e117e3288c314e5b9.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/e2b969527567b365f595535e117e3288c314e5b9.pdf
+  fetch_status: retrieved
+  sha256: f6815815bab772d59fd47d13121e005867513d17f9ee77be70b26d437d519219
+  bytes: 342104
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: f6815815bab772d59fd47d13121e005867513d17f9ee77be70b26d437d519219
+  valid_from: null
+  valid_to: null
+  summary: Deze handreiking beschrijft wettelijke en mogelijke taakgebieden van de
+    examensecretaris. Zij adviseert duidelijke taakafspraken en afstemming met rector/directeur
+    en examencommissie. De editie meldt geen inhoudelijke wijziging ten opzichte van
+    de vorige versie. WVO 2.51a is de primaire basis voor benoeming, ondersteuning
+    en taakomschrijving.
+  content_form: summary
+  page_count: 9
+  content_path: sources/content/vo-handreiking-examensecretaris-2026-2027.md
+- id: vo-zelfevaluatie-instrument-schoolexaminering-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/f55fab4d48a0c3e2fb20b8e69f39b7ddd32ca7e0.pdf
+  title: Zelfevaluatie-instrument Kwaliteitsborging Schoolexaminering (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/f55fab4d48a0c3e2fb20b8e69f39b7ddd32ca7e0.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/f55fab4d48a0c3e2fb20b8e69f39b7ddd32ca7e0.pdf
+  fetch_status: retrieved
+  sha256: 1be0dc7516de72e8453686a903886a7ef9950271820388ee9b910f4ad2919b11
+  bytes: 370611
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 1be0dc7516de72e8453686a903886a7ef9950271820388ee9b910f4ad2919b11
+  valid_from: null
+  valid_to: null
+  summary: Dit instrument vraagt per onderwerp of een proces aanwezig is, welk bewijs
+    daarvoor bestaat en of verbetering nodig is. Het helpt schoolleiding, bestuur
+    en examencommissie de organisatie van het schoolexamen te beoordelen. Het is vooral
+    bruikbaar voor procescontrole buiten de tekst van het examenreglement.
+  content_form: summary
+  page_count: 18
+  content_path: sources/content/vo-zelfevaluatie-instrument-schoolexaminering-2026-2027.md
+- id: vo-handreiking-bestuurder-verantwoordelijkheid-in-het-schoolexamen-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/122abe44292b63de0a479f9bf7ce5f7a222a01ef.pdf
+  title: Handreiking voor bestuurders | Verantwoordelijkheid in het schoolexamen (editie
+    2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/122abe44292b63de0a479f9bf7ce5f7a222a01ef.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/122abe44292b63de0a479f9bf7ce5f7a222a01ef.pdf
+  fetch_status: retrieved
+  sha256: 6bc43900c05a9e26ab03bef591a9818b7222ecb5c2b59c2e9b52f7f582904b77
+  bytes: 346474
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 6bc43900c05a9e26ab03bef591a9818b7222ecb5c2b59c2e9b52f7f582904b77
+  valid_from: null
+  valid_to: null
+  summary: De handreiking bevat een checklist voor bestuurlijke verantwoordelijkheid
+    en een werkwijze bij onvolkomenheden. De fase van het examenproces en de aard
+    van het probleem bepalen welke vervolgstappen passend zijn. Gebruik dit om eigenaarschap
+    en escalatie te bespreken. Een herstelactie na afgenomen examens vraagt afzonderlijke
+    beoordeling.
+  content_form: summary
+  page_count: 12
+  content_path: sources/content/vo-handreiking-bestuurder-verantwoordelijkheid-in-het-schoolexamen-2026-2027.md
+- id: vo-handreiking-bestuurder-geschil-bij-of-na-scorevaststelling-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/bf9af76185f4a791f41588ebe1c174ce9dbdcf3a.pdf
+  title: Handreiking voor bestuurders | Hoe te handelen inzake een geschil bij of
+    na de vaststelling van de score voor het centraal examen (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/bf9af76185f4a791f41588ebe1c174ce9dbdcf3a.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/bf9af76185f4a791f41588ebe1c174ce9dbdcf3a.pdf
+  fetch_status: retrieved
+  sha256: 7c611d12a5d25db509fd5ae9bd3fb2b1ce4cfbc5da3f06cfcaf88ecccb01be86
+  bytes: 245594
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 7c611d12a5d25db509fd5ae9bd3fb2b1ce4cfbc5da3f06cfcaf88ecccb01be86
+  valid_from: null
+  valid_to: null
+  summary: De handreiking geeft stappen voor geschillen rond de CE-score. Zij onderscheidt
+    onenigheid tussen correctoren en een geschil na scorevaststelling. De tekst presenteert
+    zich als praktische ondersteuning, niet als juridisch document. Leg de fase, argumenten,
+    betrokken correctoren en schriftelijke terugkoppeling vast. Trek de wettelijke
+    procedure voor eerste scorevaststelling niet zonder meer door naar ieder later
+    bezwaar.
+  content_form: summary
+  page_count: 8
+  content_path: sources/content/vo-handreiking-bestuurder-geschil-bij-of-na-scorevaststelling-2026-2027.md
+- id: vo-handreiking-inzage-centraal-examenwerk-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/73f6a6b050321d754838ac479756b85f81f3fa8e.pdf
+  title: Handreiking Inzage centraal-examenwerk
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/73f6a6b050321d754838ac479756b85f81f3fa8e.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/73f6a6b050321d754838ac479756b85f81f3fa8e.pdf
+  fetch_status: retrieved
+  sha256: 6d21ca05234950f83ec2d1460819675a48711b24d40604368a4ad5543d5bb5ed
+  bytes: 165085
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 6d21ca05234950f83ec2d1460819675a48711b24d40604368a4ad5543d5bb5ed
+  valid_from: null
+  valid_to: null
+  summary: De handreiking onderscheidt schriftelijke en digitale flexibele centrale
+    examens. Zij adviseert vooraf afspraken over aanvraag, toezicht en behandeling
+    van een vermeende correctiefout. De beschreven werkwijze laat de eerste corrector
+    buiten de inzagezitting. Dat advies mag niet als zelfstandige wettelijke verplichting
+    worden gepresenteerd. De wettelijke bewaarplicht staat in Uitvoeringsbesluit 3.31;
+    AVG en Europese rechtspraak vragen voor nadere inzageregels aanvullende primaire
+    bronnen.
+  content_form: summary
+  page_count: 4
+  content_path: sources/content/vo-handreiking-inzage-centraal-examenwerk-2026-2027.md
+- id: vo-checklist-1-examenreglement-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/c5b126380488b51aa72d98dad48d402a99fa2ff7.pdf
+  title: Checklist Examenreglement (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/c5b126380488b51aa72d98dad48d402a99fa2ff7.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/c5b126380488b51aa72d98dad48d402a99fa2ff7.pdf
+  fetch_status: retrieved
+  sha256: 6aea98c08e58951ee0b126405aff08382bb7f1f476413eff42f29a7a2a03af13
+  bytes: 347643
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 6aea98c08e58951ee0b126405aff08382bb7f1f476413eff42f29a7a2a03af13
+  valid_from: null
+  valid_to: null
+  summary: De checklist onderscheidt noodzakelijke en gewenste onderdelen. Zij behandelt
+    vaststelling, doelgroep, rollen, procedures, SE en CE. De editie 2026-2027 noemt
+    op pagina 2 een aanpassing rond SE-afsluiting en een uitbreiding rond inzage.
+    Gebruik de checklist als onderwerpenlijst. Een noodzakelijk-label in de checklist
+    wordt pas een harde juridische controle na koppeling aan de primaire bepaling.
+    De verkorte wetsweergave vervangt de actuele wettekst niet.
+  content_form: summary
+  page_count: 12
+  content_path: sources/content/vo-checklist-1-examenreglement-2026-2027.md
+- id: vo-checklist-2-pta-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/a0ca9808eaafbec74ac86ea7b8719178d9a1ac54.pdf
+  title: Checklist Programma van Toetsing en Afsluiting (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/a0ca9808eaafbec74ac86ea7b8719178d9a1ac54.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/a0ca9808eaafbec74ac86ea7b8719178d9a1ac54.pdf
+  fetch_status: retrieved
+  sha256: 14cca85c04a3e1fb3ba734902b6e85a2ba5d65e72b08795ce3d2bd61f579f0fc
+  bytes: 266756
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 14cca85c04a3e1fb3ba734902b6e85a2ba5d65e72b08795ce3d2bd61f579f0fc
+  valid_from: null
+  valid_to: null
+  summary: 'Deze checklist behandelt inhoud, vaststelling en wijziging van het PTA,
+    met verwijzingen naar WVO 2.60a tot en met 2.60c. Voor deze checker dient zij
+    alleen als hulpmiddel bij gerichte kruiscontrole: sluiten de regels over tijdvakken,
+    herkansing en beoordeling in het PTA en examenreglement op elkaar aan? Een volledige
+    PTA-audit valt buiten deze versie.'
+  content_form: summary
+  page_count: 8
+  content_path: sources/content/vo-checklist-2-pta-2026-2027.md
+- id: vo-checklist-3-de-kwaliteit-van-schoolexaminering-2026-2027
+  url: https://cdn.sanity.io/files/mccftp3c/production/fc69fe72ef71bdc952a1f179229aae732a58c8a0.pdf
+  title: Checklist De kwaliteit van schoolexaminering (editie 2026-2027)
+  source_type: professional_guidance
+  school_year: 2026-2027
+  fetch_url: https://cdn.sanity.io/files/mccftp3c/production/fc69fe72ef71bdc952a1f179229aae732a58c8a0.pdf
+  resolved_url: https://cdn.sanity.io/files/mccftp3c/production/fc69fe72ef71bdc952a1f179229aae732a58c8a0.pdf
+  fetch_status: retrieved
+  sha256: 602907997a35549dd54fb3499dcc729a5138b85ed6435b568b989a779f907446
+  bytes: 333667
+  mime: application/pdf
+  authority_class: guidance
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 602907997a35549dd54fb3499dcc729a5138b85ed6435b568b989a779f907446
+  valid_from: null
+  valid_to: null
+  summary: Deze checklist ondersteunt het gesprek over visie, inhoud, uitvoering en
+    verantwoordelijkheden bij schoolexaminering. Anders dan de andere twee checklists
+    bevat zij geen indeling noodzakelijk/gewenst. Gebruik haar voor kwaliteitsvragen
+    en vervolgacties. Een kwaliteitswens is geen zelfstandige wettelijke verplichting.
+  content_form: summary
+  page_count: 12
+  content_path: sources/content/vo-checklist-3-de-kwaliteit-van-schoolexaminering-2026-2027.md
+- id: comparison-regius-2026-2027-document-9
+  url: https://www.regiuscollege.nl/wp-content/uploads/2023/10/Examenreglement-RC-hv-2026-2027-concept.pdf
+  title: Examenreglement havo en vwo 2026-2027 concept
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://www.regiuscollege.nl/wp-content/uploads/2023/10/Examenreglement-RC-hv-2026-2027-concept.pdf
+  resolved_url: https://www.regiuscollege.nl/wp-content/uploads/2023/10/Examenreglement-RC-hv-2026-2027-concept.pdf
+  fetch_status: retrieved
+  sha256: f030627059f87952775e865bf4f2596fc427fd66d571044af472fc5bee160502
+  bytes: 882940
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: f030627059f87952775e865bf4f2596fc427fd66d571044af472fc5bee160502
+  valid_from: null
+  valid_to: null
+  summary: Havo/vwo-reglement voor 2026-2027. De schoolwebsite en bestandsnaam presenteren
+    dit als concept. Gebruik het alleen als voorbeeld van structuur en formulering.
+    Publicatie is geen bewijs van formele vaststelling of juridische juistheid.
+  content_form: summary
+  publication_status: concept
+  page_count: 24
+  content_path: sources/content/comparison-regius-2026-2027-document-9.md
+- id: comparison-regius-2026-2027-document-10
+  url: https://www.regiuscollege.nl/wp-content/uploads/2026/08/Examenreglement-Regius-College-vmbo-2026-2027.pdf
+  title: Examenreglement Regius College vmbo 2026-2027
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://www.regiuscollege.nl/wp-content/uploads/2026/08/Examenreglement-Regius-College-vmbo-2026-2027.pdf
+  resolved_url: https://www.regiuscollege.nl/wp-content/uploads/2026/08/Examenreglement-Regius-College-vmbo-2026-2027.pdf
+  fetch_status: retrieved
+  sha256: 5386c51554b54f69916f97a90bdb8215438ebd916f7fadafdfc8fc635eaee334
+  bytes: 799210
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 5386c51554b54f69916f97a90bdb8215438ebd916f7fadafdfc8fc635eaee334
+  valid_from: null
+  valid_to: null
+  summary: Vmbo-reglement voor 2026-2027. Alleen vergelijkingsmateriaal; de toepasselijke
+    leerweg en formele vaststellingsstatus moeten bij concreet gebruik worden bevestigd.
+  content_form: summary
+  page_count: 31
+  content_path: sources/content/comparison-regius-2026-2027-document-10.md
+- id: comparison-rsg-ter-apel-2026-2027-document-11
+  url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-vmbo-2026-2027.pdf
+  title: Examenreglement vmbo 2026-2027
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-vmbo-2026-2027.pdf
+  resolved_url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-vmbo-2026-2027.pdf
+  fetch_status: retrieved
+  sha256: d495bc66afa9fd7b83f3cd86d82a17d068e8f0b9d1c6922c8e80b18721538ebb
+  bytes: 836746
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: d495bc66afa9fd7b83f3cd86d82a17d068e8f0b9d1c6922c8e80b18721538ebb
+  valid_from: null
+  valid_to: null
+  summary: Vmbo-reglement 2026-2027. Bruikbaar voor vergelijking van onderwerpindeling
+    en formuleringen. De juridische juistheid en toepasselijkheid op een andere school
+    zijn niet vastgesteld.
+  content_form: summary
+  page_count: 30
+  content_path: sources/content/comparison-rsg-ter-apel-2026-2027-document-11.md
+- id: comparison-rsg-ter-apel-2026-2027-document-12
+  url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-havo-vwo-2026-2027.pdf
+  title: Examenreglement havo/vwo 2026-2027
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-havo-vwo-2026-2027.pdf
+  resolved_url: https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-havo-vwo-2026-2027.pdf
+  fetch_status: retrieved
+  sha256: 85579d8d0cdfb5ac8a607be698d2b9ee759f2f814a95532236e58b5ee6e9a0ea
+  bytes: 806605
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 85579d8d0cdfb5ac8a607be698d2b9ee759f2f814a95532236e58b5ee6e9a0ea
+  valid_from: null
+  valid_to: null
+  summary: Havo/vwo-reglement 2026-2027. Het voorblad vermeldt definitief, vaststelling
+    door het MT op 27 augustus 2026 en instemming van de MR op 2 september 2026. Dit
+    zijn documentvermeldingen, geen onafhankelijke verificatie van de besluitvorming.
+    Het document behandelt onder meer absentie, sancties, beroep, SE en CE.
+  content_form: summary
+  publication_status: definitief_volgens_document
+  page_count: 28
+  content_path: sources/content/comparison-rsg-ter-apel-2026-2027-document-12.md
+- id: comparison-stc-vmbo-2026-2027-document-13
+  url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-2025-2026.pdf
+  title: download
+  source_type: school_regulation
+  school_year: 2025-2026
+  fetch_url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-2025-2026.pdf
+  resolved_url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-2025-2026.pdf
+  fetch_status: retrieved
+  sha256: 06e14f81aedb84215f5783599f1498c4b117fd03de8242e66246d3ba457e5bc3
+  bytes: 460257
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: excluded_wrong_year
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 06e14f81aedb84215f5783599f1498c4b117fd03de8242e66246d3ba457e5bc3
+  valid_from: null
+  valid_to: null
+  summary: Historisch STC-reglement 2025-2026. Niet gebruiken voor een vergelijking
+    van actuele reglementen 2026-2027.
+  content_form: index_only
+  page_count: 23
+- id: comparison-stc-vmbo-2026-2027-document-14
+  url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-STCvmbo-2026-2027(voorbehoud-OR-ouderraad).pdf
+  title: download
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-STCvmbo-2026-2027(voorbehoud-OR-ouderraad).pdf
+  resolved_url: https://stc.nl/media/files/vmbo/Downloads/Examenreglement-STCvmbo-2026-2027(voorbehoud-OR-ouderraad).pdf
+  fetch_status: retrieved
+  sha256: 50f52fd3ca7cb0b3c2a2bf3faf412ee4bb04f5718ce0f14e0e58bc1f8fad3920
+  bytes: 513896
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 50f52fd3ca7cb0b3c2a2bf3faf412ee4bb04f5718ce0f14e0e58bc1f8fad3920
+  valid_from: null
+  valid_to: null
+  summary: Vmbo-reglement 2026-2027, versie 2 van 15 juli 2026. Het voorblad vermeldt
+    publicatie onder voorbehoud van instemming door Ondernemingsraad en Ouderraad.
+    Datumvelden voor instemming en definitieve vaststelling zijn nog niet ingevuld.
+    Niet als definitief vastgesteld reglement presenteren.
+  content_form: summary
+  publication_status: onder_voorbehoud_instemming
+  page_count: 24
+  content_path: sources/content/comparison-stc-vmbo-2026-2027-document-14.md
+- id: comparison-stc-vmbo-2026-2027-document-15
+  url: https://stc.nl/media/files/vmbo/Downloads/Vmbo-Reglement-Commissie-van-beroep-eindexamens-2026(1).pdf
+  title: download
+  source_type: school_regulation
+  school_year: 2026-2027
+  fetch_url: https://stc.nl/media/files/vmbo/Downloads/Vmbo-Reglement-Commissie-van-beroep-eindexamens-2026(1).pdf
+  resolved_url: https://stc.nl/media/files/vmbo/Downloads/Vmbo-Reglement-Commissie-van-beroep-eindexamens-2026(1).pdf
+  fetch_status: retrieved
+  sha256: 1d79d802f832aa358aa51ca993bdfc09f0d8022f4d6f1416a584e1bb36e8b02b
+  bytes: 173954
+  mime: application/pdf
+  authority_class: example
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 1d79d802f832aa358aa51ca993bdfc09f0d8022f4d6f1416a584e1bb36e8b02b
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+  page_count: 6
+- id: hulpmiddelen-2027-officieel
+  url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22373.html
+  title: Regeling toegestane hulpmiddelen CE 2027
+  source_type: cvte_regulation
+  exam_year: 2027
+  fetch_url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22373.html
+  resolved_url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22373.html
+  fetch_status: retrieved
+  sha256: d5e335f6b055984b8152b8e5bb3f916b21f08ddc60d2a50920b808e0ee22ee8c
+  bytes: 78365
+  mime: text/html; charset=utf-8
+  authority_class: binding
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: d5e335f6b055984b8152b8e5bb3f916b21f08ddc60d2a50920b808e0ee22ee8c
+  valid_from: '2026-08-01'
+  valid_to: '2027-12-31'
+  summary: De Staatscourantpublicatie bevat de regeling én de bijlagen voor vmbo en
+    havo/vwo. Artikel 1 koppelt vmbo aan bijlage 1; artikel 2 koppelt havo/vwo aan
+    bijlage 2. De materiële regeling geldt vanaf 1 augustus 2026 en vervalt op 31
+    december 2027. Artikel 3 zelf heeft een afwijkende inwerkingtreding. Hulpmiddelen
+    moeten per vak, schoolsoort en examenvorm worden gecontroleerd. Dit is de gepubliceerde
+    basisregeling; een afzonderlijke controle op latere wijzigingsbesluiten is nog
+    nodig.
+  content_form: full_text
+  validity_basis: Artikel 3; artikel 3 zelf werkt eerder. Wijzigingshistorie niet
+    uitputtend gecontroleerd.
+  content_path: sources/content/hulpmiddelen-2027-officieel.txt
+  original_path: sources/originals/hulpmiddelen-2027-officieel.html
+- id: inspectie-vo-documentpagina
+  url: https://www.onderwijsinspectie.nl/documenten/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs
+  title: Onderzoekskader VO downloadpagina
+  source_type: oversight_framework
+  fetch_url: https://www.onderwijsinspectie.nl/documenten/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs
+  resolved_url: https://www.onderwijsinspectie.nl/documenten/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs
+  fetch_status: retrieved
+  sha256: 613013f4d735286576d914b1911845e5db2aa6e4dd6b8bfbaad66b04ad874da6
+  bytes: 233445
+  mime: text/html; charset=utf-8
+  authority_class: official_application
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 613013f4d735286576d914b1911845e5db2aa6e4dd6b8bfbaad66b04ad874da6
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: inspectie-bijstelling-2026
+  url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskader-2021-wat-is-er-veranderd/bijstelling-2026
+  title: Bijstelling onderzoekskaders 2026
+  source_type: oversight_framework
+  fetch_url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskader-2021-wat-is-er-veranderd/bijstelling-2026
+  resolved_url: https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskader-2021-wat-is-er-veranderd/bijstelling-2026
+  fetch_status: retrieved
+  sha256: dbe1fd1f9773d347f1ef57b8b5e45264785dff64dfa1e1f292305bf8b9748db8
+  bytes: 261012
+  mime: text/html; charset=utf-8
+  authority_class: official_application
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: dbe1fd1f9773d347f1ef57b8b5e45264785dff64dfa1e1f292305bf8b9748db8
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: rooster-2027-publicatie
+  url: https://www.examenblad.nl/2027/publicaties/cvte-25-00950
+  title: Rooster centrale examens 2027
+  source_type: official_exam_info
+  exam_year: 2027
+  fetch_url: https://www.examenblad.nl/2027/publicaties/cvte-25-00950
+  resolved_url: https://www.examenblad.nl/2027/publicaties/cvte-25-00950
+  fetch_status: retrieved
+  sha256: 0823b3c8ab995535768a66b17984fc933745bc11eb86a5f01ee5bf589449a05e
+  bytes: 26089
+  mime: text/html; charset=UTF-8
+  authority_class: official_application
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 0823b3c8ab995535768a66b17984fc933745bc11eb86a5f01ee5bf589449a05e
+  valid_from: null
+  valid_to: null
+  summary: Verwijspagina of aanvullend document opgehaald. Nog geen inhoudelijk controlepunt
+    aan gekoppeld.
+  content_form: index_only
+- id: inspectie-kader-vo-2026
+  url: https://www.onderwijsinspectie.nl/site/binaries/site-content/collections/documents/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs/kader-vo-2026.pdf
+  title: Onderzoekskader VO 2026
+  source_type: oversight_framework
+  fetch_url: https://www.onderwijsinspectie.nl/site/binaries/site-content/collections/documents/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs/kader-vo-2026.pdf
+  resolved_url: https://www.onderwijsinspectie.nl/site/binaries/site-content/collections/documents/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs/kader-vo-2026.pdf
+  fetch_status: retrieved
+  sha256: 5ba01b3c0e5711d2c587700fdb830d2976a5c86332f71c09f2ce01f378ec004c
+  bytes: 1926330
+  mime: application/pdf;charset=UTF-8
+  authority_class: official_application
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: 5ba01b3c0e5711d2c587700fdb830d2976a5c86332f71c09f2ce01f378ec004c
+  valid_from: null
+  valid_to: null
+  summary: 'Standaard OP6, pagina 42-43, behandelt zorgvuldige afsluiting. De Inspectie
+    verwacht een onafhankelijke, deskundige examencommissie en een PTA en reglement
+    die aan de wet voldoen. Leerlingen en ouders moeten tijdig weten hoe examinering,
+    herkansing en maatregelen zijn geregeld. De uitvoering moet bij de documenten
+    aansluiten. Gebruik dit als toezichtskader. Controleer de genoemde wettelijke
+    verwijzingen afzonderlijk: de verwijzingen bij OP6 vatten meerdere verplichtingen
+    samen; de actuele WVO onderscheidt 2.60, 2.60a en 2.60b.'
+  content_form: full_text
+  content_path: sources/content/inspectie-kader-vo-2026.txt
+  original_path: sources/originals/inspectie-kader-vo-2026.pdf
+  page_count: 221
+- id: rooster-2027-officieel
+  url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22375.html
+  title: Regeling rooster CE 2027
+  source_type: cvte_regulation
+  fetch_url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22375.html
+  resolved_url: https://zoek.officielebekendmakingen.nl/stcrt-2025-22375.html
+  fetch_status: retrieved
+  sha256: ac61569c77f3019e38552ca73487584df0fbb2edbb971e17296fd97edceac573
+  bytes: 93824
+  mime: text/html; charset=utf-8
+  authority_class: binding
+  retrieved_at: '2026-09-07'
+  attempted_at: '2026-09-07'
+  status: retrieved_not_activated
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: ac61569c77f3019e38552ca73487584df0fbb2edbb971e17296fd97edceac573
+  valid_from: null
+  valid_to: null
+  summary: De officiële publicatie legt het rooster en de afnameperiodes voor de centrale
+    examens van 2027 vast. De bijlagen onderscheiden eerste en tweede tijdvak; bijzondere
+    examenvormen hebben eigen bepalingen. Gebruik examenjaar 2027 als selectiecriterium.
+    Deze bron ondersteunt datumcontrole, maar verplicht een school niet vanzelf om
+    het volledige rooster in het examenreglement over te nemen. Latere roosterwijzigingen
+    zijn niet uitputtend gecontroleerd.
+  content_form: full_text
+  exam_year: 2027
+  content_path: sources/content/rooster-2027-officieel.txt
+  original_path: sources/originals/rooster-2027-officieel.html
+- id: lkc-101642-volledig
+  url: https://wordpress.onderwijsgeschillen.nl/app/uploads/2025/08/101642-anoniem-advies.pdf
+  title: LKC 101642 volledig advies
+  source_type: dispute_opinion
+  fetch_url: https://wordpress.onderwijsgeschillen.nl/app/uploads/2025/08/101642-anoniem-advies.pdf
+  fetch_status: failed
+  error: 'HTTP Error 403: Forbidden'
+  authority_class: dispute_guidance
+  retrieved_at: null
+  attempted_at: '2026-09-07'
+  status: fetch_failed
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: null
+  valid_from: null
+  valid_to: null
+  summary: De volledige tekst kon niet worden opgehaald; geen inhoudelijk oordeel
+    afleiden uit deze mislukte poging.
+  content_form: index_only
+- id: lkc-6436-volledig
+  url: https://wordpress.onderwijsgeschillen.nl/app/uploads/2021/06/2021006436%20anoniem%20advies_1.pdf
+  title: LKC 6436 advies 2021
+  source_type: dispute_opinion
+  fetch_url: https://wordpress.onderwijsgeschillen.nl/app/uploads/2021/06/2021006436%20anoniem%20advies_1.pdf
+  fetch_status: failed
+  error: 'HTTP Error 403: Forbidden'
+  authority_class: dispute_guidance
+  retrieved_at: null
+  attempted_at: '2026-09-07'
+  status: fetch_failed
+  production_approved: false
+  legal_review_status: not_reviewed
+  tags: []
+  content_hash: null
+  valid_from: null
+  valid_to: null
+  summary: De volledige tekst kon niet worden opgehaald; geen inhoudelijk oordeel
+    afleiden uit deze mislukte poging.
+  content_form: index_only

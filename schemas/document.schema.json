@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ParsedDocument","type":"object",
+  "required":["document_id","sha256","filename","mime_type","parser_version","school_year","school_types","document_status","parsing_status","metadata","units","warnings"],
+  "properties":{
+    "document_id":{"type":"string"},"sha256":{"type":"string","pattern":"^[a-f0-9]{64}$"},"filename":{"type":"string"},
+    "mime_type":{"type":"string"},"parser_version":{"type":"string"},"school_year":{"type":["string","null"]},
+    "school_types":{"type":"array","items":{"type":"string"}},"document_status":{"type":"string"},
+    "parsing_status":{"enum":["complete","partial","failed"]},"metadata":{"type":"object"},
+    "units":{"type":"array","items":{"$ref":"extraction.schema.json#/$defs/unit"}},
+    "warnings":{"type":"array","items":{"type":"object"}}
+  },"additionalProperties":true
+}

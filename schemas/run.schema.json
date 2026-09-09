@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalysisRun",
+  "type": "object",
+  "required": [
+    "run_id",
+    "document_hash",
+    "school_year",
+    "exam_year",
+    "status",
+    "source_snapshot",
+    "versions",
+    "analysis_mode"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "document_hash": {
+      "type": "string"
+    },
+    "school_year": {
+      "type": "string"
+    },
+    "exam_year": {
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "queued",
+        "parsing",
+        "awaiting_confirmation",
+        "analyzing",
+        "validating",
+        "complete",
+        "partial",
+        "failed"
+      ]
+    },
+    "source_snapshot": {
+      "type": "string"
+    },
+    "phase_status": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "not_started",
+          "running",
+          "complete",
+          "partial",
+          "failed",
+          "not_implemented"
+        ]
+      }
+    },
+    "versions": {
+      "type": "object",
+      "required": [
+        "analyzer",
+        "rule_set",
+        "parser"
+      ],
+      "properties": {
+        "analyzer": {
+          "type": "string"
+        },
+        "rule_set": {
+          "type": "string"
+        },
+        "parser": {
+          "type": "string"
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "prompt_set": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "analysis_mode": {
+      "enum": [
+        "deterministic_no_ai",
+        "ai_assisted"
+      ]
+    },
+    "partial_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "context_status": {
+      "enum": [
+        "unconfirmed",
+        "confirmed"
+      ]
+    },
+    "confirmed_context": {
+      "type": "object",
+      "properties": {
+        "school_year": {
+          "type": "string"
+        },
+        "exam_year": {
+          "type": "integer"
+        },
+        "school_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "document_status": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review_history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "audit": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "coverage": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

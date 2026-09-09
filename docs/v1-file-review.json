@@ -1,0 +1,240 @@
+[
+  {
+    "file": ".env.example",
+    "v1_sha256": "2ae5a70258fb7ec4da8e11bc2bc81c9868dd2f157117b03cb2f46465af116f83",
+    "v2_sha256": "b89d3bd9042abf844b64dd101078f8f2f4b31d6702062f7e4bc211ac646e3ec9",
+    "changed": true,
+    "assessment": "Aangepast: expliciet gemaakt dat de huidige HTML geen backend- of LLM-configuratie gebruikt."
+  },
+  {
+    "file": ".gitignore",
+    "v1_sha256": "28eadc5143e16db0d814fb06230a07d5c8c3c299d577286f40ec78538ef397d3",
+    "v2_sha256": "28eadc5143e16db0d814fb06230a07d5c8c3c299d577286f40ec78538ef397d3",
+    "changed": false,
+    "assessment": "Ongewijzigd: bestaande uitsluitingen blijven bruikbaar."
+  },
+  {
+    "file": "AGENTS.md",
+    "v1_sha256": "a062fbfcdc879a4cb5a9c9d8d2d21664d7326d63e80ba331bcb06a648046ba80",
+    "v2_sha256": "c510ad2b4344bc81738e4d84218ca1924f507aca87f09f5dcc49aa03d54de3b2",
+    "changed": true,
+    "assessment": "Aangepast: actuele implementatiestatus, leidende bronbestanden en activeringsgrens toegevoegd."
+  },
+  {
+    "file": "CHANGELOG.md",
+    "v1_sha256": "ba79ed957d338b9077c2a6f9ad1e275d10a802fcf0cc7eae14c3f41064448409",
+    "v2_sha256": "8ef420a27e657a9ffb004bd66fc9d1b605cb4967485927a22f8284d2682bb3a0",
+    "changed": true,
+    "assessment": "Aangepast: v0.2 en volledige v0.3-samenvoeging vastgelegd."
+  },
+  {
+    "file": "FILES.md",
+    "v1_sha256": "0d2df3f6f7e9186da32c252f19734cd7ef2608f23c4f29d71d413b0f37359399",
+    "v2_sha256": "2b2efe3135f4687b0cce1fc21c3d0cdb616db46c8eba2ac60f535be4e1c167ed",
+    "changed": true,
+    "assessment": "Wordt opnieuw gegenereerd op basis van de definitieve inhoud."
+  },
+  {
+    "file": "README.md",
+    "v1_sha256": "af6d3071ecf21f05d049fd71434dbb4e17f3f56ccccabe1e6f68b0417c17bcf6",
+    "v2_sha256": "b51a2afaaf559fd32bf2325edab4687812878e6fda77a82487d2c9806086f9c0",
+    "changed": true,
+    "assessment": "Aangepast: v2 als complete werkbasis en concrete startinstructies."
+  },
+  {
+    "file": "docs/AI-RISKS.md",
+    "v1_sha256": "f840064c3af0b26ad800d01688d01bede537efbbd66699b3f25a4efeacbd0be8",
+    "v2_sha256": "118e26cf648554c57da56dbf3b073a9adc9801c2bdcc6a6e7dfc47c2429701d5",
+    "changed": true,
+    "assessment": "Aangepast: onderscheid tussen ontwerpmaatregelen en werkelijk gebouwde blokkades."
+  },
+  {
+    "file": "docs/ARCHITECTURE.md",
+    "v1_sha256": "36c7f08302d5e0c3e5a64bb17618e7cafe7467d2459b5d16628e8f3fd67ccd1d",
+    "v2_sha256": "94ec34fb9814d8693cff76cb63b84c9e47bb79a79027d7f5cfe3ca2cca12b0e2",
+    "changed": true,
+    "assessment": "Aangepast: doelarchitectuur niet langer als gerealiseerd laten lezen."
+  },
+  {
+    "file": "docs/DECISIONS.md",
+    "v1_sha256": "7ddb57deae6210a0f87a617fc6a5f8178ab74cfea528d26453d4accdd3ddf9fa",
+    "v2_sha256": "f58c83c119a5d46df47ebb7d9d445d9f9c20d2a10dd353269b5e2c8791b7b180",
+    "changed": true,
+    "assessment": "Aangepast: samenvoeging, canonieke bronset en golden-status vastgelegd."
+  },
+  {
+    "file": "docs/GLOSSARY.md",
+    "v1_sha256": "43674f041221f05ad4c6e093616ed7c029976a8d92d0547f5c4889fe055781bd",
+    "v2_sha256": "e4a6bdf3b2c120653a86b34d6fc283ae46ef817dafa242767c4e2d2d6e9ec39a",
+    "changed": true,
+    "assessment": "Aangepast: nieuwe bron- en teststatussen toegevoegd."
+  },
+  {
+    "file": "docs/GOVERNANCE.md",
+    "v1_sha256": "311f24c220d91acc5103a6bdd519b4af27a6382bd6f078495e3de045df78afb7",
+    "v2_sha256": "46d988253bd53ca8f3d5a42822fe58a9714efa3931b54ebabe207e0fbd3593b2",
+    "changed": true,
+    "assessment": "Aangepast: expliciete activering en reviewgrens."
+  },
+  {
+    "file": "docs/PRODUCT.md",
+    "v1_sha256": "c55b340e498da7f4ade01c11f3729ae7981c5713fb7a184f76aff2c05dddf243",
+    "v2_sha256": "264d8d59c1df6ef0cd259cd6fcc2600f654a24e6bffaae04f4adbc3ed5d959b3",
+    "changed": true,
+    "assessment": "Aangepast: productdoel versus huidige implementatie gemarkeerd."
+  },
+  {
+    "file": "docs/SOURCE-CATALOG.md",
+    "v1_sha256": "dc1048bf2aa8aba155e4de86b5723a9ddc63c9c4b0b98e6b4a07e94f92cb7d13",
+    "v2_sha256": "863012be127621187946b9dfb17ac692543ebf5ca02f35bda429c3fd654c115d",
+    "changed": true,
+    "assessment": "Aangepast: verwijzing naar machineleesbare actuele bronset."
+  },
+  {
+    "file": "docs/SOURCE-POLICY.md",
+    "v1_sha256": "99e96ca4888b2362100f02e797b4721ad58f2d3f9abe82a2280587f2c742db13",
+    "v2_sha256": "6773e1aac91c7b1721c635662f8a9a2c9a5f89cf9749770cc66f7e7f42298fd5",
+    "changed": true,
+    "assessment": "Aangepast: registry.json leidend en opgehaald is niet goedgekeurd."
+  },
+  {
+    "file": "docs/UI-UX.md",
+    "v1_sha256": "a2e555823a2b0d56f7de056523f77adafac4c476f3892994fd9204473c572269",
+    "v2_sha256": "a53f5b3def577d5a445a4db9abb5b91f91d08ae2115d402b88477a9a2d94f817",
+    "changed": true,
+    "assessment": "Aangepast: huidige schermen en ontbrekende documentanalyse gemarkeerd."
+  },
+  {
+    "file": "prompts/README.md",
+    "v1_sha256": "ef7b8c988d6abbe5d973e1c5e52710ef516b586f52ab4648dfde8f3740441819",
+    "v2_sha256": "aa0bc23638cffce3550c0041bd73f0261dda8f79faaf4fb7166f5f85347ec6c8",
+    "changed": true,
+    "assessment": "Aangepast: nog geen model- of promptuitvoering."
+  },
+  {
+    "file": "schemas/comparison.schema.json",
+    "v1_sha256": "a2a2068a182e0c27f56e7c161138f1a8e17af23b128ba6e9af2c3c6505d1c028",
+    "v2_sha256": "a2a2068a182e0c27f56e7c161138f1a8e17af23b128ba6e9af2c3c6505d1c028",
+    "changed": false,
+    "assessment": "Ongewijzigd: schema is bruikbaar voor de nieuwe vergelijkingrecords."
+  },
+  {
+    "file": "schemas/finding.schema.json",
+    "v1_sha256": "9fa794457f7ba57f2fae3b96f660b4ee78c2ae8c5ff683e31edb156a331e5ad1",
+    "v2_sha256": "c6766d6f062fa0dd65706dc2372a6fea248c12c621c01f2d0eb72f6fd7744485",
+    "changed": true,
+    "assessment": "Aangepast: suggested_action verplicht en must-evidence aangescherpt."
+  },
+  {
+    "file": "schemas/jurisprudence.schema.json",
+    "v1_sha256": "2ae484c474f78f726abd228dfd878a4c9a5e05365649de5765e4557f0808b3d2",
+    "v2_sha256": "eba6f2aade54e878c5b59d98f23277525b11f8a5668370e5be243c888b9b596d",
+    "changed": true,
+    "assessment": "Aangepast: reviewstatus, bronkoppeling en productiegoedkeuring opgenomen."
+  },
+  {
+    "file": "schemas/rule.schema.json",
+    "v1_sha256": "46b9a781fbc31bc0b83e43d1276cb6efc354ed46588aba5523bd2e0c6ce1b2a1",
+    "v2_sha256": "749d54f02a42c1549a6e038419c65e59a44c843d56e44a4bb522327dc553f9ee",
+    "changed": true,
+    "assessment": "Aangepast: evidence, production_approved en fallback naar human_review opgenomen."
+  },
+  {
+    "file": "schemas/run.schema.json",
+    "v1_sha256": "55c64970ecd7a3bdc9ba5571acbb7c5911ca82fc4cdcc8e364e88a6ce365b884",
+    "v2_sha256": "55c64970ecd7a3bdc9ba5571acbb7c5911ca82fc4cdcc8e364e88a6ce365b884",
+    "changed": false,
+    "assessment": "Ongewijzigd: blijft contract voor de nog te bouwen analyzer-run."
+  },
+  {
+    "file": "schemas/source.schema.json",
+    "v1_sha256": "983a687a0fefdba00ee3b5f940c6fcf50d2566f28e07b1e909ff1bf61d892a2a",
+    "v2_sha256": "0d6bd2899a99e2a88bbed6ad97ab199aa5f946aa69145117bd1b9008c73a4627",
+    "changed": true,
+    "assessment": "Aangepast: fetch-, review-, productie- en contentstatus toegevoegd."
+  },
+  {
+    "file": "sources/README.md",
+    "v1_sha256": "ec3ad513f1edb60cc6f620d0276c29b09e35f25afacef742b8801d376c3480ea",
+    "v2_sha256": "cdb1d642e111ec4ee628f46bff5ced03d134b761838aefa9a858a7d5230dbabd",
+    "changed": true,
+    "assessment": "Aangepast: canonieke bestanden en beperkingen beschreven."
+  },
+  {
+    "file": "sources/jurisprudence.seed.json",
+    "v1_sha256": "cdac46a9e53c9564d5af3ba2630c0b6a80e2e8176ae380e5baaec4c8b57840c6",
+    "v2_sha256": "d7b4b65178a8c552394ba5432217601b6c13afe0a11d0413f727bd62858d6031",
+    "changed": true,
+    "assessment": "Aangepast: gelijkgetrokken met de genormaliseerde werkrecords."
+  },
+  {
+    "file": "sources/registry.yaml",
+    "v1_sha256": "ef0489b4adbd2db1abd3be7ba723258f234bb687bd1db6deb79ae9880f3f950b",
+    "v2_sha256": "61ff53aa7c4e96972923ee6c870edeced9487737114d135a58fa4e9f977e4faf",
+    "changed": true,
+    "assessment": "Aangepast: gegenereerde compatibiliteitskopie van registry.json; oude active-statussen verwijderd."
+  },
+  {
+    "file": "tests/README.md",
+    "v1_sha256": "5ce94ef747357dd97402b0d6f7b5e7770047811b0803d3d892ccb4d1ce900b3a",
+    "v2_sha256": "86f9310ee465598f7d830df27969cf7c7d8978e7b2885afe5e8724de4144e549",
+    "changed": true,
+    "assessment": "Aangepast: onderscheid structurele tests en nog niet uitvoerbare analyzer-tests."
+  },
+  {
+    "file": "tests/golden/001_wrong_appeal_term.json",
+    "v1_sha256": "068c583f03d00c6ad7150e663b2c8cbb444a7f1e6554885bc8250f7b85ce0321",
+    "v2_sha256": "f1f857ca83fee8154b509717494bdada29d55247dff4ba24aaddaaa17f6a3c8b",
+    "changed": true,
+    "assessment": "Aangepast: toepasselijke maatregelroute expliciet gemaakt."
+  },
+  {
+    "file": "tests/golden/002_correct_appeal_term.json",
+    "v1_sha256": "9f01b7ab04646099779c27897814377bd8aa6a32ebbe9b91e22ed1091dfbd400",
+    "v2_sha256": "8171b8fd0928a422ccb09de12e8e4f06a395f7a0041fcce61b27e13678feeaa7",
+    "changed": true,
+    "assessment": "Aangepast: toepasselijke maatregelroute expliciet gemaakt."
+  },
+  {
+    "file": "tests/golden/003_outdated_legal_basis.json",
+    "v1_sha256": "19f5f88257447d92e0ad8c22bf19024614d349b3c4cbd2e1c074c5fc8804d72f",
+    "v2_sha256": "8312e13cfcecbc2366b0e7b5f15f23a59bb67c08edece221cb6510b31895bf4f",
+    "changed": true,
+    "assessment": "Aangepast: ongeldige samengestelde severity vervangen door allowed_severities."
+  },
+  {
+    "file": "tests/golden/004_exam_year_mismatch.json",
+    "v1_sha256": "cb6480fbb9ba6ba2864ee3a4347d1d0a431124a44366a28204bc1b99d29fa4a4",
+    "v2_sha256": "e2f84cb39cd79ce2948bd8061c94337ea650e54bc7877f8f141a21787c43dda5",
+    "changed": true,
+    "assessment": "Aangepast: teststatus toegevoegd; oorspronkelijke verwachting behouden tenzij structureel ongeldig."
+  },
+  {
+    "file": "tests/golden/005_jurisprudence_overreach.json",
+    "v1_sha256": "b6cd5de65f26bf7839dbfdf9339b4dae71fcd1df056b5ff74972dee20f33fb20",
+    "v2_sha256": "b1fe989a027b1bce9e62c173620df6bc6882e0e962715697cd12f56febef9569",
+    "changed": true,
+    "assessment": "Aangepast: human_review als begrensde uitkomst en teststatus toegevoegd."
+  },
+  {
+    "file": "tests/golden/006_comparison_not_law.json",
+    "v1_sha256": "af7bdc76938918a24d2485254d319c2f2c06d7c43ec8be10356ed0b4ad42921b",
+    "v2_sha256": "73c05ff6c499158f879e6765c91a50491cb5efe03c4f8d70ecce0dc1211de024",
+    "changed": true,
+    "assessment": "Aangepast: teststatus toegevoegd; vergelijking blijft nooit juridische norm."
+  },
+  {
+    "file": "tests/golden/007_internal_role_conflict.json",
+    "v1_sha256": "40095fabfdc84af6e402b904e2acc25cfc34892a2d9809dd7bf8548c17bfcfa2",
+    "v2_sha256": "4bcc370816bb7f539b90cf0bf135062b7d361a0725c5e3254d9155af7a591008",
+    "changed": true,
+    "assessment": "Aangepast: context toegevoegd om een echte interne rolbotsing te onderscheiden van mandaat/faseverschil."
+  },
+  {
+    "file": "tests/golden/008_clean_negative_control.json",
+    "v1_sha256": "34abd22b424c3f7c2cb80fe05b67db2f34a50807f66bb3036049ab08bd04d0ad",
+    "v2_sha256": "7f8e88e9ea0a24d7f99a7762bcaefc742fd528879a2ecce081a3cc6015acb940",
+    "changed": true,
+    "assessment": "Aangepast: teststatus toegevoegd; blijft negatieve controle."
+  }
+]

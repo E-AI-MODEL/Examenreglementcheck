@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DocumentRegisters",
+  "type": "object",
+  "required": [
+    "role_registry",
+    "term_registry",
+    "definition_registry",
+    "procedure_registry",
+    "cross_reference_registry"
+  ],
+  "properties": {
+    "role_registry": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "topic",
+          "actor",
+          "location"
+        ],
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "action": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "actor": {
+            "type": "boolean"
+          },
+          "clause": {
+            "type": "string"
+          },
+          "location": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "term_registry": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic",
+          "value",
+          "unit",
+          "deadline_type",
+          "location"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "value": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unit": {
+            "type": "string"
+          },
+          "action": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "actor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "deadline_type": {
+            "type": "string"
+          },
+          "start_event": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "clause": {
+            "type": "string"
+          },
+          "location": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "definition_registry": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "procedure_registry": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic",
+          "action",
+          "roles",
+          "phase",
+          "text",
+          "location"
+        ],
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string"
+          },
+          "actor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "decision_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "phase": {
+            "type": "string"
+          },
+          "start_event": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "text": {
+            "type": "string"
+          },
+          "location": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "cross_reference_registry": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target",
+          "resolved",
+          "external",
+          "reference_scope",
+          "location"
+        ],
+        "properties": {
+          "target": {
+            "type": "string"
+          },
+          "resolved": {
+            "type": "boolean"
+          },
+          "external": {
+            "type": "boolean"
+          },
+          "reference_scope": {
+            "enum": [
+              "internal",
+              "external"
+            ]
+          },
+          "target_source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "clause": {
+            "type": "string"
+          },
+          "location": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

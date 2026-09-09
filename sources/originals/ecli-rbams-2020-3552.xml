@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:RBAMS:2020:3552</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2025-03-22T03:35:36</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2020-07-22</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Rechtbank_Amsterdam" scheme="overheid.RechterlijkeMacht">Rechtbank Amsterdam</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2020-07-17</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">AMS 20/3359</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#voorlopigeVoorziening">Voorlopige voorziening</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:spatial rdfs:label="Zittingsplaats">Amsterdam</dcterms:spatial>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#bestuursrecht">Bestuursrecht</dcterms:subject>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+          <rdf:li>Onderwijs Totaal 2020/1067</rdf:li>
+          <rdf:li>Onderwijs Totaal 2020/1122</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2020:3552">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBAMS:2020:3552</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2020-07-22T15:21:26</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2020-07-24</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:RBAMS:2020:3552 Rechtbank Amsterdam , 17-07-2020 / AMS 20/3359</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie" />
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:RBAMS:2020:3552:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <para>Een school heeft terecht meegedeeld dat een leerling in het examenjaar 6-VWO de schoolexamens Frans en CKV, niet op tijd had afgerond en zich niet kon aanmelden voor resultaatsverbeteringstoetsen en/of het diploma.</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:RBAMS:2020:3552:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <uitspraak.info>
+    <bridgehead role="bold">RECHTBANK AMSTERDAM</bridgehead>
+    <para>Bestuursrecht</para>
+    <para />
+    <parablock>
+      <para>zaaknummer: AMS 20/3359 </para>
+    </parablock>
+    <para />
+    <bridgehead role="bold">uitspraak van de voorzieningenrechter van 17 juli 2020 in de zaak tussen</bridgehead>
+    <para />
+    <bridgehead role="bold">
+      [verzoekster] , te [woonplaats] , verzoekster</bridgehead>
+    <para />
+    <parablock>
+      <para>en</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>het bestuur van [naam school] , de school</para>
+      <para>(gemachtigde: mr. I.A. Hoen).</para>
+    </parablock>
+    <para />
+    <para />
+  </uitspraak.info>
+  <section role="procesverloop">
+    <title>Procesverloop</title>
+    <para />
+    <parablock>
+      <para>Met het besluit van 15 mei 2020 (het primaire besluit) heeft de school aan verzoekster medegedeeld dat zij vijf vakken niet heeft afgerond (CKV, Frans, Wiskunde A, Economie en Aardrijkskunde). Deze vakken zijn niet (meer) herkansbaar. Doordat de vijf vakken niet zijn afgrond kan de school verzoekster niet aanmelden voor resultaatsverbeteringstoetsen en/of het diploma.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>Op 18 mei 2020 heeft verzoekster administratief beroep ingediend bij de commissie van beroep van de [naam school] .</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>Op 2 juni 2020 heeft de commissie van beroep van de [naam school] het beroep van verzoekster ongegrond verklaard (het bestreden besluit). Verzoekster heeft niet voldaan aan de verplichtingen om het VWO af te sluiten op de [naam school] . </para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>Verzoekster heeft tegen het bestreden besluit beroep ingesteld. Zij heeft de voorzieningenrechter verzocht om een voorlopige voorziening te treffen.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>Het onderzoek ter zitting heeft plaatsgevonden op 6 juli 2020. Verzoekster is verschenen, bijgestaan door haar vader, [naam vader] . Namens de school is verschenen [naam bestuurder-directeur] , bestuurder-directeur van de [naam school] , bijgestaan door haar gemachtigde. </para>
+    </parablock>
+    <para />
+    <para />
+  </section>
+  <section>
+    <title>Overwegingen</title>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Achtergrond van de zaak</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>1. Verzoekster volgt het VWO aan de [naam school] . Vorig jaar heeft zij daar haar HAVO-diploma behaald. Afgelopen schooljaar deed zij 6 VWO.</para>
+    <para />
+    <para>2. Als gevolg van de Coronacrisis heeft de afronding van het VWO dit jaar niet plaatsgevonden door een centraal schriftelijk examen. Op basis van de afgelegde schoolexamens is beoordeeld of de betrokken leerling was geslaagd en een diploma kreeg.</para>
+    <parablock>
+      <para>De leerlingen en scholen hadden tot 4 juni 2020 de tijd om de schoolexamens (inclusief herkansingen) af te ronden. </para>
+      <para>Vanaf 4 juni 2020 is nog de mogelijkheid gecreëerd van maximaal twee zogeheten resultaatsverbeteringstoetsen voor VWO-leerlingen die zouden zijn gezakt op basis van hun schoolexamens of die hun eindcijfers willen verbeteren.</para>
+    </parablock>
+    <para />
+    <para>3. Bij brief van 15 mei 2020 heeft de school aan verzoekster – samengevat – medegedeeld dat haar schoolexamens op een aantal punten niet compleet zijn en dat als gevolg daarvan verzoekster niet kan worden aangemeld voor resultaatsverbeteringstoetsen en/of het diploma. Inhoudelijk gaat het daarbij om het volgende:</para>
+    <para>a. Het schoolexamen 3 CKV dat verzoekster in klas 4 zou hebben moeten afronden, kan niet meer herkanst worden. Er zijn meerdere mogelijkheden in klas 4, 5 en 6 voor verzoekster geweest om dit te herstellen, deze heeft zij geen van alle opgepakt.</para>
+    <para>b. Het schoolexamen 8 Frans is niet herkansbaar. Verzoekster heeft twee extra deadlines gekregen, waarbij zij heeft verzuimd de opdracht in te leveren. Omdat het niet herkansbaar is, kan het alsnog ingeleverde werk niet geaccepteerd worden.</para>
+    <para>c. Het schoolexamen 7 Economie is deels niet het eigen werk van verzoekster. Hiermee pleegt zij plagiaat. Voor het plagiaat wordt haar het cijfer 1 toegekend. Omdat dit cijfer is opgebouwd uit twee delen, zal het combinatiecijfer in Magister worden gezet.</para>
+    <para>d. De (in de corona-periode afgelegde) schoolexamens 9 Wiskunde A, Aardrijkskunde en Economie worden ongeldig verklaard. Het is zeer onwaarschijnlijk dat dit werk voor 100% door de leerling zelfstandig is gemaakt. De cijfers worden uit Magister verwijderd, en verzoekster wordt verdere deelname aan de herkansing van deze schoolexamens ontzegd.</para>
+    <para />
+    <para>4. De school heeft daarbij voor de punten c en d verwezen naar artikel 5 van het Examenbesluit voortgezet onderwijs, dat aan de schooldirecteur de bevoegdheid geeft maatregelen te nemen. Het gaat daarbij hier met name om de volgende onderdelen van dit artikel:</para>
+    <para>1. Indien een kandidaat zich ten aanzien van enig deel van het eindexamen of deeleindexamen dan wel ten aanzien van een aanspraak op ontheffing aan enige onregelmatigheid schuldig maakt of heeft gemaakt, dan wel zonder geldige reden afwezig is, kan de directeur maatregelen nemen.</para>
+    <para>2. De maatregelen, bedoeld in het eerste lid, die afhankelijk van de aard van de onregelmatigheid ook in combinatie met elkaar genomen kunnen worden, zijn: </para>
+    <para>a. het toekennen van het cijfer 1 voor een toets van het schoolexamen, de rekentoets of het centraal examen,</para>
+    <para>b. het ontzeggen van de deelname of de verdere deelname aan een of meer toetsen van het schoolexamen, de rekentoets of het centraal examen,</para>
+    <para>c. het ongeldig verklaren van een of meer toetsen van het reeds afgelegde deel van het schoolexamen, de rekentoets of het centraal examen (…).</para>
+    <para />
+    <para>5. Verzoekster heeft hiertegen administratief beroep ingesteld, maar dat is (zonder zitting) ongegrond verklaard.</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Bevoegdheid van de bestuursrechter</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>6. De bevoegdheid van de bestuursrechter is tussen partijen niet in geschil. De school heeft desgevraagd nog toegelicht dat de [naam school] een openbare, en niet een bijzondere school is. Onder verwijzing naar de uitspraak van de Centrale Raad van Beroep van 17 maart 2016 (ECLI:NL:CRVB:2016:959) volgt de rechtbank de school daarin. De voorzieningenrechter zal daarom uitgaan van de bevoegdheid van de bestuursrechter.</para>
+    <para />
+    <para>7. Er is een besluit genomen inzake deelneming aan de examens. Artikel 30a van de Wet op het voortgezet onderwijs schrijft dan allereerst de weg van administratief beroep voor tegen een dergelijk besluit. Die weg is ook gevolgd door verzoekster. Voor verzoekster staat daarna de mogelijkheid van beroep bij de bestuursrechter open.</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Wijze van beoordeling van de zaak</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>8. Vraag is vervolgens op welke wijze de bestuursrechter het geschil dient te beoordelen.</para>
+    <parablock>
+      <para>Met de school is de voorzieningenrechter van oordeel dat artikel 8:4, tweede lid, aanhef en onder b, van de Algemene wet bestuursrecht niet van toepassing is in dit geding. Het gaat immers niet om een beoordeling van het kennen of kunnen van een leerling die is geëxamineerd of getoetst, maar juist om het niet examineren of toetsen van verzoekster.</para>
+      <para>Dat betekent dat de voorzieningenrechter het besluit van de directeur kan beoordelen aan de hand van de daartegen door verzoekster aangevoerde bezwaren of beroepsgronden. Daarmee gaat het niet alleen om een formele, maar ook om een inhoudelijke beoordeling.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Voorlopige voorziening</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>9. Het oordeel van de voorzieningenrechter heeft een voorlopig karakter en bindt de rechtbank in het bodemgeding niet.</para>
+    <para />
+    <para>10. Verzoekster heeft in een spoedprocedure verzocht om een voorlopige voorziening bij de bestuursrechtelijke voorzieningenrechter. Inzet van verzoekster is het alsnog behalen van het schooldiploma VWO om na de zomer te kunnen beginnen met een rechtenstudie.</para>
+    <para />
+    <para>11. Die inzet kan niet meer worden gerealiseerd. Partijen zijn het erover eens dat de schoolexamens op 4 juni 2020 en ook nu feitelijk niet zijn afgerond.</para>
+    <para>Aan dat feit kan niemand iets veranderen, ook de voorzieningenrechter niet.</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Regelwijziging</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>12. Verzoekster heeft aangevoerd dat de school dan de regels moet veranderen, al dan niet in overleg met het Ministerie van Onderwijs.</para>
+    <para>De school heeft gesteld contact te hebben gehad met het ministerie over de situatie van verzoekster, maar dat een andere oplossing niet mogelijk bleek.</para>
+    <para />
+    <para>13. De voorzieningenrechter stelt voorop dat de eis van afronding van de schoolexamens vóór 4 juni 2020 een landelijke eis is. De school kan daar niets aan veranderen.</para>
+    <parablock>
+      <para>Een versoepeling van deze eis zou bovendien niet alleen gelden voor verzoekster, maar ook voor anderen, in het hele land. Dat brengt voor die anderen alsnog onzekerheid met zich. </para>
+      <para>Als die versoepeling alsnog voor leerlingen kan leiden tot het verkrijgen van een diploma, tast het ook de waarde aan van het diploma van degenen die wel voor 4 juni 2020 de schoolexamens hadden afgerond. De school heeft daarop ook gewezen, waar zij spreekt van een aantasting van het civiel effect van het diploma.</para>
+      <para>Er is dan ook geen sprake van een verplichting om de regels aan te passen zoals door verzoekster aangevoerd.</para>
+      <para>Daarbij wijst de voorzieningenrechter er in het bijzonder nog op dat in de landelijke regeling de mogelijkheid van resultaatsverbeteringstoetsen is opgenomen ter vervanging van de mogelijkheid om via het centraal schriftelijk examen cijfers op te halen. Aan dat door verzoekster genoemde punt is door de regelgever dus al gedacht, maar in combinatie met de al genoemde eis van afronding van de schoolexamens vóór 4 juni 2020.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Schoolexamen 3 CKV </emphasis>
+        <?linebreak?>
+      </para>
+    </parablock>
+    <para>14. Verzoekster is inderdaad overgegaan van klas vier naar klas vijf en van klas vijf naar klas zes, ondanks het ontbreken van het schoolexamen 3 CKV. Het ontbreken daarvan werd oorspronkelijk ook niet vermeld in Magister, omdat dit vak niet viel binnen haar HAVO-pakket.</para>
+    <parablock>
+      <para>Maar ook dan blijft staan dat verzoekster er meermalen op is gewezen dat ze dit examen nog moest doen. </para>
+      <para>Verzoekster ging wel over doordat de overgangseisen anders van karakter zijn dan de exameneisen. Het wel overgaan van verzoekster betekende dus niet dat ze het schoolexamen 3 CKV niet hoefde te doen. Dat verzoekster dat wel dacht, komt niet voor rekening van de school, maar voor die van verzoekster zelf.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Schoolexamen 8 Frans</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>15. Verzoekster heeft volgens het leerlingenvolgsysteem meerdere kansen gehad om het schoolexamen 8 Frans in te leveren. De uiterste inleverdatum was uiteindelijk 10 april 2020. Die datum heeft verzoekster niet gehaald. Het examen is immers pas ingeleverd op 22 april 2020. </para>
+    <para />
+    <para>16. Verzoekster heeft nog aangevoerd dat de zorgcoördinator op school haar had toegezegd dat inleveren op 23 april 2020 nog mogelijk was. De zorgcoördinator is daartoe echter niet bevoegd. Bovendien ontbreekt elk bewijs van een dergelijke toezegging. De zorgcoördinator heeft desgevraagd juist ontkend over een datum van 23 april 2020 te hebben gesproken met verzoekster.</para>
+    <para />
+    <para>17. Ook heeft verzoekster aangevoerd dat het examen van een medeleerling wel is geaccepteerd na de deadline. Ook dit argument baat haar niet. De school heeft gesteld dat die leerling het examen wel voor de gestelde deadline heeft ingeleverd. Los daarvan blijkt niet dat de situatie van die leerling ook bijvoorbeeld qua eerder gestelde deadlines gelijk was aan die van verzoekster. Ook het gelijkheidsbeginsel maakt dus niet dat het examen van verzoekster alsnog moet worden geaccepteerd.</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Persoonlijke problemen</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>18. Verzoekster heeft gewezen op haar persoonlijke problemen. Zij is daarvoor ook in contact getreden met de zorgcoördinator van de school. Nergens blijkt echter dat of waarom haar nog meer mogelijkheden geboden hadden moeten worden voor de schoolexamens CKV of Frans. Met name blijkt niet dat zij door die problemen de gehele periode van twee jaren tussen de vierde en de zesde klas niet in staat is geweest schoolexamen 3 CKV alsnog te doen, of dat de aan haar geboden mogelijkheden voor het schoolexamen 8 Frans onvoldoende waren.</para>
+    <para />
+    <para>19. Onder die omstandigheden kan ook feitelijk niet worden staande gehouden dat de school nog meer kansen had moeten bieden aan verzoekster door aan het einde van de zesde klas nog een (extra) herkansing te bieden aan verzoekster voor de schoolexamens 3 CKV en 8 Frans.</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Gestelde fraude</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>20. Tussen partijen is niet in geschil dat bij het schoolexamen 7 Economie sprake was van plagiaat. Aan verzoekster is daarvoor het cijfer 1 gegeven, en daarmee is verzoekster akkoord.</para>
+    <parablock>
+      <para>Verzoekster stelt dat zij hier niet stiekem heeft gehandeld, maar het plagiaat direct heeft opgebiecht. Ook dan blijft echter staan dat verzoekster tijdens het schoolexamen niet eigener beweging heeft gemeld dat sprake was van plagiaat.</para>
+      <para>Deze gestelde fraude staat dan ook vast en zal de voorzieningenrechter niet verder bespreken. </para>
+      <para>Van een verplichting voor de school om hier aan verzoekster nog meer kansen te bieden is dan ook geen sprake.</para>
+    </parablock>
+    <para />
+    <para>21. De schooldirecteur heeft verder de schoolexamens 9 in Wiskunde A, Aardrijkskunde en Economie ongeldig verklaard wegens fraude en een herkansing ontzegd aan verzoekster. </para>
+    <para>Verzoekster betwist dat sprake was van fraude. Zij is ook onder de examens niet op fraude betrapt door de surveillant, en heeft haar jas en telefoon moeten inleveren.</para>
+    <para />
+    <para>22. De school wijst erop dat deze drie examens voor een second opinion zijn nagekeken door een andere eerstegraads docent van de school. Het is zeer onwaarschijnlijk dat dit werk voor 100% door de leerling zelfstandig is gemaakt.</para>
+    <para />
+    <para>23. De voorzieningenrechter stelt vast dat ook de school (en de docenten in de second opinion) de fraude als waarschijnlijk, maar niet als vaststaand omschrijven. Dat roept vragen op bij de stellige conclusie van fraude. </para>
+    <para />
+    <para>24. Daarbij gaat de voorzieningenrechter er niet aan voorbij dat verzoekster zich eerder aan examenfraude heeft schuldig gemaakt. Dat kan een indicatie vormen voor de conclusie dat bij onregelmatigheden in latere examens ook sprake is van fraude, maar ook niet meer dan dat.</para>
+    <para />
+    <para>25. Zoals ter zitting is besproken gaat het om schoolexamens waarbij in de vragen gebruik is gemaakt van oudere centraal schriftelijke examens. De vragen daarvan, en de bijbehorende antwoorden zijn openbaar, en circuleren ook op school. Er kan dan ook niet worden uitgesloten dat die vragen en antwoorden geheel of gedeeltelijk uit het hoofd worden geleerd. Dit doet afbreuk aan de stelligheid van de conclusie van fraude.</para>
+    <para />
+    <para>26. Niet is in geschil verder dat sprake was van surveillance. De school stelt wel dat verzoekster maar 5% van de tijd feitelijk onder toezicht was, en 95% niet. Wat dat precies betekent voor de mogelijkheid om fraude te plegen in een situatie als die van verzoekster, die om corona-technische redenen in een apart kamertje zat, is echter niet duidelijk. Zo is bijvoorbeeld niet duidelijk of verzoekster het kamertje ongezien kon verlaten. </para>
+    <para>Verzoekster heeft verder onbetwist gesteld dat zij voorafgaande aan de examens haar jas en haar telefoon moest inleveren. Hoe dan de door de school aangenomen fraude feitelijk heeft kunnen of moeten plaatsvinden, is echter evenmin duidelijk. Dat maakt een verdediging van verzoekster tegen de conclusies van de school er niet eenvoudiger op; dat terwijl sprake is van forse conclusies van de school.</para>
+    <para />
+    <para>27. Het is dan ook nog de vraag of de besluitvorming van de school met betrekking tot de schoolexamens 9 in Wiskunde A, Aardrijkskunde en Economie in de bodemprocedure zal kunnen standhouden. Dat op zich is echter geen reden om een voorlopige voorziening te treffen, gelet op hetgeen hiervoor op andere punten is overwogen (rechtsoverwegingen 14 tot en met 20).</para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Hoorplicht</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>28. Belangrijk punt voor verzoekster is de hoorplicht. Zij stelt dat de commissie van beroep van de [naam school] haar ten onrechte niet heeft gehoord. Zelfs als dat zo is, doet dat echter niet af aan de feiten en aan de overwegingen 14 tot en met 20. De zaak van verzoekster is bovendien bij de rechter uitvoerig op zitting behandeld. </para>
+    <para />
+    <parablock>
+      <para>
+        <emphasis role="italic">Conclusie voorlopige voorziening en beroep</emphasis>
+      </para>
+    </parablock>
+    <para />
+    <para>29. Er is geen aanleiding tot het treffen van een voorlopige voorziening als door verzoekster verzocht, in welke vorm dan ook.</para>
+    <para />
+    <para>30. De voorzieningenrechter heeft zich beraden op de vraag of niet tevens zou moeten worden beslist op het beroep. Dat zal de voorzieningenrechter echter niet doen, gelet op de vraagtekens die bestaan rond de beschuldigingen van fraude. Verzoekster kan zich daar in het beroep nader tegen verweren, en de school kan daar desgewenst met een nadere onderbouwing komen.</para>
+    <para />
+    <para>31. Daarbij tekent de voorzieningenrechter nog aan dat de bestuurder-directeur van de [naam school] op zitting heeft uitgesproken dat verzoekster welkom is om volgend jaar haar eindexamenjaar overnieuw te doen op de school. In hoeverre een rechterlijke uitspraak in de bodem onder die omstandigheden praktisch nog nodig zal blijken, is dan nog de vraag. De toekomst zal dat moeten uitwijzen.</para>
+    <para />
+    <para>32. De voorzieningenrechter wijst het verzoek om voorlopige voorziening af.</para>
+    <para />
+    <para>33. Voor een proceskostenveroordeling of vergoeding van het griffierecht bestaat geen aanleiding. </para>
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+  </section>
+  <section role="beslissing">
+    <title>Beslissing</title>
+    <para />
+    <parablock>
+      <para>De voorzieningenrechter wijst het verzoek om voorlopige voorziening af.</para>
+    </parablock>
+    <para />
+    <para />
+    <parablock>
+      <para>Deze uitspraak is gedaan door mr. H.J. Tijselink, voorzieningenrechter, in aanwezigheid van J.G.J. Geerlings, griffier. De beslissing is in het openbaar uitgesproken op 17 juli 2020.</para>
+    </parablock>
+    <para />
+    <parablock>
+      <para>griffier							voorzieningenrechter</para>
+    </parablock>
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <para />
+    <parablock>
+      <para>Afschrift verzonden aan partijen op: </para>
+    </parablock>
+    <para />
+    <para />
+  </section>
+  <section>
+    <title>Rechtsmiddel</title>
+    <para>Tegen deze uitspraak staat geen rechtsmiddel open.</para>
+    <para />
+  </section>
+</uitspraak>
+</open-rechtspraak>

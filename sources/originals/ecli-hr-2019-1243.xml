@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<open-rechtspraak>
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ecli="https://e-justice.europa.eu/ecli" xmlns:tr="http://tuchtrecht.overheid.nl/" xmlns:eu="http://publications.europa.eu/celex/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bwb="bwb-dl" xmlns:cvdr="http://decentrale.regelgeving.overheid.nl/cvdr/" xmlns:psi="http://psi.rechtspraak.nl/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <rdf:Description>
+      <dcterms:identifier>ECLI:NL:HR:2019:1243</dcterms:identifier>
+      <dcterms:format>text/xml</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2025-03-22T11:09:39</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2019-07-18</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:creator rdfs:label="Instantie" resourceIdentifier="http://standaarden.overheid.nl/owms/terms/Hoge_Raad_der_Nederlanden" scheme="overheid.RechterlijkeMacht">Hoge Raad</dcterms:creator>
+      <dcterms:date rdfs:label="Uitspraakdatum">2019-07-19</dcterms:date>
+      <psi:zaaknummer rdfs:label="Zaaknr">18/01668</psi:zaaknummer>
+      <dcterms:type rdf:language="nl" resourceIdentifier="http://psi.rechtspraak.nl/uitspraak">Uitspraak</dcterms:type>
+      <psi:procedure rdf:language="nl" rdfs:label="Procedure" resourceIdentifier="http://psi.rechtspraak.nl/procedure#cassatie">Cassatie</psi:procedure>
+      <dcterms:coverage>NL</dcterms:coverage>
+      <dcterms:subject rdfs:label="Rechtsgebied" resourceIdentifier="http://psi.rechtspraak.nl/rechtsgebied#civielRecht">Civiel recht</dcterms:subject>
+      <dcterms:relation rdfs:label="Formele relatie" ecli:resourceIdentifier="ECLI:NL:PHR:2019:509" psi:type="http://psi.rechtspraak.nl/conclusie" psi:aanleg="http://psi.rechtspraak.nl/eerdereAanleg" psi:gevolg="http://psi.rechtspraak.nl/gevolg#gevolgd">Conclusie: ECLI:NL:PHR:2019:509, Gevolgd</dcterms:relation>
+      <dcterms:hasVersion rdfs:label="Vindplaatsen" resourceIdentifier="http://psi.rechtspraak.nl/vindplaats">
+        <rdf:list>
+          <rdf:li>Rechtspraak.nl</rdf:li>
+          <rdf:li>WVO Commentaar en Jurisprudentie 2019/715</rdf:li>
+          <rdf:li>PS-Updates.nl 2019-0961</rdf:li>
+          <rdf:li>Onderwijs Totaal 2019/990</rdf:li>
+          <rdf:li>NJB 2019/1867</rdf:li>
+          <rdf:li>NJ 2019/334</rdf:li>
+          <rdf:li>RvdW 2019/936</rdf:li>
+          <rdf:li>JB 2019/137</rdf:li>
+          <rdf:li>RAV 2019/82</rdf:li>
+          <rdf:li>AB 2019/529 met annotatie van F.J. van Ommeren</rdf:li>
+          <rdf:li>O&amp;A 2019/71</rdf:li>
+        </rdf:list>
+      </dcterms:hasVersion>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:2019:1243">
+      <dcterms:identifier>http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:HR:2019:1243</dcterms:identifier>
+      <dcterms:format>text/html</dcterms:format>
+      <dcterms:accessRights>public</dcterms:accessRights>
+      <dcterms:modified>2019-07-19T11:49:54</dcterms:modified>
+      <dcterms:issued rdfs:label="Publicatiedatum">2019-07-19</dcterms:issued>
+      <dcterms:publisher resourceIdentifier="http://rechtspraak.nl/">Raad voor de Rechtspraak</dcterms:publisher>
+      <dcterms:language>nl</dcterms:language>
+      <dcterms:title rdf:language="nl">ECLI:NL:HR:2019:1243 Hoge Raad , 19-07-2019 / 18/01668</dcterms:title>
+      <dcterms:abstract resourceIdentifier="../../rs:inhoudsindicatie" />
+    </rdf:Description>
+  </rdf:RDF>
+  <inhoudsindicatie id="ECLI:NL:HR:2019:1243:INH" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <para>Onrechtmatige overheidsdaad. Onderwijsrecht. Bevoegdheidsverdeling burgerlijke rechter en bestuursrechter. Vordering tot verandering cijfer eindexamen. Beoordeling aan de hand van normen College voor Toetsen en Examens en de mogelijkheid om deze normen te laten toetsen door de bestuursrechter. Art. 8:4 lid 3, onder b, Awb.</para>
+    </inhoudsindicatie>
+  <uitspraak id="ECLI:NL:HR:2019:1243:DOC" lang="nl" xml:space="preserve" xmlns="http://www.rechtspraak.nl/schema/rechtspraak-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <parablock>
+    <para> HOGE RAAD DER NEDERLANDEN</para>
+  </parablock>
+  <parablock>
+    <para>CIVIELE KAMER</para>
+  </parablock>
+  <parablock>
+    <para>
+      <emphasis role="bold">Nummer</emphasis>	18/01668</para>
+    <para>
+      <emphasis role="bold">Datum   </emphasis>	19 juli 2019</para>
+  </parablock>
+  <parablock>
+    <para>ARREST</para>
+  </parablock>
+  <parablock>
+    <para>In de zaak van</para>
+  </parablock>
+  <parablock>
+    <para>
+      [de leerling],<?linebreak?>wonende te [woonplaats], </para>
+    <para>EISERES tot cassatie,</para>
+    <para>hierna: de leerling,</para>
+    <para>advocaat: mr. H.J.W. Alt,</para>
+  </parablock>
+  <parablock>
+    <para>tegen</para>
+  </parablock>
+  <parablock>
+    <para>STAAT DER NEDERLANDEN (COLLEGE VOOR TOETSEN EN EXAMENS),<?linebreak?>zetelende te Den Haag, </para>
+    <para>VERWEERDER in cassatie,</para>
+    <para>hierna: de Staat,</para>
+    <para>advocaat: mr. M.W. Scheltema.</para>
+  </parablock>
+  <para>
+    <emphasis role="bold">1.	Procesverloop </emphasis>
+  </para>
+  <para>Voor het verloop van het geding in feitelijke instanties verwijst de Hoge Raad naar:</para>
+  <para>a.	het vonnis in de zaak C/16/444457/KG ZA 17-597 van de voorzieningenrechter in de  rechtbank Midden-Nederland van 28 augustus 2017;</para>
+  <para>b.	de arresten in de zaak 200.224.325 van het gerechtshof Arnhem-Leeuwarden van 2 januari </para>
+  <parablock>
+    <para>	2018 en 27 februari 2018.</para>
+    <para>De leerling heeft tegen het arrest van het hof van 27 februari 2018 beroep in cassatie ingesteld. De Staat heeft zich bij verweerschrift gerefereerd.</para>
+    <para>De zaak is voor partijen toegelicht door hun advocaten en voor de leerling mede door                mr. W.A. Jacobs.</para>
+    <para>De conclusie van de Advocaat-Generaal R.H. de Bock strekt tot vernietiging van het arrest en verwijzing.</para>
+  </parablock>
+  <section>
+    <title>
+      <nr>2</nr>Uitgangspunten en feiten</title>
+    <paragroup>
+      <nr>2.1</nr>
+      <para>In cassatie kan van het volgende worden uitgegaan.</para>
+      <itemizedlist mark="-">
+        <listitem>
+          <para>i) De leerling heeft in het schooljaar 2016-2017 vwo-eindexamen gedaan aan een scholengemeenschap. Deze scholengemeenschap is een instelling van bijzonder onderwijs.</para>
+        </listitem>
+        <listitem>
+          <para>ii) Bij het centraal schriftelijk examen vwo Frans heeft de leerling op vraag 15 het antwoord ‘en effet’ gegeven. In het correctievoorschrift van het College voor Toetsen en Examens (hierna: CvTE) is het antwoord ‘Il s’(agit)’ als het enige goede antwoord aangemerkt. Het correctievoorschrift is een voorschrift waarvan niet mag worden afgeweken door de examinator bij het nakijken van het examen. De leerling heeft daarom geen punt voor vraag 15 gekregen. Na het examen ontving het CvTE reacties dat ‘en effet’ ook als juist antwoord moet worden aangemerkt. In het aanvullende correctievoorschrift dat na het examen is uitgegaan, is ‘en effet’ niet alsnog als juist antwoord opgenomen.</para>
+        </listitem>
+        <listitem>
+          <para>iii) Naar aanleiding van verschillende klachten over het eindexamen Frans heeft het CvTE besloten dat achteraf bezien ook het antwoord ‘en effect’ op vraag 15 goed had moeten worden gerekend. Vervolgens heeft het CvTE de zogenoemde normeringsterm (hierna: N-term) verhoogd van 0,4 naar 0,5. Bij brief van 13 juni 2017 heeft het CvTE de scholen de definitieve normen voor alle examenvakken havo en vwo toegezonden.</para>
+        </listitem>
+        <listitem>
+          <para>iv) Het examencijfer wordt op grond van de Regeling omzetting scores in cijfers centrale examens en rekentoets VO 2016 vastgesteld door de volgende formule toe te passen: cijfer = 9 x (behaalde score/maximale score) + N-term. Met toepassing van de aangepaste N-term heeft de leerling voor haar schriftelijk eindexamen Frans het cijfer  4,0 gekregen. Dit is als volgt berekend: 9 x (20/51) + 0,5 = 4,03. </para>
+        </listitem>
+        <listitem>
+          <para>v) Omdat haar schoolexamencijfer voor Frans 6,9 was, had de leerling een 5,45 gemiddeld. Afgerond leidde dit tot het eindcijfer 5. Dit eindcijfer zorgde ervoor dat de leerling een onvoldoende te veel had op haar eindlijst, waardoor zij niet was geslaagd. Bij een 5,5 – dat wordt afgerond tot een 6 – als eindcijfer voor Frans zou zij wel zijn geslaagd.</para>
+        </listitem>
+      </itemizedlist>
+      <para />
+      <paragroup>
+        <nr>2.2.1</nr>
+        <para>De leerling heeft in deze procedure in kort geding gevorderd om de Staat (het CvTE) op te dragen om haar in de toestand te brengen waarin zij verkeerd zou hebben indien haar antwoord op vraag 15 van het vwo-examen Frans zou zijn goedgekeurd, door haar alsnog het scorepunt toe te kennen voor die vraag dan wel door de N-term te verhogen naar 0,6. Aan deze vordering heeft de leerling ten grondslag gelegd dat de Staat (het CvTE) onrechtmatig jegens haar heeft gehandeld, door de fout in het correctiemodel niet op juiste wijze te corrigeren. De leerling stelt dat zij vraag 15 in het examen Frans goed heeft beantwoord, zodat zij in totaal 21 vragen goed had, in plaats van 20. Het CvTE heeft dit niet in het (aanvullende) correctievoorschrift opgenomen, maar de N-term verhoogd met 0,1. Dit heeft niet hetzelfde effect op haar cijfer als de goedkeuring van het antwoord zou hebben gehad. In dat geval zou zij namelijk een               4,1 hebben gehad voor het examen, waarmee zij op haar eindlijst een 5,5 zou hebben gekregen, afgerond een 6.</para>
+        <para />
+      </paragroup>
+      <paragroup>
+        <nr>2.2.2</nr>
+        <para>De Staat heeft aangevoerd dat de onvolkomenheid van vraag 15 op een dermate laat moment is geconstateerd, dat een aanvulling op het correctievoorschrift niet meer mogelijk was. Daarom kon niet meer worden vastgesteld welke leerlingen ‘en effet’ als antwoord hadden gegeven; alle examens waren al nagekeken. Om die reden is een compensatie toegepast via de N-term. Omdat 67% van de leerlingen het antwoord had gegeven dat in het correctievoorschrift op vraag 15 stond, is de compensatie vastgesteld op 9 x 0,67 x (1/51) = 0,118 (afgerond 0,1). De N-term is daarom met 0,1 verhoogd van 0,4 naar 0,5. Het cijfer van de leerling was zonder compensatie 9,0 x (20/51) + 0,4 = 3,93 en met compensatie 9,0 x (20/51) + 0,5 = 4,03. De stelling van de leerling dat zij beter af was geweest als het correctievoorschrift meteen was aangepast, is volgens de Staat onjuist. In dat geval zou, anders dan waarvan de leerling uitgaat, de N-term geen 0,5 hebben bedragen, maar op een lager getal zijn uitgekomen.</para>
+        <para />
+      </paragroup>
+      <paragroup>
+        <nr>2.2.3</nr>
+        <para>De voorzieningenrechter heeft de vordering afgewezen op de grond dat de Staat niet onrechtmatig heeft gehandeld (rov. 4.7-4.19).</para>
+        <para />
+      </paragroup>
+      <paragroup>
+        <nr>2.2.4</nr>
+        <para>Het hof heeft het vonnis van de voorzieningenrechter vernietigd en de leerling in haar vordering niet-ontvankelijk verklaard. </para>
+        <para />
+      </paragroup>
+      <paragroup>
+        <nr>2.2.5</nr>
+        <parablock>
+          <para>Het hof heeft hiertoe als volgt overwogen. De vaststelling van het cijfer voor het centraal examen van een vak, de vaststelling van de uitslag van het eindexamen en het al dan niet uitreiken van een diploma zijn besluiten (zoals bedoeld in art. 1:3 lid 3 Awb) van de directeur van de school, ook al betreft het een school voor bijzonder onderwijs (rov. 3.11).</para>
+          <para>	Aan deze besluiten liggen beoordelingsnormen en regels ten grondslag die op grond van de toepasselijke regelgeving door het CvTE tot stand gebracht en vastgesteld worden, in dit geval het Correctievoorschrift VWO Frans 2017, de Aanvulling correctievoorschrift VWO Frans 2017 en de Omzettingstabel Frans VWO 2017. Deze regelingen zijn algemeen verbindende voorschriften. (rov. 3.12)</para>
+          <para> 	De bezwaren van de leerling richten zich in het bijzonder tegen het feit dat het CvTE het antwoord “en effet” niet in de Aanvulling correctievoorschrift VWO Frans 2017 heeft opgenomen dan wel tegen de in de Omzettingstabel Frans VWO 2017 bepaalde N-norm. Tegen deze als algemeen verbindende voorschriften aan te merken besluiten staat niet afzonderlijk bezwaar en beroep open. De bestuursrechter heeft echter de mogelijkheid om algemeen verbindende voorschriften te toetsen aan regels van hogere orde en algemene rechtsbeginselen, indien deze algemeen verbindende voorschriften ten grondslag liggen aan een besluit waarvan bij hem beroep openstaat (de zogeheten exceptieve toetsing). Deze mogelijkheid brengt mee dat de belanghebbende in de bestuursrechtelijke rechtsgang voldoende rechtsbescherming geniet in een geval waarin het betrokken voorschrift tot toepassing komt door een besluit dat voor bezwaar en beroep vatbaar is en de belanghebbende derhalve de werking van dat voorschrift uitsluitend ondervindt langs de weg van een daarop gebaseerd besluit (vgl. HR 22 mei 2015, ECLI:NL:HR:2015:1296). Dat is hier aan de orde. (rov. 3.13)</para>
+          <para>	De leerling kon op grond van de Awb een bezwaarschrift tegen de besluiten van de directeur indienen en tegen de beslissing op dat bezwaar kon beroep worden ingesteld bij de bestuursrechter. In het kader van deze rechtsgang hadden de aan de besluiten van de directeur ten grondslag liggende voorschriften van het CvTE door de bestuursrechter kunnen worden getoetst. (rov. 3.14)  </para>
+        </parablock>
+        <para />
+      </paragroup>
+      <paragroup>
+        <nr>2.2.6</nr>
+        <para>Hierna heeft het hof als volgt overwogen:</para>
+        <para />
+      </paragroup>
+    </paragroup>
+    <paragroup>
+      <nr>3.15</nr>
+      <para>Dat volgens artikel 8:4 lid 3 aanhef en onder b Awb geen beroep kan worden ingesteld tegen een besluit inhoudende een beoordeling van kennen of kunnen van een kandidaat of leerling die ter zake is geëxamineerd of op enigerlei andere wijze is getoetst, dan wel inhoudende de vaststelling van opgaven, beoordelingsnormen of nadere regels voor die examinering of toetsing, leidt niet tot een ander oordeel. Deze beperking heeft tot doel het oordeel waarop de beperking betrekking heeft over te laten aan personen en instanties die daartoe de vereiste deskundigheid hebben (AbRvS 13 maart 2002, ECLI:NL:RVS:2002:AE1795). Die beperking ziet dus, voor zover in deze zaak van belang, op de vakinhoudelijke beoordeling van vraag 15, het daarbij behorende correctievoorschrift en het door [de Leerling] gegeven antwoord. Daar gaat het in deze zaak evenwel niet om. </para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.16</nr>
+      <para>Tussen partijen is niet in geschil dat [de leerling] met haar antwoord “en effet” vraag 15 van het centraal examen VWO Frans juist heeft beantwoord en dat de beoordelingsnorm zoals vervat in het Correctievoorschrift VWO Frans 2017 en de Aanvulling correctievoorschrift VWO Frans 2017 in dat opzicht niet volledig was. De bezwaren richten zich niet tegen de (uiteindelijke) beoordeling van de beantwoording van die vraag, maar tegen de wijze waarop de onvolledige beoordelingsnorm (het correctievoorschrift) in de score en in de ten behoeve van de vaststelling van het cijfer toegepaste normering (N-term) is verwerkt. De beoordeling van een kennen of kunnen van [de leerling] is in deze zaak dan ook niet in geding. Ook gaat het geschil niet om de vaststelling van opgaven, de beoordelingsnorm (het correctievoorschrift) zelf of nadere regels voor de examinering voor toetsen. De besluiten van de directeur (…) betreffen gebonden beslissingen, waarin geen zelfstandig oordeel is vervat over het kennen of kunnen van [de leerling] (…). Die besluiten betreffen louter het resultaat van de omzetting van de beoordeling (de score die door de examinator en de gecommitteerde is gegeven) in een cijfer en uiteindelijk in een uitslag. Ook de bestuursrechter behoeft dus niet aan een beoordeling van het kennen en kunnen van [de leerling] toe te komen en behoeft ook vraag 15 en de daarbij behorende beoordelingsnorm zelf niet te toetsen. </para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.17</nr>
+      <para>De beperking van artikel 8:4 lid 3 aanhef en onder b Awb staat in dit geval dan ook niet aan het doorlopen door [de leerling] van de bestuursrechtelijke rechtsgang in de weg. Ten overvloede overweegt het hof nog dat volgens vaste jurisprudentie van de Afdeling bestuursrechtspraak van de Raad van State de beperking van artikel 8:4 lid 3 aanhef en onder b Awb bovendien niet betekent dat in het geheel geen beroep bij de bestuursrechter mogelijk is. Het betekent slechts dat de omvang en aard van diens toetsing beperkt is tot de beoordeling of met betrekking tot de besluitvorming aan de formele voorschriften die krachtens wetgeving in formele zin zijn gesteld, is voldaan (zie onder andere AbRvS 13 maart 2002, ECLI:NL:RVS:2002:AE1795, AbRvS 12 januari 2005, ECLI:NL:RVS:2005:AS2160 en AbRvS 30 maart 2011, ECLI:NL:RVS:2011:BP9569). Dat geldt dus ook voor zover aan de vaststelling van de N-norm, zoals nog door de Staat is aangevoerd, mede een beoordeling van de vaardigheid van de totale groep kandidaten ten grondslag ligt. Eveneens ten overvloede overweegt het hof dat, indien (zoals zijdens de Staat is betoogd) het Correctievoorschrift VWO Frans 2017, de Aanvulling correctievoorschrift VWO Frans 2017 en de Omzettingstabel Frans VWO 2017 niet als algemeen verbindende voorschriften maar als (concretiserende) besluiten van algemene strekking zouden moeten worden aangemerkt, tegen deze besluiten zelf dan op grond van de Awb beroep kon worden ingesteld. Ten aanzien van de beperking van artikel 8:4 lid 3 aanhef en onder b Awb geldt voor deze besluiten dan hetzelfde als hetgeen hiervoor reeds is opgemerkt. Ook in dat geval geldt dus dat [de leerling] de bestuursrechtelijke rechtsgang had kunnen volgen. (…)</para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.18</nr>
+      <para>Uit het voorgaande volgt dat voor [de leerling] een met voldoende waarborgen omklede rechtsgang bij de bestuursrechter heeft opengestaan, waarin de door haar gestelde onrechtmatigheid kon worden beoordeeld. Dit betekent dat [de leerling] niet in haar vordering in dit kort geding kan worden ontvangen. Aan een inhoudelijke beoordeling van de vordering komt het hof daarom niet toe. (…)”</para>
+      <para />
+      <para />
+    </paragroup>
+  </section>
+  <section role="overwegingen">
+    <title>
+      <nr>3</nr>Beoordeling van het middel</title>
+    <paragroup>
+      <nr>3.1.1</nr>
+      <para>De onderdelen 2.1.4 en 2.1.5 keren zich tegen het oordeel van het hof in rov. 3.15-3.17 dat  art. 8:4 lid 3, aanhef en onder b, Awb niet in de weg staat aan toetsing door de bestuursrechter van het door het CvTE vastgestelde (aanvullend) correctievoorschrift en de gehanteerde          N-term. Volgens de onderdelen is dat wel het geval.</para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.1.2</nr>
+      <para>Op grond van art. 2 lid 2, aanhef en onder d en e, Wet CvTE is het CvTE onder meer belast met het bij regeling vaststellen van beoordelingsnormen en daarbij behorende scores voor de eindexamens van het voortgezet onderwijs en het geven van regels voor de omzetting van scores in cijfers. Op grond van deze bevoegdheid heeft het CvTE regelingen tot stand gebracht voor beoordelingsnormen en voor de omzetting van scores in cijfers. De vaststelling door het CvTE van het onderhavige correctievoorschrift en van de bij de omzetting van de score in een cijfer gehanteerde N-term – die is vervat in het Correctievoorschrift VWO Frans 2017, de Aanvulling correctievoorschrift VWO Frans 2017 en de Omzettingstabel Frans VWO 2017 – berust op deze regelingen (zie de conclusie van de Advocaat-Generaal onder 4.1-4.14).</para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.1.3</nr>
+      <para>Art. 8:4 lid 3, aanhef en onder b, Awb bepaalt dat geen beroep kan worden ingesteld tegen een besluit inhoudende een beoordeling van het kennen of kunnen van een kandidaat of leerling die ter zake is geëxamineerd of op enigerlei andere wijze is getoetst, dan wel inhoudende de vaststelling van opgaven, beoordelingsnormen of nadere regels voor die examinering of toetsing. Uit de toelichting op het laatste deel van deze bepaling blijkt dat daarmee onder meer is beoogd beroep uit te sluiten van iedere regeling van beoordelingsnormen voor examens en toetsen, op de grond dat deze regelingen ten nauwste verbonden zijn met beoordeling van kennen en kunnen en het achteraf vrijwel ondoenlijk is om examens nog in het algemeen te herzien.<footnote-ref linkend="_dd55ff08-3c9c-443f-986d-ffdd4005760e" /></para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.1.4</nr>
+      <para>Zowel het door de leerling in dit geding bestreden correctievoorschrift, als de door haar bestreden N-term maakt deel uit van beoordelingsnormen als bedoeld in art. 8:4 lid 3, onder b, Awb. De leerling kan deze dus niet ter beoordeling aan de bestuursrechter voorleggen, ook niet langs de door het hof genoemde wegen van een rechtstreeks beroep tegen die besluiten en van exceptieve toetsing in het kader van een beroep tegen een besluit van de directeur van de school tot vaststelling van het cijfer voor het desbetreffende vak, tot vaststelling van de uitslag van het eindexamen of tot het al dan niet uitreiken van een diploma. De leerling heeft het geschil dan ook terecht voorgelegd aan de burgerlijke rechter.<footnote-ref linkend="_b7b6d865-c32a-46b7-89ea-40b7ee4015b3" /></para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.1.5</nr>
+      <para>De onderdelen zijn dus gegrond. </para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.2</nr>
+      <para>De overige klachten van het middel behoeven geen behandeling.</para>
+      <para />
+    </paragroup>
+    <paragroup>
+      <nr>3.3</nr>
+      <para>De Staat heeft de door de gegronde klachten bestreden beslissing van het hof niet uitgelokt of verdedigd. De kosten van het geding in cassatie worden daarom gereserveerd.</para>
+      <para />
+      <para />
+    </paragroup>
+  </section>
+  <section role="beslissing">
+    <title>
+      <nr>4</nr>Beslissing</title>
+    <parablock>
+      <para>De Hoge Raad:</para>
+      <para>- vernietigt het arrest van het gerechtshof Arnhem-Leeuwarden van 27 februari 2018;</para>
+      <para>- verwijst het geding naar het gerechtshof ’s-Hertogenbosch ter verdere behandeling en beslissing;</para>
+      <para>- reserveert de beslissing omtrent de kosten van het geding in cassatie tot de einduitspraak;</para>
+      <para>- begroot deze kosten tot op de uitspraak in cassatie aan de zijde van de leerling op             € 508,19 aan verschotten en € 2.600,-- voor salaris, en aan de zijde van de Staat op                          € 865,34 aan verschotten en € 2.200,-- voor salaris.</para>
+    </parablock>
+    <para />
+    <para />
+    <para />
+    <parablock>
+      <para>Dit arrest is gewezen door de vicepresident C.A. Streefkerk als voorzitter en de raadsheren A.H.T. Heisterkamp, G. Snijders, M.V. Polak en T.H. Tanja-van den Broek, en in het openbaar uitgesproken door de vicepresident E.J. Numann op <emphasis role="underline">19 juli 2019</emphasis>.</para>
+    </parablock>
+  </section>
+  <footnote id="_dd55ff08-3c9c-443f-986d-ffdd4005760e" label="1">
+    <para> PG Awb II, p. 395 (NvW en Toel. NvW).</para>
+  </footnote>
+  <footnote id="_b7b6d865-c32a-46b7-89ea-40b7ee4015b3" label="2">
+    <para> Vgl. m.b.t. de bevoegdheid van de burgerlijke rechter onder meer HR 28 september 2018, ECLI:NL:HR:2018:1806, rov. 3.5.2.</para>
+    <para />
+  </footnote>
+</uitspraak>
+</open-rechtspraak>

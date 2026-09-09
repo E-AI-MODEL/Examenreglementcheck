@@ -1,0 +1,197 @@
+version: "0.1"
+generated_at: "2026-09-07"
+notes:
+  - "Startregister; vóór productie inhoudelijk valideren."
+  - "Schooljaar 2026-2027 koppelt voor jaargebonden CE-bronnen aan exam_year 2027."
+
+sources:
+  - id: wvo-2020
+    title: "Wet voortgezet onderwijs 2020"
+    publisher: "Overheid.nl"
+    source_type: law
+    authority_class: binding
+    binding_status: binding
+    url: "https://wetten.overheid.nl/BWBR0044212/"
+    legal_regime: "WVO 2020"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [examenreglement, se, ce, beroep, examencommissie]
+
+  - id: uitvoeringsbesluit-wvo-2020
+    title: "Uitvoeringsbesluit WVO 2020"
+    publisher: "Overheid.nl"
+    source_type: decree
+    authority_class: binding
+    binding_status: binding
+    url: "https://wetten.overheid.nl/BWBR0045787/"
+    legal_regime: "WVO 2020"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [examenreglement, se, ce, maatregelen, correctie, uitslag]
+
+  - id: beleidsregel-onregelmatigheden-ce-2023
+    title: "Beleidsregel onregelmatigheden centraal examen in voortgezet onderwijs en van staatsexamen 2023"
+    publisher: "Inspectie van het Onderwijs / Overheid.nl"
+    source_type: policy_rule
+    authority_class: official_application
+    binding_status: context_dependent
+    url: "https://wetten.overheid.nl/BWBR0048744/"
+    legal_regime: "WVO 2020"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [ce, onregelmatigheid, inspectie]
+
+  - id: examenblad-hulpmiddelen-2027
+    title: "Regeling toegestane hulpmiddelen voor de centrale examens 2027"
+    publisher: "College voor Toetsen en Examens"
+    source_type: cvte_regulation
+    authority_class: binding
+    binding_status: binding
+    url: "https://www.examenblad.nl/2025/publicaties/cvte-25-00949"
+    legal_regime: "WVO 2020"
+    exam_year: 2027
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [ce, hulpmiddelen, 2027]
+
+  - id: examenblad-roosters-2027
+    title: "Roosters en tijdvakken centrale examens 2027"
+    publisher: "College voor Toetsen en Examens"
+    source_type: official_exam_info
+    authority_class: official_application
+    binding_status: official
+    url: "https://www.examenblad.nl/2027/onderwerpen/roosters-tijdvakken"
+    legal_regime: "WVO 2020"
+    exam_year: 2027
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [ce, tijdvakken, rooster, 2027]
+
+  - id: inspectie-onderzoekskaders
+    title: "Onderzoekskaders Inspectie van het Onderwijs"
+    publisher: "Inspectie van het Onderwijs"
+    source_type: oversight_framework
+    authority_class: official_application
+    binding_status: oversight
+    url: "https://www.onderwijsinspectie.nl/onderwerpen/onderzoekskaders"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [toezicht, afsluiting, kwaliteitszorg]
+
+  - id: vo-raad-examinering
+    title: "Examinering en toetsing - publicaties en handreikingen"
+    publisher: "VO-raad"
+    source_type: professional_guidance
+    authority_class: guidance
+    binding_status: non_binding
+    url: "https://www.vo-raad.nl/onderwerpen/examinering"
+    school_year: "2026-2027"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [checklist, examenreglement, pta, inzage, examencommissie]
+
+  - id: ecli-rbmne-2025-4637
+    title: "ECLI:NL:RBMNE:2025:4637"
+    publisher: "Rechtspraak.nl"
+    source_type: case_law
+    authority_class: official_application
+    binding_status: case_specific
+    url: "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBMNE%3A2025%3A4637"
+    legal_regime: "WVO 2020"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [ce, civiel, inzage, score, herbeoordeling]
+
+  - id: ecli-hr-2019-1243
+    title: "ECLI:NL:HR:2019:1243"
+    publisher: "Rechtspraak.nl"
+    source_type: case_law
+    authority_class: official_application
+    binding_status: case_specific
+    url: "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2019%3A1243"
+    legal_regime: "pre-WVO-2020"
+    status: active_with_warning
+    retrieved_at: "2026-09-07"
+    tags: [ce, civiel, cijfer, rechtsbescherming, oud-regime]
+
+  - id: ecli-rbams-2020-3552
+    title: "ECLI:NL:RBAMS:2020:3552"
+    publisher: "Rechtspraak.nl"
+    source_type: case_law
+    authority_class: official_application
+    binding_status: case_specific
+    url: "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2020%3A3552"
+    legal_regime: "pre-WVO-2020"
+    status: active_with_warning
+    retrieved_at: "2026-09-07"
+    tags: [se, bestuursrecht, afronding, beroep, oud-regime]
+
+  - id: ecli-rbove-2026-2055
+    title: "ECLI:NL:RBOVE:2026:2055"
+    publisher: "Rechtspraak.nl"
+    source_type: case_law
+    authority_class: official_application
+    binding_status: case_specific
+    url: "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBOVE%3A2026%3A2055"
+    legal_regime: "WVO 2020"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [se, onregelmatigheden, maatregelen, medische-onderbouwing, bestuursrecht]
+
+  - id: lkc-101642
+    title: "LKC zaak 101642 - gemiste herkansing schoolexamen"
+    publisher: "Onderwijsgeschillen"
+    source_type: dispute_opinion
+    authority_class: dispute_guidance
+    binding_status: non_judicial
+    url: "https://www.onderwijsgeschillen.nl/uitspraken/klacht-over-niet-inhalen-herkansing-ongegrond-de-school-mocht-bepalen-dat-een-leerling-een-herkansing-van-een-schoolexamen-niet-mocht-inhalen/"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [se, herkansing, ziekte]
+
+  - id: mensenrechten-2018-44
+    title: "College voor de Rechten van de Mens - oordeel 2018-44"
+    publisher: "College voor de Rechten van de Mens"
+    source_type: equality_opinion
+    authority_class: equality_guidance
+    binding_status: non_judicial
+    url: "https://oordelen.mensenrechten.nl/oordeel/2018-44/15525b01-aa8f-4447-b61c-a8b8e78e8f69"
+    status: active
+    retrieved_at: "2026-09-07"
+    tags: [se, dyslexie, aanpassing, kurzweil]
+
+  - id: comparison-regius-2026-2027
+    title: "Regius College - examenreglementen 2026-2027"
+    publisher: "Regius College"
+    source_type: school_regulation
+    authority_class: example
+    binding_status: no_authority_for_other_schools
+    url: "https://www.regiuscollege.nl/regiuswijzer/examen/"
+    school_year: "2026-2027"
+    status: active_as_comparison
+    retrieved_at: "2026-09-07"
+    tags: [comparison, havo, vwo, vmbo]
+
+  - id: comparison-rsg-ter-apel-2026-2027
+    title: "RSG Ter Apel - examenreglementen 2026-2027"
+    publisher: "RSG Ter Apel"
+    source_type: school_regulation
+    authority_class: example
+    binding_status: no_authority_for_other_schools
+    url: "https://rsgterapel.nl/informatie-voor-leerlingen/"
+    school_year: "2026-2027"
+    status: active_as_comparison
+    retrieved_at: "2026-09-07"
+    tags: [comparison, havo, vwo, vmbo]
+
+  - id: comparison-stc-vmbo-2026-2027
+    title: "STC vmbo - eindexamenreglement 2026-2027"
+    publisher: "STC"
+    source_type: school_regulation
+    authority_class: example
+    binding_status: no_authority_for_other_schools
+    url: "https://stc.nl/informatie/downloads/vmbo/downloads-vmbo"
+    school_year: "2026-2027"
+    status: comparison_with_publication_caveat
+    retrieved_at: "2026-09-07"
+    tags: [comparison, vmbo]

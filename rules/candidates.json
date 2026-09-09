@@ -1,0 +1,1062 @@
+[
+  {
+    "rule_id": "REG-001",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Organisatie",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het reglement bevat regels over organisatie en gang van zaken tijdens het eindexamen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "REG-002",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Maatregelen",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het reglement bevat informatie over toepassing van maatregelen uit WVO 2.61 lid 1.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "REG-003",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Inhalen en herkansen",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het reglement regelt inhaal- en herkansingsmogelijkheden voor SE en voorziet in inhalen bij ziekte of bijzondere van de kandidaat onafhankelijke omstandigheden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lid 1 onder c. Niet gelijkstellen aan onbeperkt recht op nieuwe herkansingen. Lees 3.57 en concrete toetsgeschiedenis mee.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "REG-004",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Commissie van beroep",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het reglement bevat samenstelling en adres van de commissie van beroep.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "REG-005",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Vaststelling",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Afwijken van het voorstel van de examencommissie vereist overleg en schriftelijke motivering; de motivering gaat naar commissie en MR.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "REG-006",
+    "source_id": "wvo-2020",
+    "article": "2.60",
+    "topic": "Bekendmaking",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het vastgestelde reglement wordt jaarlijks vóór 1 oktober aan kandidaten en Inspectie gezonden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60",
+        "text_hash": "fef2c31aefc0be17fd6ea89c5664a2b939c79aeab3d8179092a02d0d0d40b8c2"
+      }
+    ],
+    "check_method": "date_and_process_evidence",
+    "limitations": "Lid 5. Publicatie op een website bewijst op zichzelf niet dat verzending heeft plaatsgevonden. Bewijs buiten het reglement nodig.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "ROL-001",
+    "source_id": "wvo-2020",
+    "article": "2.51a",
+    "topic": "Examensecretaris",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De rector/directeur wijst een of meer personeelsleden aan als examensecretaris en stelt een taakomschrijving vast.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.51a",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.51a",
+        "text_hash": "255587c68b14e79a4bc272814c9befa79c0c577e6231712cb69a2e0e97f5194f"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "ROL-002",
+    "source_id": "wvo-2020",
+    "article": "2.60d",
+    "topic": "Examencommissie",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De examencommissie heeft een oneven aantal leden, ten minste drie.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60d",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60d",
+        "text_hash": "d1b9553fa32ce46c69e43ae63f97a60895e1aeba448c7ef8137f45a35ab712c3"
+      }
+    ],
+    "check_method": "deterministic_with_context",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "ROL-003",
+    "source_id": "wvo-2020",
+    "article": "2.60d",
+    "topic": "Onafhankelijkheid",
+    "norm_type": "prohibitive",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Controleer de uitgesloten functies en personen bij de samenstelling van de examencommissie.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60d",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60d",
+        "text_hash": "d1b9553fa32ce46c69e43ae63f97a60895e1aeba448c7ef8137f45a35ab712c3"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lid 3 en 4. Bepaal de werkelijke formele functie; leid bevoegdheid niet alleen af uit een informele functienaam.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "ROL-004",
+    "source_id": "wvo-2020",
+    "article": "2.60e",
+    "topic": "Taken examencommissie",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De commissie stelt voorstellen voor reglement en PTA op, borgt kwaliteit en afsluitend karakter en stelt beoordelingsrichtlijnen vast.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60e",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60e",
+        "text_hash": "93b1bb6c6b38bb553f949f7decd3332375d4ef4e3dc7e0b97a6c80d103d68c7f"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "ROL-005",
+    "source_id": "wvo-2020",
+    "article": "2.60e",
+    "topic": "Verantwoording",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De commissie legt werkwijze vast, maakt jaarlijks verslag en evaluatie en adviseert over verbeteringen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60e",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60e",
+        "text_hash": "93b1bb6c6b38bb553f949f7decd3332375d4ef4e3dc7e0b97a6c80d103d68c7f"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-001",
+    "source_id": "wvo-2020",
+    "article": "2.55",
+    "topic": "Afsluiting SE",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het schoolexamen wordt afgesloten vóór het begin van het eerste tijdvak van het CE.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.55",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.55",
+        "text_hash": "5e72ebf45310c1af85436b68a2609e21f79a38d5c05f1eb50eeb3c121479def3"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lid 2 samen lezen met lid 3 en 4 en Uitvoeringsbesluit 3.12. Niet beperken tot vakken met CE; geen automatische afwijzing bij een wettelijke uitzondering.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-002",
+    "source_id": "wvo-2020",
+    "article": "2.55",
+    "topic": "Afsluiting bij overmacht",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Bij ziekte of een andere onafhankelijke omstandigheid kan het bevoegd gezag afronding toestaan na de start van het eerste tijdvak, maar vóór het CE in het betrokken vak.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.55",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.55",
+        "text_hash": "5e72ebf45310c1af85436b68a2609e21f79a38d5c05f1eb50eeb3c121479def3"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-003",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.12",
+    "topic": "Bijzondere afsluiting",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Controleer de afwijkende afsluitmomenten bij een afwijkend CE-tijdstip en bij CE in een eerder leerjaar.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf2_Artikel3.12",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf2_Artikel3.12",
+        "text_hash": "0c97b49e05b621deabfbb3138a81ab96a3dfbcadff43852fde0c83215f2e3659"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lid 1: tien werkdagen bij de gevallen uit 3.17. Lid 2: vóór het CE in het betrokken eerdere leerjaar. Geen algemene tienwerkdagentermijn.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-004",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.13",
+    "topic": "Beoordeling SE",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Onderscheid cijfers met één decimaal, vakken zonder CE met hele cijfers en de genoemde kwalitatieve beoordelingen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf2_Artikel3.13",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf2_Artikel3.13",
+        "text_hash": "aaef1e7f6315ed3e3fbf0744a1e0fb539d04b7022d51cf4f117699cddf2ed432"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lees alle leden; schoolsoort en vak zijn nodig. Deze bepaling is geen zelfstandige afrondingsalgoritme voor iedere deeltoets.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-005",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.15",
+    "topic": "Resultaten verstrekken",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Verstrek vóór CE de genoemde beoordelingen en het overzicht van het examendossier; controleer ondertekening volgens het artikel.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf2_Artikel3.15",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf2_Artikel3.15",
+        "text_hash": "60ef588ba267576edc8b12bd0224ca1020dd2b146dc845a209d9d1f59ae2da7c"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "SE-006",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.57",
+    "topic": "Gemiste toets",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het reglement kan overmachtgevallen opnemen onder SE-herkansingsmogelijkheden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf6_Artikel3.57",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf6_Artikel3.57",
+        "text_hash": "69f04d7ef65188b095db462a8ab57512448565e26cb655c4832abcc202beffcf"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Geen grondslag om de inhaalmogelijkheid uit de actuele WVO 2.60 lid 1 onder c uit te sluiten. Eerste afname en herkansing onderscheiden.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "BER-001",
+    "source_id": "wvo-2020",
+    "article": "2.63",
+    "topic": "Administratief beroep",
+    "norm_type": "mandatory",
+    "applies_when": "Besluit over een maatregel onder WVO 2.61 lid 1 en toepasselijkheid van de administratiefrechtelijke route bevestigd.",
+    "rule_summary": "Bij de route van artikel 2.63 bedraagt de indieningstermijn vijf dagen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "text_hash": "066b99f29b0a136c7ac1f18791a08a6ff580452df51db36aa87b64d7afe51fb1"
+      }
+    ],
+    "check_method": "deterministic_with_context",
+    "limitations": "Niet voor iedere klacht of cijferdiscussie. Aanvang en termijnberekening vragen ook Awb en Algemene termijnenwet; die zijn nog niet toegevoegd.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "BER-002",
+    "source_id": "wvo-2020",
+    "article": "2.64",
+    "topic": "Voorziening",
+    "norm_type": "mandatory",
+    "applies_when": "Maatregelbeslissing onder WVO 2.61 lid 1 die geen Awb-besluit is; route bevestigd.",
+    "rule_summary": "Bij de route van artikel 2.64 geldt vijf dagen vanaf de dag na uitreiking of toezending aan de leerling.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.64",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.64",
+        "text_hash": "c2a21815f95b2c3d16b3809178dd85e3dadd25c6c63d351c6b303ec8b570db7d"
+      }
+    ],
+    "check_method": "deterministic_with_context",
+    "limitations": "Geen universele beroepstermijn. Algemene termijnenwet nog niet opgenomen; geen einddatum automatisch berekenen.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "BER-003",
+    "source_id": "wvo-2020",
+    "article": "2.63",
+    "topic": "Beslistermijn",
+    "norm_type": "procedural",
+    "applies_when": "Administratief beroep onder artikel 2.63.",
+    "rule_summary": "De commissie beslist binnen twee weken na ontvangst; verdaging kan ten hoogste twee weken zijn.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "text_hash": "066b99f29b0a136c7ac1f18791a08a6ff580452df51db36aa87b64d7afe51fb1"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "BER-004",
+    "source_id": "wvo-2020",
+    "article": "2.64",
+    "topic": "Beslistermijn",
+    "norm_type": "procedural",
+    "applies_when": "Voorziening onder artikel 2.64.",
+    "rule_summary": "De commissie beslist binnen twee weken na ontvangst van het verzoekschrift; ten hoogste twee weken verdaging.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.64",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.64",
+        "text_hash": "c2a21815f95b2c3d16b3809178dd85e3dadd25c6c63d351c6b303ec8b570db7d"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "BER-005",
+    "source_id": "wvo-2020",
+    "article": "2.63",
+    "topic": "Onafhankelijke commissie",
+    "norm_type": "prohibitive",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De rector/directeur heeft geen zitting in de commissie van beroep.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.63",
+        "text_hash": "066b99f29b0a136c7ac1f18791a08a6ff580452df51db36aa87b64d7afe51fb1"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "MAA-001",
+    "source_id": "wvo-2020",
+    "article": "2.61",
+    "topic": "Bevoegdheid maatregelen",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "WVO 2.61 lid 1 wijst de rector/directeur aan voor maatregelen bij onregelmatigheden of afwezigheid zonder geldige reden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.61",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.61",
+        "text_hash": "7cd79ff7bd41a7c793b147d2f0edd2033c29bc840d4a53fe906e283399d973e6"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Geen automatische sanctie. Onderzoek aanleiding, feitelijke onderbouwing, procedure en eventuele mandatering.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "MAA-002",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.58",
+    "topic": "Mogelijke maatregelen",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Controleer de beschreven sancties tegen de vier categorieën in lid 1 en de voorwaarden in de overige leden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf7_Artikel3.58",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf7_Artikel3.58",
+        "text_hash": "0ccc38c3c248139019fc679d53618e022308e1e7e487e49154db237158e881ab"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "MAA-003",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.58",
+    "topic": "Mededeling maatregel",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De beslissing wordt gezonden aan kandidaat en wettelijke vertegenwoordigers, met afschrift aan de Inspectie.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf7_Artikel3.58",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf7_Artikel3.58",
+        "text_hash": "0ccc38c3c248139019fc679d53618e022308e1e7e487e49154db237158e881ab"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lid 4. Controleer geadresseerden in de concrete situatie. Uitvoering kan niet uitsluitend uit het reglement blijken.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "MAA-004",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.59",
+    "topic": "Beslissing commissie",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De commissie bepaalt zo nodig hoe alsnog examen kan worden afgelegd en verzendt de beslissing aan de genoemde betrokkenen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf7_Artikel3.59",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf7_Artikel3.59",
+        "text_hash": "e7534236962d82f7940c332551cdb22be51149638e23660fc2da7ce03a1f0890"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "CE-001",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.25",
+    "topic": "Scorevaststelling",
+    "norm_type": "procedural",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Examinator en gecommitteerde stellen de score in overleg vast; bij onenigheid geldt de escalatie in lid 2 en 3.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf3_Artikel3.25",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf3_Artikel3.25",
+        "text_hash": "8ca542b0a0b2b161d2c0041279dcd85798ab018961dcedc8de8d0b6b8fef01a9"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Dit gaat over scorevaststelling. Een geschil ná vaststelling vraagt afzonderlijke beoordeling.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "CE-002",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.31",
+    "topic": "Bewaren en inzage",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Bewaar gemaakt CE-werk minstens zes maanden na uitslagvaststelling, ter inzage voor belanghebbenden.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf3_Artikel3.31",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf3_Artikel3.31",
+        "text_hash": "789c01231bf6a73b5b3f49e91910c79adc60335987fa004aa523460f44abb8bd"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Geen zelfstandige complete regeling voor kopieën, AVG of geheime digitale opgaven. Aanvullende bronnen nodig.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "CE-003",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.38",
+    "topic": "Herkansing CE",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Controleer recht op CE-herkansing en de aanmelding; onderscheid de bijzondere cspe-regels.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf4_Artikel3.38",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf4_Artikel3.38",
+        "text_hash": "610b25f40033d96f1b01dd378a20da4fe50bf7338da1542c2a4e4745037c0a28"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Lees alle zes leden, 3.29 en bij spreiding 3.56. Niet toepassen als SE-herkansingsregel.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "CE-004",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.39",
+    "topic": "Cijfer na herkansing",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Vergelijk de regeling over het definitieve cijfer na herkansing met artikel 3.39.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf4_Artikel3.39",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf4_Artikel3.39",
+        "text_hash": "848dce8ea6df8809ca2c15dd2126bdf94e033a0884f9063fe1a16ddf15e64408"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "AAN-001",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.54",
+    "topic": "Handicap of ziekte",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "De rector/directeur kan de examenvorm aanpassen aan de kandidaat, binnen de voorwaarden van artikel 3.54.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf6_Artikel3.54",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf6_Artikel3.54",
+        "text_hash": "dab14fe0d1e2baa7d27874a85c700b85351214542182ae392b5c8db4da7a290b"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Deskundigenverklaring en uitzondering daarop, CE-tijdverlenging, andere aanpassingen en melding aan Inspectie afzonderlijk beoordelen. Ook gelijkebehandelingsrecht nodig.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "AAN-002",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.55",
+    "topic": "Nederlandse taal",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Controleer de specifieke voorwaarden voor afwijking wegens onvoldoende beheersing van het Nederlands.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf6_Artikel3.55",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf6_Artikel3.55",
+        "text_hash": "e24f82858044e1d041da1aae2da95e6aa78564fdeb824ff81b834f78c5b5f2d1"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Maximaal zes jaar onderwijs in Nederland inclusief examenjaar en Nederlands niet als moedertaal; overige leden bepalen vakken, aard en melding.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "AAN-003",
+    "source_id": "uitvoeringsbesluit-wvo-2020",
+    "article": "3.56",
+    "topic": "Gespreid examen",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Spreiding over twee schooljaren vraagt de voorwaarden en besluitvorming uit artikel 3.56, inclusief horen van de Inspectie.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "uitvoeringsbesluit-wvo-2020#Hoofdstuk3_Paragraaf6_Artikel3.56",
+        "url": "https://wetten.overheid.nl/BWBR0045787/2026-08-01#Hoofdstuk3_Paragraaf6_Artikel3.56",
+        "text_hash": "8e2011c64c3d090158a55f2bc46b6ae4a0d658a8bb869ff93d4ca03be0fb7c62"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Beoordeel de volledige bepaling en documentcontext. Afwezigheid in tekst bewijst niet dat uitvoering ontbreekt.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "PTA-001",
+    "source_id": "wvo-2020",
+    "article": "2.60a",
+    "topic": "PTA-kruiscontrole",
+    "norm_type": "mandatory",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Het PTA vermeldt inhoud, wijze en tijdvakken van toetsen en herkansingen en de totstandkoming van SE-cijfers.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60a",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60a",
+        "text_hash": "0b38fb08ab7f7a98ebde5543e06cdaab2550fd785913035f664290530daff807"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Alleen gerichte kruiscontrole met reglement, geen volledige PTA-audit.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "PTA-002",
+    "source_id": "wvo-2020",
+    "article": "2.60c",
+    "topic": "Wijziging PTA",
+    "norm_type": "conditional",
+    "applies_when": "Regulier voortgezet onderwijs; toepasselijke schoolsoort en context bevestigd.",
+    "rule_summary": "Een PTA-wijziging na 1 oktober vraagt een wettelijke grond en de beschreven advies- en vaststellingsprocedure.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "valid_from": "2026-08-01",
+    "valid_to": null,
+    "legal_regime": "WVO 2020",
+    "evidence": [
+      {
+        "fragment_id": "wvo-2020#Hoofdstuk2_Paragraaf5_Artikel2.60c",
+        "url": "https://wetten.overheid.nl/BWBR0044212/2026-08-01#Hoofdstuk2_Paragraaf5_Artikel2.60c",
+        "text_hash": "fea0c055bacd4067d730fbd355ef97974f53364ace33b19b00e99205a1d887ea"
+      }
+    ],
+    "check_method": "semantic_review",
+    "limitations": "Niet verwarren met een algemene wijzigingsbevoegdheid voor het examenreglement. Instemming en verzending via verwijzing naar 2.60b.",
+    "on_insufficient_evidence": "human_review",
+    "suggested_action": "Vergelijk de schoolpassage met het volledige bronartikel; motiveer een eventueel wijzigingsvoorstel."
+  },
+  {
+    "rule_id": "HUL-001",
+    "source_id": "hulpmiddelen-2027-officieel",
+    "article": "artikelen 1-3 en bijlagen 1-2",
+    "topic": "Hulpmiddelen",
+    "norm_type": "advisory",
+    "applies_when": "Onderwerp en context van toepassing.",
+    "rule_summary": "Selecteer voor examenjaar 2027 de juiste bijlage en vakrij. Controleer latere wijzigingen vóór activering.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "evidence": [
+      {
+        "source_id": "hulpmiddelen-2027-officieel",
+        "url": "https://zoek.officielebekendmakingen.nl/stcrt-2025-22373.html",
+        "location": "artikelen 1-3 en bijlagen 1-2"
+      }
+    ],
+    "exam_year": 2027,
+    "limitations": "Deze controle is nog niet als automatische juridische regel gevalideerd.",
+    "on_insufficient_evidence": "human_review"
+  },
+  {
+    "rule_id": "ROO-001",
+    "source_id": "rooster-2027-officieel",
+    "article": "artikelen en bijlagen",
+    "topic": "Rooster",
+    "norm_type": "advisory",
+    "applies_when": "Onderwerp en context van toepassing.",
+    "rule_summary": "Vergelijk CE-datums met de bijbehorende jaargang en het juiste tijdvak; controleer latere roosterwijzigingen.",
+    "verification_status": "draft",
+    "primary_text_checked": true,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "evidence": [
+      {
+        "source_id": "rooster-2027-officieel",
+        "url": "https://zoek.officielebekendmakingen.nl/stcrt-2025-22375.html",
+        "location": "artikelen en bijlagen"
+      }
+    ],
+    "exam_year": 2027,
+    "limitations": "Deze controle is nog niet als automatische juridische regel gevalideerd.",
+    "on_insufficient_evidence": "human_review"
+  },
+  {
+    "rule_id": "TOE-001",
+    "source_id": "inspectie-kader-vo-2026",
+    "article": "OP6, p. 42-43",
+    "topic": "Toezicht",
+    "norm_type": "advisory",
+    "applies_when": "Onderwerp en context van toepassing.",
+    "rule_summary": "Vraag naast het reglement bewijs van tijdige informatie en uitvoering volgens reglement en PTA.",
+    "verification_status": "draft",
+    "primary_text_checked": false,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "evidence": [
+      {
+        "source_id": "inspectie-kader-vo-2026",
+        "url": "https://www.onderwijsinspectie.nl/site/binaries/site-content/collections/documents/2021/07/01/onderzoekskader-2021-voortgezet-onderwijs/kader-vo-2026.pdf",
+        "location": "OP6, p. 42-43"
+      }
+    ],
+    "exam_year": null,
+    "limitations": "Deze controle is nog niet als automatische juridische regel gevalideerd.",
+    "on_insufficient_evidence": "human_review"
+  },
+  {
+    "rule_id": "ADV-001",
+    "source_id": "vo-handreiking-inzage-centraal-examenwerk-2026-2027",
+    "article": "p. 1-3",
+    "topic": "Inzageprocedure",
+    "norm_type": "advisory",
+    "applies_when": "Onderwerp en context van toepassing.",
+    "rule_summary": "Beschrijf de inzageaanvraag, het toezicht en de behandeling van een gemelde correctiefout. Dit is een advies tot nadere uitwerking.",
+    "verification_status": "draft",
+    "primary_text_checked": false,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "evidence": [
+      {
+        "source_id": "vo-handreiking-inzage-centraal-examenwerk-2026-2027",
+        "url": "https://cdn.sanity.io/files/mccftp3c/production/73f6a6b050321d754838ac479756b85f81f3fa8e.pdf",
+        "location": "p. 1-3"
+      }
+    ],
+    "exam_year": null,
+    "limitations": "Deze controle is nog niet als automatische juridische regel gevalideerd.",
+    "on_insufficient_evidence": "human_review"
+  },
+  {
+    "rule_id": "ADV-002",
+    "source_id": "vo-handreiking-bestuurder-geschil-bij-of-na-scorevaststelling-2026-2027",
+    "article": "p. 1 en onderdelen A/B",
+    "topic": "Geschil",
+    "norm_type": "advisory",
+    "applies_when": "Onderwerp en context van toepassing.",
+    "rule_summary": "Onderscheid een geschil bij scorevaststelling van een geschil na de vaststelling.",
+    "verification_status": "draft",
+    "primary_text_checked": false,
+    "production_approved": false,
+    "activation_status": "candidate_requires_human_approval",
+    "evidence": [
+      {
+        "source_id": "vo-handreiking-bestuurder-geschil-bij-of-na-scorevaststelling-2026-2027",
+        "url": "https://cdn.sanity.io/files/mccftp3c/production/bf9af76185f4a791f41588ebe1c174ce9dbdcf3a.pdf",
+        "location": "p. 1 en onderdelen A/B"
+      }
+    ],
+    "exam_year": null,
+    "limitations": "Deze controle is nog niet als automatische juridische regel gevalideerd.",
+    "on_insufficient_evidence": "human_review"
+  }
+]

@@ -1,0 +1,165 @@
+ECLI:NL:RBMNE:2025:4637
+text/xml
+public
+2026-04-21T16:33:41
+2025-08-22
+Raad voor de Rechtspraak
+nl
+Rechtbank Midden-Nederland
+2025-08-22
+C/16/597568 / KG ZA 25-395
+Uitspraak
+Kort geding
+NL
+Utrecht
+Civiel recht
+Rechtspraak.nl
+NJF 2025/433
+JB 2025/193 met annotatie van mr. J.J.M. Peters
+AB 2025/315 met annotatie van M.S.P. van den Hove, S.E. van Os
+School en Wet 2026/52 met annotatie van B.P.L. Vorstermans
+JIN 2026/53 met annotatie van mr. J.J.M. Peters
+http://deeplink.rechtspraak.nl/uitspraak?id=ECLI:NL:RBMNE:2025:4637
+text/html
+public
+2025-08-22T16:23:17
+2025-08-22
+Raad voor de Rechtspraak
+nl
+ECLI:NL:RBMNE:2025:4637 Rechtbank Midden-Nederland , 22-08-2025 / C/16/597568 / KG ZA 25-395
+Kort geding. Eiser is leerling aan het VWO en is net niet geslaagd voor zijn eindexamen. Hij heeft vervolgens bezwaar gemaakt tegen de beoordeling van zijn eindexamen Nederlands, maar dat bezwaar is afgewezen. De leerling stelt dat de beoordeling van zijn bezwaarschrift onzorgvuldig is geweest en vordert dat hij alsnog zijn diploma krijgt. Die vordering is toegewezen. De voorzieningenrechter is van oordeel dat de beoordeling van het bezwaarschift van de leerling inderdaad onzorgvuldig is geweest. Ofwel omdat bij de inzage van het examen informatie is weggelaten die vervolgens bij de beoordeling wel is meegenomen, ofwel omdat er in strijd met de regelgeving een herbeoordeling heeft plaatsgevonden van fouten waarop het bezwaarschift zich niet heeft gericht.
+RECHTBANK Midden-Nederland
+Civiel recht
+Zittingsplaats Utrecht
+Zaaknummer: C/16/597568 / KG ZA 25-395
+Vonnis in kort geding van 22 augustus 2025
+in de zaak van
+[eiser]
+,
+wonend te [woonplaats] ,
+eisende partij,
+hierna te noemen: [eiser] ,
+advocaat: mr. R.J.C. Bindels,
+tegen
+[gedaagde]
+,
+h.o.d.n. [handelsnaam]
+gevestigd te [vestigingsplaats] ,
+gedaagde partij,
+hierna te noemen: [handelsnaam] ,
+advocaat: mr. L.M. van der Sluis.
+1
+De procedure
+1.1.
+De voorzieningenrechter beschikt over de volgende stukken:
+- de  niet betekende dagvaarding en 14 producties,
+- de conclusie van antwoord en 5 producties,
+- de pleitnota van [eiser]
+- de pleitnota van [handelsnaam] .
+1.2.
+De mondelinge behandeling heeft op 20 augustus 2025 plaatsgevonden. [handelsnaam] is vrijwillig verschenen. Partijen hebben hun pleitnota voorgedragen en op vragen van de voorzieningenrechter en op elkaar gereageerd. De griffier heeft aantekeningen gemaakt.
+1.3.
+De voorzieningenrechter heeft gezegd dat vandaag uitspraak zal worden gedaan.
+2
+De kern van de zaak
+[eiser] is leerling aan het [school] (hierna: [school] ) in [plaats] en heeft eindexamen VWO gedaan. Hij heeft het eindexamen op 0,1 punt na niet gehaald. [eiser] heeft vervolgens bezwaar gemaakt tegen de beoordeling van zijn centraal examen Nederlands. Voor één van zijn antwoorden hebben de correctoren [eiser] het voordeel van de twijfel gegeven en het aantal taalfouten met 2 verlaagd. [eiser] verwachtte dat het aantal taalfouten daarmee van 7 naar 5 zou gaan. De puntenaftrek die bij 5 fouten hoort zou dan veranderen van 4 naar 3 en hij zou zijn VWO diploma behaald hebben. De correctoren die het bezwaar hebben beoordeeld, hebben echter in de beslissing op bezwaar vermeld dat er sprake was van 11 taalfouten en dat er na aftrek van de 2 fouten nog 9 overbleven. Het totale aantal aftrekpunten bleef daardoor op 4 staan en het cijfer van [eiser] werd niet naar boven aangepast. Volgens [eiser] is de beoordeling op zijn bezwaarschift onzorgvuldig verlopen en moet zijn cijfer naar boven worden aangepast en moet hij alsnog zijn VWO diploma krijgen. [eiser] krijgt in dit kort geding gelijk.
+3
+De beoordeling
+Ontvankelijkheid van [eiser]
+3.1.
+Volgens vaste rechtspraak van de Hoge Raad is het uitgangspunt dat de burgerlijke rechter de rechtzoekende niet-ontvankelijk moet verklaren in zijn vordering, wanneer er een met voldoende waarborgen omklede bestuursrechtelijke rechtsgang openstaat of heeft opengestaan. Deze beoordeling moet ambtshalve plaatsvinden.
+3.2.
+[school] is een openbare school en valt onder het bevoegd gezag van [handelsnaam] . In beginsel staat tegen een besluit van een openbare onderwijsinstelling een met voldoende waarborgen omklede rechtsgang bij de bestuursrechter open. Dat is niet het geval bij het besluit waar het in dit kort geding over gaat. Het gaat namelijk om een besluit over de beoordeling van een eindexamen, oftewel een “kennen en kunnen”. Op grond van artikel 8:4 lid 3, aanhef en onder b, van de Algemene wet bestuursrecht is het niet mogelijk om tegen dat soort besluiten beroep in te stellen bij de bestuursrechter. De burgerlijke rechter fungeert dan als restrechter. [eiser] is daarom ontvankelijk in zijn vordering.
+Spoedeisend belang
+3.3.
+In een kortgedingprocedure is het nodig dat sprake is van een spoedeisend belang. Dat betekent dat de eisende partij op korte termijn een beslissing nodig heeft van de voorzieningenrechter, omdat de beslissing in een bodemprocedure niet afgewacht kan worden. De voorzieningenrechter vindt dat het spoedeisend belang van [eiser] voldoende aannemelijk is gemaakt. Hij wil het komende studiejaar kunnen starten met de studie Economics and Business Economics aan de [universiteit] .
+Juridisch kader
+Toepasselijke regelgeving
+3.4.
+De Wet op het voortgezet onderwijs 2020 (hierna: Wvo) geeft in de artikelen 2.56, 2.57 en 2.58 regels over het centraal examen, de vaststelling van de uitslag van het eindexamen en de diploma-uitreiking. Kort samengevat en voor zover relevant is daarin bepaald dat op het examenwerk van het centraal examen een tweede correctie plaatsvindt door een gecommitteerde en dat bij of krachtens algemene maatregel van bestuur nadere regels gesteld worden over het afnemen, het beoordelen, het waarderen, en het vaststellen van het cijfer van het centraal examen en over de aanwijzing, taak en werkwijze van de gecommitteerde die de tweede correctie uitvoert. Verder is bepaald dat de rector of directeur het cijfer vaststelt voor het centraal examen in een vak, dat de rector of directeur de eindcijfers van het eindexamen vaststelt en dat de rector of directeur het diploma uitreikt.
+3.5.
+Het Uitvoeringsbesluit WVO 2020 (hierna: het Uitvoeringsbesluit) bevat een nadere uitwerking van deze regels. Artikel 3.21 gaat over de examinator en artikel 3.24 over de gecommitteerde. In artikel 3.24 lid 1 onder a is bepaald dat de rector of directeur na de beoordeling door de examinator het beoordeelde werk onverwijld aan de gecommitteerde stuurt. In lid 4 is bepaald dat de gecommitteerde bij het gecorrigeerde werk een verklaring voegt over de verrichte correctie en dat die verklaring medeondertekend wordt door het bevoegd gezag van de school waar de gecommitteerde werkzaam is. Artikel 3.25 geeft regels over de vaststelling van de score door de eerste en tweede corrector. Daarbij is uitgangspunt dat zij dat doen in onderling overleg. Op grond van artikel 3.31 moet het examenwerk zes maanden bewaard worden ter inzage van belanghebbende.
+3.6.
+Het Uitvoeringsbesluit voorziet niet in een regeling voor de situatie
+na
+vaststelling van het cijfer. Om in die leemte te voorzien heeft de onderwijsinspectie “Handreiking B | Geschil na de vaststelling van de score van het centraal-examenwerk, bijvoorbeeld na inzage door kandidaat” (hierna: Handreiking B) opgesteld. Dit is een onderdeel van de Handreiking voor bestuurders over hoe te handelen inzake een geschil bij of  na de vaststelling inzage in examenwerk
+.
+3.7.
+In Handreiking B staat dat iedere eindexamenkandidaat recht heeft op inzage van zijn/haar examenwerk. Als er na inzage een geschil ontstaat en de eindexamenkandidaat aannemelijk kan maken dat er een aanwijsbare fout bij de correctie is gemaakt, kan er als volgt gehandeld worden:
+1. De eindexamenkandidaat zet (zijn/haar argumenten over) de vermeende fout(en) op papier. Dit document wordt aangeboden aan de rector of directeur van de school.
+2. Op verzoek van de rector of directeur kijkt de examinator (de eerste corrector) op basis van de argumenten van de kandidaat naar het centraal-examenwerk en de score en bepaalt of de beantwoording van de vraag mogelijk in aanmerking komt voor een andere beoordeling. Indien dat laatste het geval is, volgt stap 3.
+3. De examinator (de eerste corrector) neemt contact op met de gecommitteerde (de tweede corrector), geeft aan welke argumenten de kandidaat naar voren heeft gebracht en waarom de eerste corrector dit een goede reden vindt voor het openbreken van de score. Op basis van een zorgvuldige voorbereiding voeren de correctoren hierover een gemotiveerd overleg.
+Als de correctoren in overleg van mening zijn dat de score niet aangepast dient te worden dan leggen zij die uitkomst schriftelijk vast en sturen dat aan de rector of directeur. Die laat  dit aan de kandidaat weten.
+Marginale toetsing door de burgerlijke rechter
+3.8.
+Bij de beoordeling van het “kennen en kunnen” van een eindexamenkandidaat is een grote rol weggelegd voor de twee correctoren en ook voor de directies van de scholen waaraan zij verbonden zijn, als de correctoren onderling niet tot overeenstemming kunnen komen. De toets door de burgerlijke rechter is marginaal. Alleen als sprake is van aperte procedurele of inhoudelijke onjuistheden, of onzorgvuldigheden, die zouden kunnen meebrengen dat de beoordeling door de correctoren niet deugt – in die zin dat de correctoren in redelijkheid niet tot het toegekende puntenaantal hadden kunnen komen –, is er plaats voor ingrijpen door de burgerlijke rechter
+.
+Inhoudelijke beoordeling
+3.9.
+[eiser] heeft gebruik gemaakt van zijn recht om zijn examen in te zien. Dat heeft hij twee keer samen met zijn moeder gedaan. De tweede keer was ook examinator [A] daarbij aanwezig. Tijdens de zitting heeft [eiser] verteld dat hij samen met [A] op Google heeft opgezocht of zijn antwoord op vraag 21 als telegramstijl kon worden aangemerkt. Op het examenwerk was dat antwoord aangemerkt als een taalfout, maar hier was zo bleek na de Google zoektocht twijfel over mogelijk. Naar aanleiding van de tweede inzage heeft [eiser] besloten een bezwaarschift in te dienen. Het bezwaarschift is vervolgens beoordeeld door eerste corrector [A] en daarna door tweede corrector [B] . De correctoren hebben overeenstemming bereikt over de afwijzing van het bezwaar. Dat is vastgelegd in de beslissing op bezwaar van 25 juni 2025 en de rector van [school] heeft die beslissing vervolgens aan [eiser] meegedeeld. Dit is conform de procedure zoals beschreven in Handreiking B. Toch is de voorzieningenrechter van oordeel dat de beoordeling van het bezwaarschrift van [eiser] onzorgvuldig is geweest.
+3.10.
+Dat oordeel baseert de voorzieningenrechter op het volgende:
+het is aannemelijk dat er een herbeoordeling heeft plaatsgevonden van het volledige examen, of in ieder geval van meer antwoorden dan waarop het bezwaar is gericht
+er is onvolledige informatie verstrekt bij de inzage van het examenwerk.
+Hieronder wordt dat verder uitgelegd.
+Herbeoordeling van het examenwerk
+3.11.
+Partijen verschillen van mening over de vraag of er sprake is van een herbeoordeling van het hele examen. Zij zijn het er wel over eens dat naar aanleiding van het bezwaar alleen de onderdelen waarop het bezwaar ziet opnieuw beoordeeld mogen worden en niet het hele examenwerk. Dat een volledige herbeoordeling niet mag wordt ook bevestigd door het Examenloket (productie 1 dagvaarding). Het examenloket is een onderdeel van het ministerie van Onderwijs, Cultuur en Wetenschap.
+3.12.
+Voor de beoordeling of sprake is van een volledige herbeoordeling door de correctoren is allereerst van belang wat daarover in de beslissing op bezwaar staat. Daarin staat:
+“Na uitgebreid overleg met de vakgroep van zowel de eerste als de tweede corrector, is in overleg met de tweede corrector echter besloten om [eiser] hier het voordeel van de twijfel te geven. Hierdoor haalde [eiser] niet meer de maximum aftrek van -4 (7 fouten) maar -3 (5 fouten).
+Omdat de tweede corrector het werk niet eerder had nagekeken op spelling en grammatica vanwege het feit dat de maximale aftrek hiervoor al was gegeven door de eerste corrector, is vervolgens overeengekomen dat zowel de eerste als de tweede corrector het gehele werk opnieuw zouden beoordelen op spelling en grammatica.
+(…)
+Deze nieuwe beoordeling leidde tot het oordeel dat [eiser (voornaam)] in zijn examen 9 taal- en
+formuleringsfouten heeft gemaakt (vraag 21 niet meegerekend), met (nog steeds) -4 punten aftrek tot gevolg”
+3.13.
+Uit deze beslissing blijkt dat de correctoren het eens zijn over het feit dat het bezwaar niet leidt tot een puntenaftrek van -3. In zoverre voldoet de beslissing op bezwaar aan de regelgeving. Uit de beslissing blijkt echter ook dat er door beide correctoren een volledige herbeoordeling van het examenwerk heeft plaatsgevonden en dat mag niet. De tweede corrector, [B] , heeft weliswaar in zijn zienswijze (productie 11 dagvaarding) gezegd dat hij bij zijn eerste correctie al 11 fouten had geconstateerd, maar dat blijkt nergens uit. Zijn correcties zijn niet zichtbaar op het examenwerk (wat overigens niet verplicht is) en er is ook geen apart document overgelegd waaruit blijkt dat hij bij de eerste beoordeling al 11 fouten heeft geconstateerd.
+3.14.
+Ook als [B] al wel bij de eerste correctie 11 fouten zou hebben geconstateerd, verandert dat niets aan het feit dat volgens de beslissing op bezwaar de eerste corrector, [A] , wel het volledige werk heeft herbeoordeeld. [handelsnaam] lijkt te stellen dat dit een ongelukkig gekozen formulering is van [A] . Volgens haar heeft [A] niet het volledige herexamen opnieuw beoordeeld. Zij zou bij de eerste beoordeling al het hele examenwerk hebben nagekeken, maar omdat bij vraag 28 de maximale puntenaftrek van -4 al was bereikt zou zij geen verdere taalfouten meer hebben aangegeven (nr. 8 Conclusie van Antwoord). De voorzieningenrechter vindt dat geen aannemelijke verklaring en voor zover daar wel vanuit gegaan zou moeten worden geldt het volgende.
+3.15.
+Alles wijst er op dat [A] bij de eerste beoordeling slechts 7 fouten heeft geconstateerd. In de beslissing op bezwaar - die geschreven is door [A] - is vermeld dat [eiser] na zijn bezwaar niet 7 maar 5 fouten had behaald. Het examenwerk - dat ter inzage aan [eiser] is gegeven - waarop [A] 7 t (=taalfouten) heeft genoteerd. De zienswijze van [B] waarin hij schrijft dat [A] in haar eerste correctie 7 taalfouten heeft geconstateerd. Bovendien zou het voor de hand hebben gelegen dat als [A] bij haar eerste beoordeling al 11 fouten zou hebben geconstateerd dat zij daar dan melding van zou hebben gemaakt bij de inzage door [eiser] en dat is niet gesteld of gebleken. Om bij de beoordeling van het bezwaarschrift van [eiser] op 9 taalfouten uit te kunnen komen, moet [A] het examenwerk dus wel helemaal opnieuw hebben beoordeeld of in ieder geval de vragen die in eerste instantie alleen door [B] als fout waren aangemerkt. In beide gevallen heeft zij meer gedaan dan zij bij haar beoordeling van het bezwaarschift mocht doen.
+3.16.
+Een andere reden waarom de voorzieningenrechter de verklaring van [handelsnaam] niet aannemelijk vindt is dat uit de kopie van het examenwerk (productie 12 dagvaarding) blijkt dat [A] ook enkele fouten in de antwoorden vóór vraag 28 niet heeft aangegeven. Zo heeft zij op het examenwerk de taalfout bij vraag 11 niet aangegeven, terwijl die wel in de beslissing op bezwaar staat. Dat geldt ook voor de tweede taalfout bij vraag 14. Als [A] wel het hele werk heeft beoordeeld, maar gestopt is bij het bereiken van de maximale puntenaftrek dan moet zij de fouten van vraag 11 en 14 in eerste instantie gemist hebben. Het kan natuurlijk zijn dat [A] niet alle 11 fouten zelf heeft geconstateerd bij de eerste beoordeling, maar dat zij het na de correctie door [B] eens was met de overige door hem geconstateerde fouten, maar dat is niet wat [handelsnaam] stelt. Bovendien blijkt dat ook nergens uit omdat zowel [B] als [A] bij de eerste beoordeling op geen enkele wijze melding hebben gemaakt van de 11 geconstateerde fouten en dat zij het daarover eens zijn geworden. Ook een verklaring van [B] over de verrichte correctie als bedoeld in artikel 3.24 lid 4 Uitvoeringsbesluit ontbreekt.
+3.17.
+[handelsnaam] voert verder nog aan dat [A] en [B] beiden een verklaring hebben getekend waarin staat dat zij in overeenstemming met de regelgeving hebben gehandeld. De voorzieningenrechter begrijpt deze stelling zo, dat daaruit afgeleid moet worden dat de correctoren al bij de eerste beoordeling 11 fouten hebben geconstateerd en dat er dus geen herbeoordeling heeft plaatsgevonden. Die verklaringen heeft [handelsnaam] niet overgelegd. Bovendien is het nog maar de vraag of een dergelijke algemeen klinkende verklaring kan gelden als bewijs voor het feit dat beide correctoren de 11 fouten bij de eerste beoordeling hebben geconstateerd.
+3.18.
+Kortom het ligt meer voor de hand dat er wel een herbeoordeling heeft plaatsgevonden dan dat er geen herbeoordeling heeft plaatsgevonden.
+Onvolledige informatie bij de inzage
+3.19.
+Belangrijker is echter dat de 11 fouten voor [eiser] niet kenbaar waren op het moment dat hij bezwaar maakte.
+3.20.
+[eiser] heeft zijn bezwaarschift gebaseerd op het examenwerk dat hij heeft ingezien. Vast staat dat [A] op het examenwerk 7 taalfouten heeft aangegeven. [eiser] kon dus alleen bezwaar maken tegen die 7 fouten. Hij kan natuurlijk geen bezwaar maken tegen taalfouten waarvan hij niet weet dat ze bestaan. Als er van uitgegaan moet worden dat de 11 fouten op het moment dat [eiser] zijn examenwerk inzag al door de correctoren waren geconstateerd, betekent dit dat [eiser] niet over de volledige en noodzakelijke informatie beschikte toen hij bezwaar maakte. Die informatie, bestaande uit de 4 niet voor [eiser] kenbare fouten, mocht daarom niet bij de beoordeling van het bezwaarschift betrokken worden. De correctoren hebben dat toch gedaan en daarmee hebben zij onzorgvuldig gehandeld.
+Conclusie
+3.21.
+Er is sprake van een apert onzorgvuldige beoordeling. Ofwel omdat bij de inzage informatie is weggelaten die vervolgens bij de beoordeling wel is meegenomen, ofwel omdat er een herbeoordeling heeft plaatsgevonden van fouten waarop het bezwaarschift zich niet heeft gericht. De conclusie is dan ook dat dat de correctoren in redelijkheid niet tot het oordeel hebben kunnen komen dat de puntenaftrek, na de correctie van vraag 21, niet aangepast hoefde te worden naar -3.
+De vordering om het VWO diploma uit te reiken
+3.22.
+De hiervoor genoemde conclusie heeft tot gevolg dat het cijfer voor het eindexamen Nederlands naar aanleiding van het bezwaar naar boven aangepast moet worden en dat [eiser] is geslaagd voor zijn eindexamen VWO. De rector van [school] zal het VWO diploma alsnog aan [eiser] moeten uitreiken. De primaire vordering wordt daarom toegewezen en dus komt de voorzieningenrechter niet toe aan de subsidiaire vordering.
+Dwangsom
+3.23.
+De door [eiser] gevorderde dwangsom van € 500 voor iedere dag dat de rector van [school] dan wel [handelsnaam] zich niet aan de veroordeling houdt, wordt ook toegewezen. Wel stelt de voorzieningenrechter daar een maximum aan van € 25.000.
+Proceskosten
+3.24.
+[eiser] krijgt in deze procedure gelijk. [handelsnaam] moet daarom zijn proceskosten betalen. De proceskosten aan de kant van [eiser] worden vastgesteld op:
+- griffierecht		         €	331,00
+- salaris advocaat  	€    1.107,00  (tarief gemiddelde zaak)
+- nakosten
+€      178,00
+(plus eventueel de verhoging zoals vermeld in de beslissing)
+Totaal                    €   1.616,00
+4
+De beslissing
+De voorzieningenrechter
+4.1.
+draagt de rector van het [school] op om uiterlijk op 31 augustus 2025 het VWO-diploma aan [eiser] uit te reiken,
+4.2.
+bepaalt dat als [handelsnaam] zich niet aan de veroordeling onder4.1 houdt, zij een dwangsom verbeurt van € 500 per dag tot een maximum van € 25.000 is bereikt,
+4.3.
+veroordeelt [handelsnaam] in de proceskosten van € 1.616, te betalen binnen veertien dagen na betekening. Als [handelsnaam] niet tijdig aan de veroordeling voldoet en het vonnis daarna wordt betekend, dan moet zij € 92,- extra betalen, plus de kosten van betekening,
+4.4.
+verklaart dit vonnis uitvoerbaar bij voorraad,
+4.5.
+wijst het meer of anders gevorderde af.
+Dit vonnis is gewezen door mr. D. Wachter als voorzieningenrechter, bijgestaan door mr. G. Delissen als griffier en in het openbaar uitgesproken op 22 augustus 2025, door mr. D.C.P.M. Straver.
+VO-raad (https://www.vo-raad.nl/onderwerpen/examinering/praktijk-ondersteuning)
+ECLI:NL:GHARL:2019:5125, Gerechtshof Arnhem-Leeuwarden, 200.255.049

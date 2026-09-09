@@ -1,0 +1,111 @@
+[
+  {
+    "case_id": "ECLI:NL:RBMNE:2025:4637",
+    "date": "2025-08-22",
+    "court": "Rechtbank Midden-Nederland",
+    "procedure_type": "civiel_kort_geding",
+    "legal_regime": "WVO 2020",
+    "exam_type": [
+      "CE"
+    ],
+    "topics": [
+      "inzage",
+      "score",
+      "herbeoordeling",
+      "rechtsbescherming"
+    ],
+    "issue": "Zorgvuldigheid van de behandeling van een geschil over de beoordeling van centraal-examenwerk.",
+    "holding": "De voorzieningenrechter achtte de behandeling in deze concrete zaak onzorgvuldig en wees de vordering toe.",
+    "decisive_reasoning": "Normaliseren uit de volledige uitspraak vóór productiegebruik.",
+    "may_infer": [
+      "Een procedure rond inzage en een daaropvolgend geschil over CE-beoordeling moet zorgvuldig worden ingericht.",
+      "De precieze reikwijdte van een herbeoordeling is juridisch relevant."
+    ],
+    "must_not_infer": [
+      "Dat iedere kandidaat na inzage recht heeft op een volledige nieuwe beoordeling.",
+      "Dat iedere afwijking automatisch tot diplomering leidt."
+    ],
+    "review_status": "seed_needs_legal_normalization",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBMNE%3A2025%3A4637"
+  },
+  {
+    "case_id": "ECLI:NL:HR:2019:1243",
+    "date": "2019-07-19",
+    "court": "Hoge Raad",
+    "procedure_type": "civiel_cassatie",
+    "legal_regime": "pre-WVO-2020",
+    "exam_type": [
+      "CE"
+    ],
+    "topics": [
+      "cijfer",
+      "rechtsbescherming",
+      "bevoegdheidsverdeling"
+    ],
+    "issue": "Verhouding burgerlijke rechter en bestuursrechtelijke toetsing rond verandering van een centraal-examencijfer.",
+    "holding": "Zie volledige uitspraak; zaak is relevant voor de rechtsroute en de rol van CvTE-normen.",
+    "decisive_reasoning": "Oud regime; vóór actuele toepassing opnieuw juridisch normaliseren.",
+    "may_infer": [
+      "De rechtsroute rond CE-cijfers is juridisch specifiek en kan niet als gewone inhoudelijke cijferdiscussie worden behandeld."
+    ],
+    "must_not_infer": [
+      "Dat de oude procesroute zonder controle één-op-één onder WVO 2020 geldt."
+    ],
+    "review_status": "seed_old_regime_review_required",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2019%3A1243"
+  },
+  {
+    "case_id": "ECLI:NL:RBAMS:2020:3552",
+    "date": "2020-07-17",
+    "court": "Rechtbank Amsterdam",
+    "procedure_type": "bestuursrecht_voorlopige_voorziening",
+    "legal_regime": "pre-WVO-2020",
+    "exam_type": [
+      "SE"
+    ],
+    "topics": [
+      "afronding",
+      "administratief_beroep",
+      "diplomering"
+    ],
+    "issue": "Gevolgen van niet tijdig afgeronde schoolexamenonderdelen.",
+    "holding": "De openbare inhoudsindicatie betreft niet tijdig afgeronde vakken en de gevolgen voor resultaatsverbetering/diploma.",
+    "decisive_reasoning": "Volledige uitspraak normaliseren vóór productief gebruik.",
+    "may_infer": [
+      "Duidelijke afrondingsregels en beroepsprocedures kunnen juridisch relevant zijn."
+    ],
+    "must_not_infer": [
+      "Dat deze zaak een algemene fraude-uitspraak is."
+    ],
+    "review_status": "seed_needs_legal_normalization",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2020%3A3552"
+  },
+  {
+    "case_id": "ECLI:NL:RBOVE:2026:2055",
+    "date": "2026-04-07",
+    "court": "Rechtbank Overijssel",
+    "procedure_type": "bestuursrecht",
+    "legal_regime": "WVO 2020",
+    "exam_type": [
+      "SE"
+    ],
+    "topics": [
+      "onregelmatigheid",
+      "maatregel",
+      "uitsluiting",
+      "medische_onderbouwing",
+      "AI_incidenteel"
+    ],
+    "issue": "Maatregelen wegens onregelmatigheden/afwezigheid en medische onderbouwing.",
+    "holding": "Zie volledige uitspraak; openbare inhoudsindicatie noemt WVO 2020 art. 2.61, uitsluiting en onvoldoende medische onderbouwing.",
+    "decisive_reasoning": "Volledige uitspraak normaliseren vóór rulegebruik.",
+    "may_infer": [
+      "Actuele WVO 2020-casus voor maatregelen en procedure."
+    ],
+    "must_not_infer": [
+      "Dat een in het geciteerde examenreglement opgenomen AI-bepaling door de rechter inhoudelijk is goedgekeurd."
+    ],
+    "review_status": "seed_needs_legal_normalization",
+    "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBOVE%3A2026%3A2055"
+  }
+]

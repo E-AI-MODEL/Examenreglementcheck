@@ -1,0 +1,20 @@
+{
+  "case_id": "golden-004",
+  "title": "Verkeerde CE-jaargang",
+  "input_excerpt": "Voor de hulpmiddelen geldt de regeling centrale examens 2026.",
+  "context": {
+    "school_year": "2026-2027",
+    "exam_year": 2027,
+    "topic": "ce_hulpmiddelen"
+  },
+  "expected": {
+    "finding_type": [
+      "exam_year_mismatch"
+    ],
+    "severity": "must_or_human_review"
+  },
+  "rationale": "Test aparte mapping schooljaar en examenjaar.",
+  "evidence_expectation": [
+    "exam_year_2027_source"
+  ]
+}

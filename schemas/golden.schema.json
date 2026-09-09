@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoldenCandidate",
+  "type": "object",
+  "required": [
+    "case_id",
+    "title",
+    "input_excerpt",
+    "context",
+    "expected",
+    "validation_status",
+    "execution_status"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "input_excerpt": {
+      "type": "string"
+    },
+    "context": {
+      "type": "object"
+    },
+    "expected": {
+      "type": "object"
+    },
+    "validation_status": {
+      "const": "candidate_needs_independent_review"
+    },
+    "execution_status": {
+      "const": "not_run_analyzer_missing"
+    }
+  },
+  "additionalProperties": true
+}

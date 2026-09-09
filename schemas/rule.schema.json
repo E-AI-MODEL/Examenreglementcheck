@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RuleRecord",
+  "type": "object",
+  "required": [
+    "rule_id",
+    "source_id",
+    "topic",
+    "norm_type",
+    "rule_summary",
+    "verification_status",
+    "evidence",
+    "production_approved",
+    "on_insufficient_evidence"
+  ],
+  "properties": {
+    "rule_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "article": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "topic": {
+      "type": "string"
+    },
+    "norm_type": {
+      "enum": [
+        "mandatory",
+        "prohibitive",
+        "conditional",
+        "procedural",
+        "advisory"
+      ]
+    },
+    "applies_when": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rule_summary": {
+      "type": "string"
+    },
+    "valid_from": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "valid_to": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "exam_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "legal_regime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "enum": [
+        "draft",
+        "pending_primary_verification",
+        "validated",
+        "superseded"
+      ]
+    },
+    "verified_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verified_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "production_approved": {
+      "type": "boolean"
+    },
+    "on_insufficient_evidence": {
+      "const": "human_review"
+    },
+    "limitations": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "activation_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "check_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "suggested_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "primary_text_checked": {
+      "type": "boolean"
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "fragment_id": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "text_hash": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

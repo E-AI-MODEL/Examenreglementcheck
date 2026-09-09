@@ -1,0 +1,23 @@
+{
+  "case_id": "golden-002",
+  "title": "Correcte beroepstermijn - negative legal control",
+  "input_excerpt": "De kandidaat kan binnen de wettelijk geldende termijn van vijf dagen beroep instellen.",
+  "context": {
+    "topic": "beroep",
+    "school_year": "2026-2027",
+    "exam_year": 2027,
+    "decision_type": "maatregel_onder_WVO_2.61_lid_1",
+    "legal_route": "WVO_2.63_administratief_beroep",
+    "scope_confirmed": true,
+    "required_rule": "BER-001",
+    "precondition": "Passende regel onafhankelijk gevalideerd en actief; volledige schoolcontext bevestigd."
+  },
+  "expected": {
+    "severity": null,
+    "must_not_flag_as": "must"
+  },
+  "rationale": "Voorkomt dat de analyzer standaard ieder beroepartikel als probleem markeert.",
+  "evidence_expectation": [],
+  "validation_status": "candidate_needs_independent_review",
+  "execution_status": "not_run_analyzer_missing"
+}

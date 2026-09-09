@@ -1,0 +1,20 @@
+{
+  "case_id": "golden-007",
+  "title": "Interne roltegenstrijdigheid",
+  "input_excerpt": "Artikel 4: de rector beslist. Artikel 53: de examencommissie beslist over hetzelfde besluit.",
+  "context": {
+    "topic": "bevoegdheid",
+    "same_decision_confirmed": true,
+    "delegation_or_distinct_stage": false
+  },
+  "expected": {
+    "severity": "internal_conflict",
+    "confidence": "high"
+  },
+  "rationale": "Test role_registry over grote documentafstand.",
+  "evidence_expectation": [
+    "two_document_locations"
+  ],
+  "validation_status": "candidate_needs_independent_review",
+  "execution_status": "not_run_analyzer_missing"
+}

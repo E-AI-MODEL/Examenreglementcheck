@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "snapshot_id": "2026-09-07-first-content",
+  "retrieved_at": "2026-09-07",
+  "school_year": "2026-2027",
+  "exam_year": 2027,
+  "production_ready": false,
+  "source_records": 40,
+  "retrieved_records": 38,
+  "failed_records": 2,
+  "full_article_fragments": 109,
+  "candidate_rules": 40,
+  "normalized_court_cases": 4,
+  "notes": [
+    "Ophalen en inhoudelijke normalisatie zijn niet gelijk aan onafhankelijke juridische goedkeuring.",
+    "Geen complete regelengine, documentparser of productiecontrole.",
+    "Bronrecords activeren pas na menselijke beoordeling, controle op wijzigingen en relevante regressietests."
+  ]
+}

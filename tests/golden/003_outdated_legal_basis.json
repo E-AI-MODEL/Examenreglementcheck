@@ -1,0 +1,23 @@
+{
+  "case_id": "golden-003",
+  "title": "Verouderde wettelijke grondslag",
+  "input_excerpt": "Dit examenreglement berust op het Eindexamenbesluit VO.",
+  "context": {
+    "school_year": "2026-2027"
+  },
+  "expected": {
+    "finding_type": [
+      "outdated_reference"
+    ],
+    "allowed_severities": [
+      "must",
+      "human_review"
+    ]
+  },
+  "rationale": "Test actualiteitscontrole en legal-regime herkenning.",
+  "evidence_expectation": [
+    "current_legal_regime"
+  ],
+  "validation_status": "candidate_needs_independent_review",
+  "execution_status": "not_run_analyzer_missing"
+}

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceRecord",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source_type",
+    "authority_class",
+    "url",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "authority_class": {
+      "enum": [
+        "binding",
+        "official_application",
+        "guidance",
+        "dispute_guidance",
+        "equality_guidance",
+        "example"
+      ]
+    },
+    "binding_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "legal_regime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "school_year": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exam_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "valid_from": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "valid_to": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "retrieved_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "content_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

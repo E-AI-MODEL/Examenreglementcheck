@@ -1,0 +1,28 @@
+{
+  "version": "v3-build-plan-1",
+  "based_on": ["project-v2-0.3.0", "technische-analyse-2026-09-08"],
+  "release_goal": "first real end-to-end analysis chain, still production_ready=false",
+  "priorities": [
+    {"id":"V3-001","priority":"P0","title":"Canonical source status active_reviewed","acceptance":"No current documentation/config outside archive/v1 uses active as the runtime activation status."},
+    {"id":"V3-002","priority":"P0","title":"Package hygiene and one validation command","acceptance":"No caches in release, subsystem READMEs present, full validation command passes."},
+    {"id":"V3-003","priority":"P0","title":"Correct implementation documentation","acceptance":"Docs match actual v2 screen names, counts and executable test baseline."},
+    {"id":"V3-010","priority":"P0","title":"Document/extraction/register schemas","acceptance":"All parser output validates and every text segment has stable provenance."},
+    {"id":"V3-011","priority":"P0","title":"Native DOCX parser","acceptance":"Five fixtures pass without OCR or code execution from document content."},
+    {"id":"V3-012","priority":"P0","title":"Text PDF parser with OCR fallback","acceptance":"Page anchors and confidence per segment; no hard missing finding on low confidence."},
+    {"id":"V3-013","priority":"P0","title":"Real document check UI","acceptance":"User can confirm extracted metadata and parsing warnings before analysis."},
+    {"id":"V3-020","priority":"P0","title":"Five deterministic registers","acceptance":"Role, term, definition, procedure and cross-reference fixtures pass."},
+    {"id":"V3-021","priority":"P0","title":"Internal consistency engine","acceptance":"Produces traceable internal_conflict/editorial findings without legal overclaim."},
+    {"id":"V3-030","priority":"P1","title":"Filtered retrieval service","acceptance":"Wrong year, regime and comparison source are excluded or downgraded in tests."},
+    {"id":"V3-031","priority":"P1","title":"Full evidence validator","acceptance":"Must is blocked on any failed source/rule/date/year/regime/hash/context/evidence condition."},
+    {"id":"V3-032","priority":"P1","title":"Human approval contract","acceptance":"No code path automatically sets production_approved true."},
+    {"id":"V3-040","priority":"P1","title":"Immutable analysis run model","acceptance":"Run stores versions/snapshot and reports partial instead of complete on phase failure."},
+    {"id":"V3-041","priority":"P1","title":"Modular phases A-I","acceptance":"Each phase has explicit contract/status; A,C,D,I implemented first."},
+    {"id":"V3-050","priority":"P1","title":"Versioned model adapter","acceptance":"Structured server-side model calls only; model cannot alter authority/status/severity gate."},
+    {"id":"V3-051","priority":"P1","title":"Versioned prompt modules","acceptance":"Each module outputs schema-valid JSON and has regression tests."},
+    {"id":"V3-060","priority":"P1","title":"Separate demo from real runs","acceptance":"Real upload never shows demo findings; demo remains permanently labeled."},
+    {"id":"V3-061","priority":"P1","title":"Real phase progress and partial banner","acceptance":"UI reflects actual A-I phase statuses."},
+    {"id":"V3-062","priority":"P1","title":"Evidence-first finding detail","acceptance":"Every real finding links exact document passage, rule and source fragment."},
+    {"id":"V3-070","priority":"P1","title":"Executable golden set >=15","acceptance":"Golden analyzer cases run in CI and include injection, uncertainty, cross-school and stale-hash cases."},
+    {"id":"V3-071","priority":"P1","title":"Full test layers including browser","acceptance":"Parser, register, retrieval, validator, analyzer, e2e and browser suites pass."}
+  ]
+}

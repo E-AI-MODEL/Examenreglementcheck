@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ComparisonRecord",
+  "type": "object",
+  "required": [
+    "comparison_id",
+    "school",
+    "year",
+    "url",
+    "authority_class"
+  ],
+  "properties": {
+    "comparison_id": {
+      "type": "string"
+    },
+    "school": {
+      "type": "string"
+    },
+    "school_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "year": {
+      "type": "string"
+    },
+    "status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority_class": {
+      "const": "example"
+    }
+  },
+  "additionalProperties": true
+}

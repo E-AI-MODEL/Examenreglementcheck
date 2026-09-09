@@ -1,0 +1,26 @@
+{
+  "case_id": "golden-001",
+  "title": "Verkeerde beroepstermijn",
+  "input_excerpt": "De kandidaat kan binnen twee dagen beroep instellen.",
+  "context": {
+    "topic": "beroep",
+    "school_year": "2026-2027",
+    "exam_year": 2027,
+    "decision_type": "maatregel_onder_WVO_2.61_lid_1",
+    "legal_route": "WVO_2.63_administratief_beroep",
+    "scope_confirmed": true,
+    "required_rule": "BER-001",
+    "precondition": "Passende regel onafhankelijk gevalideerd en actief; volledige schoolcontext bevestigd."
+  },
+  "expected": {
+    "severity": "must",
+    "confidence": "high",
+    "requires_evidence": true
+  },
+  "rationale": "Test dat een harde termijnfinding alleen met gevalideerde primaire rule wordt gemaakt.",
+  "evidence_expectation": [
+    "binding_rule"
+  ],
+  "validation_status": "candidate_needs_independent_review",
+  "execution_status": "not_run_analyzer_missing"
+}

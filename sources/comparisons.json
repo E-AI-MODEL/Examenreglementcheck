@@ -1,0 +1,126 @@
+[
+  {
+    "comparison_id": "comparison-regius-2026-2027",
+    "school": "Regius College",
+    "school_types": [],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://www.regiuscollege.nl/regiuswijzer/examen/",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-regius-2026-2027",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-rsg-ter-apel-2026-2027",
+    "school": "RSG Ter Apel",
+    "school_types": [],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://rsgterapel.nl/informatie-voor-leerlingen/",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-rsg-ter-apel-2026-2027",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-stc-vmbo-2026-2027",
+    "school": "STC vmbo",
+    "school_types": [
+      "vmbo"
+    ],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://stc.nl/informatie/downloads/vmbo/downloads-vmbo",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-stc-vmbo-2026-2027",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-regius-2026-2027-document-9",
+    "school": "Regius College",
+    "school_types": [
+      "havo",
+      "vwo"
+    ],
+    "year": "2026-2027",
+    "status": "concept",
+    "url": "https://www.regiuscollege.nl/wp-content/uploads/2023/10/Examenreglement-RC-hv-2026-2027-concept.pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-regius-2026-2027-document-9",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-regius-2026-2027-document-10",
+    "school": "Regius College",
+    "school_types": [
+      "vmbo"
+    ],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://www.regiuscollege.nl/wp-content/uploads/2026/08/Examenreglement-Regius-College-vmbo-2026-2027.pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-regius-2026-2027-document-10",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-rsg-ter-apel-2026-2027-document-11",
+    "school": "RSG Ter Apel",
+    "school_types": [
+      "vmbo"
+    ],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-vmbo-2026-2027.pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-rsg-ter-apel-2026-2027-document-11",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-rsg-ter-apel-2026-2027-document-12",
+    "school": "RSG Ter Apel",
+    "school_types": [
+      "havo",
+      "vwo"
+    ],
+    "year": "2026-2027",
+    "status": "definitief_volgens_document",
+    "url": "https://rsgterapel.nl/app/uploads/2026/09/Examenreglement-havo-vwo-2026-2027.pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-rsg-ter-apel-2026-2027-document-12",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-stc-vmbo-2026-2027-document-14",
+    "school": "STC vmbo",
+    "school_types": [
+      "vmbo"
+    ],
+    "year": "2026-2027",
+    "status": "onder_voorbehoud_instemming",
+    "url": "https://stc.nl/media/files/vmbo/Downloads/Examenreglement-STCvmbo-2026-2027(voorbehoud-OR-ouderraad).pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-stc-vmbo-2026-2027-document-14",
+    "comparison_performed": false
+  },
+  {
+    "comparison_id": "comparison-stc-vmbo-2026-2027-document-15",
+    "school": "STC vmbo",
+    "school_types": [
+      "vmbo"
+    ],
+    "year": "2026-2027",
+    "status": "retrieved_not_activated",
+    "url": "https://stc.nl/media/files/vmbo/Downloads/Vmbo-Reglement-Commissie-van-beroep-eindexamens-2026(1).pdf",
+    "topics": [],
+    "authority_class": "example",
+    "source_id": "comparison-stc-vmbo-2026-2027-document-15",
+    "comparison_performed": false
+  }
+]

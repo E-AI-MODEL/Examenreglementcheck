@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceRecord",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source_type",
+    "authority_class",
+    "url",
+    "status",
+    "fetch_status",
+    "production_approved",
+    "legal_review_status",
+    "content_form"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "authority_class": {
+      "enum": [
+        "binding",
+        "official_application",
+        "guidance",
+        "dispute_guidance",
+        "equality_guidance",
+        "example"
+      ]
+    },
+    "binding_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "legal_regime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "school_year": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exam_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "valid_from": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "valid_to": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "retrieved_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "content_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "enum": [
+        "retrieved_not_activated",
+        "fetch_failed",
+        "excluded_wrong_year",
+        "active_reviewed",
+        "discovered",
+        "pending_review",
+        "validated",
+        "superseded",
+        "archived",
+        "rejected"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fetch_status": {
+      "enum": [
+        "retrieved",
+        "failed"
+      ]
+    },
+    "production_approved": {
+      "type": "boolean"
+    },
+    "legal_review_status": {
+      "enum": [
+        "not_reviewed",
+        "approved",
+        "rejected"
+      ]
+    },
+    "content_form": {
+      "enum": [
+        "summary",
+        "index_only",
+        "full_text",
+        "full_relevant_articles"
+      ]
+    },
+    "content_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "original_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validity_basis": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "extraction_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

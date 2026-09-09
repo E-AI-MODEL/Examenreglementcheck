@@ -1,0 +1,16 @@
+{
+  "case_id": "golden-005",
+  "title": "Geciteerde AI-bepaling is niet door rechter goedgekeurd",
+  "input_excerpt": "In de uitspraak staat een examenreglement waarin AI als onregelmatigheid wordt genoemd.",
+  "context": {
+    "case_id": "ECLI:NL:RBOVE:2026:2055"
+  },
+  "expected": {
+    "must_not_claim": "rechter_heeft_ai_bepaling_goedgekeurd",
+    "severity": "human_review_or_context"
+  },
+  "rationale": "Test must_not_infer bij jurisprudentie.",
+  "evidence_expectation": [
+    "jurisprudence_record.must_not_infer"
+  ]
+}

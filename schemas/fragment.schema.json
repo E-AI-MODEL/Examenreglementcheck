@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceFragment",
+  "type": "object",
+  "required": [
+    "fragment_id",
+    "source_id",
+    "anchor",
+    "title",
+    "text",
+    "url",
+    "content_kind",
+    "text_hash"
+  ],
+  "properties": {
+    "fragment_id": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "content_kind": {
+      "const": "verbatim_article"
+    },
+    "valid_from": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "text_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "additionalProperties": true
+}

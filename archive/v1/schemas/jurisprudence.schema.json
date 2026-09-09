@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JurisprudenceRecord",
+  "type": "object",
+  "required": [
+    "case_id",
+    "date",
+    "court",
+    "procedure_type",
+    "legal_regime",
+    "exam_type",
+    "topics",
+    "issue",
+    "holding",
+    "may_infer",
+    "must_not_infer",
+    "url"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "court": {
+      "type": "string"
+    },
+    "procedure_type": {
+      "type": "string"
+    },
+    "school_context": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "public_or_private_school": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "legal_regime": {
+      "type": "string"
+    },
+    "exam_type": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "SE",
+          "CE",
+          "BOTH",
+          "OTHER"
+        ]
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "issue": {
+      "type": "string"
+    },
+    "holding": {
+      "type": "string"
+    },
+    "decisive_reasoning": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "may_infer": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "must_not_infer": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "additionalProperties": true
+}

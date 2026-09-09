@@ -1,0 +1,15 @@
+{
+  "case_id": "golden-008",
+  "title": "Correct en intern consistent artikel",
+  "input_excerpt": "De kandidaat ontvangt schriftelijk de beslissing en de daarbij behorende beroepsinformatie. Elders in het reglement is dezelfde procedure identiek uitgewerkt.",
+  "context": {
+    "topic": "procedure"
+  },
+  "expected": {
+    "no_finding": true
+  },
+  "rationale": "Voorkomt overdetectie.",
+  "evidence_expectation": [],
+  "validation_status": "candidate_needs_independent_review",
+  "execution_status": "not_run_analyzer_missing"
+}
