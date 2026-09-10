@@ -6,8 +6,13 @@ from pathlib import Path
 from typing import Any
 from .registers import build_registers
 from .retrieval import SourceLibrary,infer_scope
+from .actuality import assess_actuality
+from .comparison import compare_document
+from .completeness import assess_completeness
+from .counter_review import run_counter_review
+from .evidence import validate_candidates
 
-ANALYZER_VERSION='v3.1-deterministic-0.2'
+ANALYZER_VERSION='v3.3-deterministic-0.5'
 
 def _doc_ev(document,loc):
     return {"source_id":"document:"+document['document_id'],"quote_or_summary":loc['text'],"anchor_id":loc['anchor_id'],"page":loc.get('page'),"article":loc.get('article')}
@@ -68,9 +73,17 @@ def source_candidates(document,lib):
     return snippets
 
 def analyze_document(document:dict[str,Any],*,root:Path,run_id:str,as_of:str|None=None)->dict[str,Any]:
-    regs=build_registers(document);findings=internal_findings(document,regs,run_id);lib=SourceLibrary(root);candidates=source_candidates(document,lib)
+    regs=build_registers(document);lib=SourceLibrary(root)
+    completeness=assess_completeness(document,lib.rules,run_id)
+    findings=internal_findings(document,regs,run_id)+completeness['findings']
+    candidates=source_candidates(document,lib)
     as_of=as_of or date.today().isoformat();exam_year=document.get('metadata',{}).get('expected_exam_year');gate_results=[]
     for c in candidates:
         allowed,reason=lib.gate(c['rule_id'],as_of=as_of,exam_year=exam_year);c['source_gate']={'eligible':allowed,'reason':reason};gate_results.append(c['source_gate'])
+    actuality_inputs=candidates+completeness['checks']
+    actuality=assess_actuality(root,lib.sources,actuality_inputs,as_of=as_of,exam_year=exam_year,school_year=document.get('school_year'))
+    evidence_validation=validate_candidates(lib,candidates,as_of=as_of,exam_year=exam_year)
+    comparisons=compare_document(root,document)
+    counter_review=run_counter_review(findings,parsing_status=document.get('parsing_status','partial'))
     eligible=sum(1 for g in gate_results if g['eligible'])
-    return {"registers":regs,"findings":findings,"source_candidates":candidates,"coverage":{"legal_must_enabled":False,"source_gate_checked":len(gate_results),"source_gate_eligible":eligible,"semantic_evidence_validator":"not_implemented","reason":"De bronpoort is uitgevoerd. De semantische evidence-validator ontbreekt nog, dus v3.1 produceert geen juridische must-findings.","candidate_count":len(candidates)}}
+    return {"registers":regs,"findings":findings,"source_candidates":candidates,"completeness":completeness,"actuality":actuality,"comparisons":comparisons,"counter_review":counter_review,"evidence_validation":evidence_validation,"coverage":{"legal_must_enabled":False,"source_gate_checked":len(gate_results),"source_gate_eligible":eligible,"semantic_evidence_validator":"implemented_deterministic","reason":"Bronpoort, herkomstcontrole en een conservatief semantisch signaal zijn uitgevoerd. Alle regels zijn nog concept en niet productiegoedgekeurd; juridische MOET blijft daarom geblokkeerd.","candidate_count":len(candidates)}}

@@ -1,9 +1,9 @@
 from __future__ import annotations
-import hashlib, re, uuid
+import hashlib, re, shutil, subprocess, uuid
 from pathlib import Path
 from typing import Any
 
-PARSER_VERSION = "v3.1-parser-0.2"
+PARSER_VERSION = "v3.3-parser-0.3"
 YEAR_RE = re.compile(r"\b(20\d{2})\s*[-/]\s*(20\d{2})\b")
 EXPLICIT_ARTICLE_RE = re.compile(r"^\s*artikel\s+(?P<num>\d{1,3}(?:\.\d+)*(?:[a-z])?)\b", re.I)
 DOTTED_ARTICLE_RE = re.compile(r"^\s*(?P<num>\d{1,3}(?:\.\d+)+(?:[a-z])?)\s+(?P<title>\S.+)$", re.I)
@@ -76,14 +76,53 @@ def parse_docx(path: Path) -> tuple[list[dict[str,Any]], list[dict[str,Any]]]:
     if not units: warnings.append({"code":"empty_document","message":"Geen uitleesbare tekst in DOCX gevonden.","severity":"high"})
     return units,warnings
 
+def ocr_status() -> dict[str,Any]:
+    executable=shutil.which('tesseract')
+    return {
+        "available":bool(executable),
+        "engine":"tesseract" if executable else None,
+        "reason":"Tesseract is beschikbaar voor gescande PDF-pagina's." if executable else "Tesseract is niet geïnstalleerd; tekst-PDF en DOCX blijven beschikbaar.",
+    }
+
+def _ocr_page_text(page) -> str | None:
+    """OCR a rendered page through a fixed, non-shell Tesseract invocation."""
+    executable=shutil.which('tesseract')
+    if not executable:return None
+    pix=page.get_pixmap(dpi=200,alpha=False)
+    try:
+        result=subprocess.run(
+            [executable,'stdin','stdout','--dpi','200','--psm','6'],
+            input=pix.tobytes('png'),capture_output=True,timeout=45,check=False,
+        )
+    except (OSError,subprocess.TimeoutExpired):
+        return None
+    if result.returncode != 0:return None
+    text=result.stdout.decode('utf-8',errors='replace').strip()
+    return text or None
+
 def parse_pdf(path: Path) -> tuple[list[dict[str,Any]], list[dict[str,Any]]]:
-    import fitz
+    try:
+        import pymupdf as fitz
+    except ImportError:  # backwards-compatible module name
+        import fitz
     pdf=fitz.open(path); units=[];warnings=[];order=0
     for pno,page in enumerate(pdf, start=1):
         blocks=sorted(page.get_text('blocks'),key=lambda b:(round(b[1],1),round(b[0],1)))
         page_chars=sum(len((b[4] or '').strip()) for b in blocks)
+        ocr_text=None
         if page_chars < 30:
-            warnings.append({"code":"low_text_page","page":pno,"message":f"Pagina {pno} bevat weinig uitleesbare tekst. OCR-fallback is nog niet geactiveerd.","severity":"medium"})
+            ocr_text=_ocr_page_text(page)
+            if ocr_text and len(ocr_text) >= 30:
+                warnings.append({"code":"page_ocr_used","page":pno,"message":f"Pagina {pno} bevatte weinig digitale tekst en is met OCR uitgelezen.","severity":"low"})
+            else:
+                available=ocr_status()['available']
+                warnings.append({"code":"low_text_page" if available else "ocr_unavailable","page":pno,"message":f"Pagina {pno} bevat weinig uitleesbare tekst; OCR leverde geen betrouwbare tekst op." if available else f"Pagina {pno} bevat weinig uitleesbare tekst en Tesseract OCR is niet beschikbaar.","severity":"medium"})
+        if ocr_text and len(ocr_text) >= 30:
+            paragraphs=[part.strip() for part in re.split(r'\n\s*\n|\n',ocr_text) if part.strip()]
+            for bidx,text in enumerate(paragraphs,start=1):
+                order+=1;kind,article=_kind(text)
+                units.append({"unit_id":f"u-{order:04d}","type":kind,"text":' '.join(text.split()),"order":order,"page":pno,"anchor_id":f"pdf-p{pno:03d}-ocr{bidx:03d}","article":article,"bbox":[0.0,0.0,round(page.rect.width,2),round(page.rect.height,2)],"extraction_method":"ocr_tesseract","confidence":"medium"})
+            continue
         for bidx,b in enumerate(blocks,start=1):
             text=' '.join((b[4] or '').split())
             if not text: continue
@@ -91,7 +130,7 @@ def parse_pdf(path: Path) -> tuple[list[dict[str,Any]], list[dict[str,Any]]]:
             # Confidence here means extraction coverage signal, not semantic correctness.
             conf='high' if len(text)>=40 else ('medium' if len(text)>=12 else 'low')
             units.append({"unit_id":f"u-{order:04d}","type":kind,"text":text,"order":order,"page":pno,"anchor_id":f"pdf-p{pno:03d}-b{bidx:03d}","article":article,"bbox":[round(x,2) for x in b[:4]],"extraction_method":"pdf_text","confidence":conf})
-    if not units: warnings.append({"code":"empty_document","message":"Geen uitleesbare tekst in PDF gevonden. OCR is nog niet aangesloten.","severity":"high"})
+    if not units: warnings.append({"code":"empty_document","message":"Geen uitleesbare tekst in PDF gevonden, ook niet via de beschikbare OCR-fallback.","severity":"high"})
     return units,warnings
 
 def infer_metadata(units: list[dict[str,Any]], supplied_year: str | None = None) -> dict[str,Any]:

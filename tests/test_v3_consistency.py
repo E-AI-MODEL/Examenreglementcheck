@@ -8,8 +8,10 @@ class V3ConsistencyTests(unittest.TestCase):
  def test_no_ai_mode_is_default_and_ai_disabled_in_ui(self):
   h=(ROOT/'web/index.html').read_text();self.assertIn('Zonder AI',h);self.assertRegex(h,r'<button disabled[^>]*>Met AI</button>');self.assertIn("fd.append('ai_mode','off')",h)
   m=json.loads((ROOT/'manifest.json').read_text());self.assertEqual(m['analysis_modes']['without_ai'],'implemented');self.assertEqual(m['analysis_modes']['with_ai'],'skeleton_disabled')
- def test_v31_ui_contains_review_changes_and_audit(self):
-  h=(ROOT/'web/index.html').read_text();self.assertIn('Wijzigingen',h);self.assertIn('Audit',h);self.assertIn('Review opslaan',h);self.assertIn('Bronpoort / evidence-validatie',h)
+ def test_v33_ui_contains_complete_scoped_workflow(self):
+  h=(ROOT/'web/index.html').read_text();
+  for label in ('Volledigheid','Vergelijking','Wijzigingen','Audit','Review opslaan','Bronpoort / evidence-validatie','Eerdere controles','Rapport','Verwijder'):self.assertIn(label,h)
+  self.assertIn('out_of_scope',h);self.assertIn('loadRuns',h);self.assertIn('downloadExport',h)
  def test_runtime_dirs_are_release_cleanable(self):
   for rel in ['runtime/uploads','runtime/runs']:
    self.assertTrue((ROOT/rel).is_dir())

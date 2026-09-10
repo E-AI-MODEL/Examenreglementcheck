@@ -50,10 +50,10 @@ class V31RegressionTests(unittest.TestCase):
    r=c.post('/api/parse',files={'file':('x.docx',p.read_bytes(),'application/vnd.openxmlformats-officedocument.wordprocessingml.document')},data={'school_year':'2025-2026','school_types':'vwo','document_status':'concept','ai_mode':'off'});self.assertEqual(r.status_code,200);rid=r.json()['run_id']
    r=c.post('/api/analyze/'+rid,json={'school_year':'2026-2027','school_types':['vwo'],'document_status':'concept','confirmed':True,'ai_mode':'off'});self.assertEqual(r.status_code,200);x=r.json()
    self.assertEqual(x['school_year'],'2026-2027');self.assertEqual(x['exam_year'],2027);self.assertEqual(x['document']['metadata']['expected_exam_year'],2027);self.assertEqual(x['confirmed_context']['exam_year'],2027)
- def test_source_gate_is_executed_but_semantic_validator_still_blocks_must(self):
+ def test_source_gate_and_evidence_validator_execute_but_draft_rules_block_must(self):
   with tempfile.TemporaryDirectory() as td:
    doc=self.doc(td,['Artikel 1.1 De kandidaat kan binnen 5 dagen beroep instellen.'])
    result=analyze_document(doc,root=ROOT,run_id='x')
-   self.assertGreater(result['coverage']['source_gate_checked'],0);self.assertEqual(result['coverage']['source_gate_checked'],len(result['source_candidates']));self.assertEqual(result['coverage']['semantic_evidence_validator'],'not_implemented');self.assertFalse(result['coverage']['legal_must_enabled'])
-   for c in result['source_candidates']:self.assertIn('source_gate',c)
+   self.assertGreater(result['coverage']['source_gate_checked'],0);self.assertEqual(result['coverage']['source_gate_checked'],len(result['source_candidates']));self.assertEqual(result['coverage']['semantic_evidence_validator'],'implemented_deterministic');self.assertFalse(result['coverage']['legal_must_enabled'])
+   for c in result['source_candidates']:self.assertIn('source_gate',c);self.assertIn('evidence_validation',c);self.assertNotEqual(c['evidence_validation']['status'],'validated_for_must')
 if __name__=='__main__':unittest.main(verbosity=2)

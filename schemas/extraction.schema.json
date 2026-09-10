@@ -3,6 +3,6 @@
   "$defs":{"unit":{"type":"object","required":["unit_id","type","text","order","anchor_id","extraction_method","confidence"],"properties":{
     "unit_id":{"type":"string"},"type":{"enum":["section","article","paragraph","table","definition"]},"text":{"type":"string","minLength":1},
     "order":{"type":"integer","minimum":1},"page":{"type":["integer","null"],"minimum":1},"anchor_id":{"type":"string"},
-    "article":{"type":["string","null"]},"extraction_method":{"enum":["docx_native","pdf_text","ocr"]},"confidence":{"enum":["high","medium","low"]}
+    "article":{"type":["string","null"]},"extraction_method":{"enum":["docx_native","pdf_text","ocr_tesseract"]},"confidence":{"enum":["high","medium","low"]}
   },"additionalProperties":true}}
 }

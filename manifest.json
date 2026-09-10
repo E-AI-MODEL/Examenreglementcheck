@@ -1,9 +1,9 @@
 {
-  "version": "0.4.2",
-  "delivery": "functional-v3.2-no-ai",
-  "created_at": "2026-09-08",
+  "version": "0.5.0",
+  "delivery": "functional-v3.3-scoped-no-ai",
+  "created_at": "2026-09-10",
   "source_snapshot": "2026-09-07-first-content",
-  "html_version": "3.1",
+  "html_version": "3.3",
   "original_v1_files": 34,
   "source_records": 40,
   "full_article_fragments": 109,
@@ -12,11 +12,11 @@
   "comparison_records": 9,
   "production_ready": false,
   "notes": [
-    "V3.2 draait zonder AI en behoudt de uitgeschakelde AI-toggle.",
-    "Bugfix in _start_event: beperkt tot eerste kern-zelfstandignaamwoord; herkansing-termijnconflicten worden nu gedetecteerd.",
-    "schemas/README.md en scripts/README.md toegevoegd (V3-002).",
-    "Nieuwe regressietests bewaken de bugfix.",
-    "Bronpoort draait per bronkandidaat; semantische evidence-validatie ontbreekt nog; juridische must blijft geblokkeerd."
+    "V3.3 draait zonder AI en behoudt de uitgeschakelde AI-toggle.",
+    "Fasen A, B, C, D, G, H en I zijn geïmplementeerd; E (SE/CE) en F (jurisprudentie) zijn bewust buiten scope.",
+    "OCR gebruikt optioneel een lokaal Tesseract-proces met vaste argumenten.",
+    "Runhervatting, verwijderen en JSON/Markdown-export zijn in API en UI beschikbaar.",
+    "Bronpoort en evidence-validatie draaien; alle regels blijven concept en juridische must blijft geblokkeerd."
   ],
   "analysis_modes": {
     "without_ai": "implemented",
@@ -26,26 +26,25 @@
     "server": "FastAPI",
     "parsers": [
       "docx_native",
-      "pdf_text"
+      "pdf_text",
+      "ocr_tesseract_optional"
     ],
-    "ocr": "not_connected",
+    "ocr": "optional_local_tesseract",
     "implemented_phases": [
       "A",
-      "C"
-    ],
-    "partial_phases": [
+      "B",
+      "C",
       "D",
+      "G",
+      "H",
       "I"
     ],
-    "not_implemented_phases": [
-      "B",
+    "out_of_scope_phases": [
       "E",
-      "F",
-      "G",
-      "H"
+      "F"
     ]
   },
-  "distribution_files_excluding_manifest_sha256": 177,
-  "tests_passed": 41,
-  "integration_test": "health + parse + context confirmation + analyze + review + change set passed"
+  "distribution_files_excluding_manifest_sha256": 186,
+  "tests_passed": 46,
+  "integration_test": "health + parse + context confirmation + all in-scope phases + review + resume + export + delete passed"
 }

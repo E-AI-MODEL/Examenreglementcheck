@@ -2,16 +2,18 @@ from __future__ import annotations
 import shutil,time,re,zipfile
 from pathlib import Path
 from fastapi import FastAPI,UploadFile,File,Form,HTTPException
-from fastapi.responses import HTMLResponse
-from pydantic import BaseModel,Field
+from fastapi.responses import HTMLResponse,PlainTextResponse
+from pydantic import BaseModel
 from . import __version__
 from .ai_adapter import status as ai_status
-from .parser import parse_document,PARSER_VERSION,expected_exam_year
+from .parser import parse_document,PARSER_VERSION,expected_exam_year,ocr_status
 from .analyzer import analyze_document,ANALYZER_VERSION
+from .exporter import build_export,export_markdown
 from .run_store import RunStore
+from .scope import scope_summary
 
 ROOT=Path(__file__).resolve().parents[1];store=RunStore(ROOT)
-app=FastAPI(title='Examenreglement-checker v3.1',version=__version__)
+app=FastAPI(title='Examenreglement-checker v3.3',version=__version__)
 ALLOWED_REVIEW={'unreviewed','accepted','rejected','needs_legal_review','implemented','resolved'}
 ALLOWED_STATUS={'concept','vastgesteld','historisch'}
 ALLOWED_TYPES={'havo','vwo','vmbo'}
@@ -20,7 +22,7 @@ MAX_DOCX_UNCOMPRESSED=100*1024*1024
 
 class AnalyzeRequest(BaseModel):
     school_year:str|None=None
-    school_types:list[str]=Field(default_factory=list)
+    school_types:list[str]|None=None
     document_status:str='concept'
     confirmed:bool=True
     ai_mode:str='off'
@@ -75,7 +77,7 @@ def _validate_file_content(path,suffix):
 @app.get('/',response_class=HTMLResponse)
 def home():return (ROOT/'web/index.html').read_text()
 @app.get('/api/health')
-def health():return {'ok':True,'version':__version__,'analysis_mode':'deterministic','ai':ai_status().__dict__}
+def health():return {'ok':True,'version':__version__,'analysis_mode':'deterministic','ai':ai_status().__dict__,'ocr':ocr_status(),'scope':scope_summary()}
 
 @app.post('/api/parse')
 async def parse(file:UploadFile=File(...),school_year:str|None=Form(None),school_types:str=Form(''),document_status:str=Form('concept'),ai_mode:str=Form('off')):
@@ -89,7 +91,7 @@ async def parse(file:UploadFile=File(...),school_year:str|None=Form(None),school
         path.unlink(missing_ok=True);raise
     try:doc=parse_document(path,school_year=school_year or None,school_types=[x.strip() for x in school_types.split(',') if x.strip()],document_status=document_status)
     except Exception as e:path.unlink(missing_ok=True);raise HTTPException(422,detail=f'Extractie mislukt: {e}')
-    run={'run_id':run_id,'document_hash':doc['sha256'],'school_year':doc.get('school_year') or '', 'exam_year':doc.get('metadata',{}).get('expected_exam_year') or 0,'context_status':'unconfirmed','status':'awaiting_confirmation','source_snapshot':'2026-09-07-first-content','analysis_mode':'deterministic_no_ai','phase_status':{'A_extractie':'complete' if doc['parsing_status']=='complete' else 'partial','B_volledigheid':'not_implemented','C_interne_consistentie':'not_started','D_actualiteit':'not_started','E_se_ce':'not_implemented','F_jurisprudentie':'not_implemented','G_vergelijking':'not_implemented','H_tegenlezing':'not_implemented','I_evidence_validatie':'not_started'},'versions':{'analyzer':ANALYZER_VERSION,'rule_set':'candidate-rules-v0.2','parser':PARSER_VERSION,'model':None,'prompt_set':None},'document':doc,'upload_path':str(path.relative_to(ROOT)),'findings':[],'registers':{},'source_candidates':[],'review_history':[],'partial_reasons':['B, E, F, G en H zijn nog niet geïmplementeerd.'],'audit':[_event('document_parsed') ]}
+    run={'run_id':run_id,'document_hash':doc['sha256'],'school_year':doc.get('school_year') or '', 'exam_year':doc.get('metadata',{}).get('expected_exam_year') or 0,'context_status':'unconfirmed','status':'awaiting_confirmation','source_snapshot':'2026-09-07-first-content','analysis_mode':'deterministic_no_ai','scope':scope_summary(),'phase_status':{'A_extractie':'complete' if doc['parsing_status']=='complete' else 'partial','B_volledigheid':'not_started','C_interne_consistentie':'not_started','D_actualiteit':'not_started','E_se_ce':'out_of_scope','F_jurisprudentie':'out_of_scope','G_vergelijking':'not_started','H_tegenlezing':'not_started','I_evidence_validatie':'not_started'},'versions':{'analyzer':ANALYZER_VERSION,'rule_set':'candidate-rules-v0.2','parser':PARSER_VERSION,'model':None,'prompt_set':None},'document':doc,'upload_path':str(path.relative_to(ROOT)),'findings':[],'registers':{},'source_candidates':[],'review_history':[],'partial_reasons':[],'audit':[_event('document_parsed') ]}
     store.save(run_id,run);return run
 
 @app.post('/api/analyze/{run_id}')
@@ -98,11 +100,20 @@ def analyze(run_id:str,request:AnalyzeRequest):
     try:run=store.load(run_id)
     except FileNotFoundError:raise HTTPException(404,detail='Run niet gevonden.')
     if not request.confirmed:raise HTTPException(409,detail='Bevestig de documentcheck vóór analyse.')
-    context=_validated_context(request.school_year or run.get('school_year'),request.school_types or run['document'].get('school_types') or [],request.document_status)
+    selected_types=request.school_types if request.school_types is not None else run['document'].get('school_types') or []
+    context=_validated_context(request.school_year or run.get('school_year'),selected_types,request.document_status)
     _apply_confirmed_context(run,context)
-    run['status']='analyzing';run['phase_status']['C_interne_consistentie']='running';run.setdefault('audit',[]).append(_event('context_confirmed',context=context));store.save(run_id,run)
+    run['status']='analyzing'
+    for phase in ('B_volledigheid','C_interne_consistentie','D_actualiteit','G_vergelijking','H_tegenlezing','I_evidence_validatie'):run['phase_status'][phase]='running'
+    run.setdefault('audit',[]).append(_event('context_confirmed',context=context));store.save(run_id,run)
     result=analyze_document(run['document'],root=ROOT,run_id=run_id,as_of=time.strftime('%Y-%m-%d',time.gmtime()))
-    run.update(result);run['phase_status']['C_interne_consistentie']='complete';run['phase_status']['D_actualiteit']='partial';run['phase_status']['I_evidence_validatie']='partial';run['status']='partial';run['partial_reasons']=['B, E, F, G en H zijn nog niet geïmplementeerd.','D selecteert bronkandidaten maar voert nog geen volledige actualiteitscontrole uit.','I voert de bronpoort uit; semantische claimvalidatie is nog niet gebouwd.'];run['audit'].append(_event('analysis_completed',findings=len(run['findings']),source_candidates=len(run['source_candidates'])));store.save(run_id,run);return run
+    run.update(result)
+    run['phase_status'].update({'B_volledigheid':result['completeness']['status'],'C_interne_consistentie':'complete','D_actualiteit':result['actuality']['status'],'E_se_ce':'out_of_scope','F_jurisprudentie':'out_of_scope','G_vergelijking':result['comparisons']['status'],'H_tegenlezing':result['counter_review']['status'],'I_evidence_validatie':result['evidence_validation']['status']})
+    included=('A_extractie','B_volledigheid','C_interne_consistentie','D_actualiteit','G_vergelijking','H_tegenlezing','I_evidence_validatie')
+    partial=[phase for phase in included if run['phase_status'].get(phase)!='complete']
+    run['status']='partial' if partial else 'complete'
+    run['partial_reasons']=[f"Fase {phase.split('_',1)[0]} is {run['phase_status'].get(phase)}." for phase in partial]
+    run['audit'].append(_event('analysis_completed',status=run['status'],findings=len(run['findings']),source_candidates=len(run['source_candidates'])));store.save(run_id,run);return run
 
 @app.patch('/api/runs/{run_id}/findings/{finding_id}')
 def review_finding(run_id:str,finding_id:str,request:ReviewRequest):
@@ -120,6 +131,21 @@ def changes(run_id:str):
     try:run=store.load(run_id)
     except FileNotFoundError:raise HTTPException(404,detail='Run niet gevonden.')
     return {'run_id':run_id,'changes':[f for f in run.get('findings',[]) if f.get('in_change_set')]}
+
+@app.get('/api/runs')
+def list_runs():return {'runs':store.list()}
+
+@app.get('/api/runs/{run_id}/export')
+def export_run(run_id:str):
+    try:run=store.load(run_id)
+    except FileNotFoundError:raise HTTPException(404,detail='Run niet gevonden.')
+    return build_export(run)
+
+@app.get('/api/runs/{run_id}/export.md',response_class=PlainTextResponse)
+def export_run_markdown(run_id:str):
+    try:run=store.load(run_id)
+    except FileNotFoundError:raise HTTPException(404,detail='Run niet gevonden.')
+    return PlainTextResponse(export_markdown(run),media_type='text/markdown; charset=utf-8',headers={'Content-Disposition':f'attachment; filename="{run_id}-rapport.md"'})
 
 @app.delete('/api/runs/{run_id}')
 def delete_run(run_id:str):

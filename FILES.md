@@ -1,6 +1,6 @@
-# Bestanden v3.1
+# Bestanden v3.3
 
-Totaal: **175 bestanden exclusief `MANIFEST.sha256`**.
+Totaal: **186 gecontroleerde distributiebestanden exclusief `MANIFEST.sha256`**. De twee runtime-`.gitkeep`-bestanden worden niet gehasht.
 
 De actuele runtimebestanden staan onder `app/`, de browserinterface onder `web/`, de bronlaag onder `sources/` en `rules/`, en de tests onder `tests/`.
 
@@ -13,13 +13,20 @@ De actuele runtimebestanden staan onder `app/`, de browserinterface onder `web/`
 - `FILES.md`
 - `README.md`
 - `app/__init__.py`
+- `app/actuality.py`
 - `app/ai_adapter.py`
 - `app/analyzer.py`
+- `app/comparison.py`
+- `app/completeness.py`
+- `app/counter_review.py`
+- `app/evidence.py`
+- `app/exporter.py`
 - `app/parser.py`
 - `app/registers.py`
 - `app/retrieval.py`
 - `app/run_store.py`
 - `app/server.py`
+- `app/scope.py`
 - `app/source_gate.py`
 - `archive/v1/.env.example`
 - `archive/v1/.gitignore`
@@ -65,6 +72,8 @@ De actuele runtimebestanden staan onder `app/`, de browserinterface onder `web/`
 - `docs/GLOSSARY.md`
 - `docs/GOVERNANCE.md`
 - `docs/IMPLEMENTATIESTATUS-V3.1.md`
+- `docs/IMPLEMENTATIESTATUS-V3.2.md`
+- `docs/IMPLEMENTATIESTATUS-V3.3.md`
 - `docs/IMPLEMENTATIESTATUS-V3.md`
 - `docs/IMPLEMENTATIESTATUS.md`
 - `docs/OPEN-PUNTEN.md`
@@ -177,6 +186,8 @@ De actuele runtimebestanden staan onder `app/`, de browserinterface onder `web/`
 - `tests/test_project_consistency.py`
 - `tests/test_source_pack.py`
 - `tests/test_v31_regressions.py`
+- `tests/test_v32_regressions.py`
+- `tests/test_v33_pipeline.py`
 - `tests/test_v3_consistency.py`
 - `tests/test_v3_runtime.py`
 - `tests/test_v3_server.py`

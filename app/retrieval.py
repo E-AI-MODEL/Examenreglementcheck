@@ -3,6 +3,7 @@ import json,re
 from pathlib import Path
 from typing import Any
 from .source_gate import can_support_must
+from .scope import rule_in_scope
 
 TOKEN_RE=re.compile(r'[a-zà-ÿ0-9]{3,}',re.I)
 STOP={'het','een','van','voor','met','dat','wordt','zijn','kan','deze','naar','bij','uit','aan','over','onder','heeft','als','ook'}
@@ -30,6 +31,7 @@ class SourceLibrary:
     def search(self,query:str,*,exam_year:int|None=None,school_year:str|None=None,school_types:list[str]|None=None,scope:str|None=None,legal_regime:str|None='WVO 2020',limit:int=8,min_score:int=2,include_comparison:bool=False)->list[dict[str,Any]]:
         q=_tokens(query);scope=scope or infer_scope(query);rows=[];school_types=set(school_types or [])
         for r in self.rules:
+            if not rule_in_scope(r):continue
             s=self.source_index.get(r['source_id'])
             if not s or s.get('fetch_status')!='retrieved':continue
             if s.get('status') in {'fetch_failed','excluded_wrong_year','rejected','archived'}:continue

@@ -1,7 +1,7 @@
 import json,tempfile,unittest
 from pathlib import Path
 from docx import Document
-import fitz
+import pymupdf as fitz
 from jsonschema import Draft202012Validator,RefResolver
 import sys
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))

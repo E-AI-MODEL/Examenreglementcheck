@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0 - v3.3 - 2026-09-10
+
+De afgesproken no-AI-keten is aangevuld met formele volledigheidsscreening, bronactualiteit binnen de snapshot, vergelijking, kritische tegenlezing en evidence-/provenancevalidatie. Dunne PDF-pagina's gebruiken optioneel lokale Tesseract-OCR. De browser kan runs hervatten en verwijderen en rapporten als JSON of Markdown exporteren. Een expliciet lege schoolsoortselectie wordt niet meer stilzwijgend vervangen door eerdere waarden en reviewacties verversen nu direct het auditlog. SE/CE (inclusief PTA/rooster/hulpmiddelen) en jurisprudentie hebben bewust status `out_of_scope`. Alle regels blijven concept; juridische `must` blijft geblokkeerd.
+
 ## 0.4.2 - v3.2 - 2026-09-08
 
 Kleine upgrade naar aanleiding van een demo-run met `examples/demo-reglement.docx`. De demo toonde dat `_start_event` in `app/registers.py` te veel tekst extraheren, waardoor twee clausules die semantisch dezelfde stap beschreven (bv. "3 vs 5 schooldagen na publicatie voor herkansing") verschillende start_events kregen en geen `term_conflict` werd gerapporteerd. V3.2 beperkt `_start_event` tot het eerste kern-zelfstandignaamwoord via een stop-lijst van voorzetsels en werkwoorden. Daarnaast zijn `schemas/README.md` en `scripts/README.md` toegevoegd (V3-002), een nieuwe `tests/test_v32_regressions.py` bewaakt de bugfix, en `RELEASE-LOG-V3.2.md` documenteert per bestand wat is gewijzigd. Geen van de runtime-API's is gewijzigd; bestaande v3.1-runs blijven geldig.

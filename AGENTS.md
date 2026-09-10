@@ -1,13 +1,8 @@
-
-## Runtime-aanvulling v3.1
-
-De actieve no-AI-runtime staat onder `app/`. Gebruik `docs/IMPLEMENTATIESTATUS-V3.1.md` als actuele stand. V3.1 behandelt termen en rollen conservatiever: alleen dezelfde herkenbare procedurestap mag een deterministisch conflict opleveren. Fase I is `partial`: de bronpoort draait, maar semantische evidence-validatie niet. Activeer geen juridische `must` zonder aparte bron- en regelreview en een toekomstige claimvalidator. AI blijft disabled.
-
 # AGENTS.md
 
-## Status v3 / 0.4.0
+## Status v3.3 / 0.5.0
 
-V3 heeft een werkende deterministische runtime zonder AI. PDF/DOCX-extractie, documentcheck, vijf registers, interne consistentie en bronkandidaten zijn gebouwd. De AI-modus is alleen een uitgeschakeld geraamte. B/E/F/G/H, OCR en de volledige juridische evidence-validator zijn nog niet gebouwd. Raadpleeg `docs/IMPLEMENTATIESTATUS.md` voordat je doelarchitectuur als bestaande functionaliteit beschrijft.
+V3.3 heeft een werkende deterministische runtime zonder AI. Fasen A, B, C, D, G, H en I zijn gebouwd. OCR werkt als lokale Tesseract beschikbaar is. E (SE/CE) en F (jurisprudentie) zijn per productbesluit buiten scope. De AI-modus is alleen een uitgeschakeld geraamte. Raadpleeg `docs/IMPLEMENTATIESTATUS-V3.3.md` voordat je doelarchitectuur als bestaande functionaliteit beschrijft.
 
 ## Doel
 
@@ -51,8 +46,11 @@ PTA:
 - alleen optioneel gebruiken voor gerichte kruiscontrole.
 
 SE en CE:
-- beide binnen scope waar het examenreglement er regels over bevat;
-- gebruik bij voorkeur de wettelijke term `centraal examen (CE)`.
+- inhoudelijke SE/CE-controle is buiten de actieve productscope;
+- PTA-, rooster- en hulpmiddelenregels worden daarom ook niet als controlegrond gebruikt.
+
+Jurisprudentie:
+- analyse en toepassing van rechtspraak is buiten de actieve productscope.
 
 ## Harde productregels
 
@@ -270,8 +268,8 @@ Bij een substantiële wijziging:
 8. visuele verfijning.
 
 
-## Pakketstatus 0.3.0
+## Pakketstatus 0.5.0
 
-Lees `docs/IMPLEMENTATIESTATUS.md` voordat je functionaliteit veronderstelt. De analyzer, parser, OCR en LLM-koppeling zijn niet gebouwd. Gebruik `sources/registry.json`, `sources/fragments.json`, `rules/candidates.json` en `sources/jurisprudence.normalized.json` als leidende gegevens. `archive/v1/` is alleen historisch.
+Lees `docs/IMPLEMENTATIESTATUS-V3.3.md` voordat je functionaliteit veronderstelt. Gebruik `sources/registry.json`, `sources/fragments.json` en `rules/candidates.json` als leidende gegevens voor controles binnen scope. Jurisprudentiebestanden zijn alleen historische/voorbereidende data en worden niet door de actieve analyzer gebruikt. `archive/v1/` is alleen historisch.
 
 Een opgehaalde bron is niet automatisch juridisch goedgekeurd. Een harde conclusie vereist bron- én regelgoedkeuring, actuele geldigheid, passende scope en bewijs uit het schooldocument. De huidige bronset voldoet bewust nog niet aan die activeringsvoorwaarden.

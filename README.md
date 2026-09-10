@@ -1,66 +1,48 @@
-# Examenreglement-checker v3.1
+# Examenreglement-checker v3.3
 
-**Pakketversie 0.4.1 · deterministische analyzer zonder AI**
+**Pakketversie 0.5.0 · deterministische analyzer zonder AI**
 
-V3.1 leest een eigen PDF of DOCX uit en voert een echte lokale analyse uit. De actieve keten gebruikt geen AI. De UI toont wel **Zonder AI / Met AI**, maar `Met AI` blijft uitgeschakeld en de API weigert modelgebruik.
+V3.3 leest een PDF of DOCX en voert de afgesproken controleketen lokaal uit. SE/CE-controle en jurisprudentie-analyse zijn bewust buiten scope. De interface toont **Met AI** alleen als uitgeschakelde toekomstige optie; de API weigert modelgebruik.
 
-## Meteen starten
+## Starten
 
 ```sh
 python -m pip install -r requirements.txt
 python run.py
 ```
 
-Open daarna `http://127.0.0.1:8765`. Op macOS kan ook `start-v3.1.command` worden gebruikt.
+Open `http://127.0.0.1:8765`.
 
-## Wat v3.1 nu doet
+## Actieve keten
 
-- PDF en DOCX uitlezen, met inhoudscontrole van het bestand;
-- documentcheck met bevestiging van schooljaar, CE-jaar, schoolsoort en documentstatus;
-- vijf registers voor rollen, termijnen, definities, procedures en verwijzingen;
-- termijnen koppelen aan actie en procedurefase;
-- rollen onderscheiden als actor, adviseur of andere betrokkene waar dit deterministisch herkenbaar is;
-- interne termijn-, rol- en definitieconflicten vinden;
-- kapotte interne artikelverwijzingen vinden;
-- bronkandidaten selecteren op jaar, scope, regime en tekstoverlap;
-- de echte bronpoort uitvoeren voor iedere bronkandidaat;
-- juridische `must` blokkeren zolang semantische evidence-validatie ontbreekt;
-- findings menselijk beoordelen, notities bewaren en een wijzigingsset opbouwen;
-- auditregels voor parsing, contextbevestiging, analyse en review bewaren;
-- runs lokaal verwijderen via de API.
+- DOCX- en tekst-PDF-extractie met stabiele vindplaatsen;
+- optionele OCR-fallback voor dunne/gescande PDF-pagina's als Tesseract lokaal beschikbaar is;
+- bevestiging van schooljaar, examenjaar, schoolsoort en documentstatus;
+- formele volledigheidsscreening met menselijke hard stop bij mogelijke afwezigheid;
+- vijf registers en documentinterne termijn-, rol-, definitie- en verwijzingscontroles;
+- bronselectie en actualiteits-/integriteitscontrole binnen de opgeslagen snapshot;
+- evidence-validatie op herkomst, bronpoort, fragmenthash en tekstsignaal;
+- vergelijking met beschikbare schooldocumenten, altijd gelabeld als voorbeeld en nooit als juridisch bewijs;
+- deterministische kritische tegenlezing die onbewezen `must`-oordelen afwaardeert;
+- menselijke review, wijzigingsset en actueel auditlog;
+- runs hervatten, verwijderen en als JSON of Markdown exporteren.
 
-## Belangrijkste v3.1-reparaties
+Een geslaagde run krijgt `complete` als alle controles **binnen deze productscope** zijn uitgevoerd. Dat is geen juridische goedkeuring. Alle kandidaatregels zijn nog concept en `production_approved=false`; juridische `must` blijft daarom fail-closed geblokkeerd.
 
-V3.1 is gebouwd naar aanleiding van een technische tegenlezing van v3. Vier aantoonbare fouten zijn nu regressietests:
+## Buiten scope
 
-- `2026-2027` en `1 januari 2027` worden niet meer als artikelnummer gezien;
-- `de examencommissie adviseert` en `de rector besluit` geeft geen rolconflict;
-- `5 dagen om beroep in te stellen` en `2 weken om erop te beslissen` geeft geen termijnconflict;
-- wijziging van schooljaar bij de documentcheck herberekent het CE-jaar atomair vóór retrieval.
-
-Daarnaast wordt een generiek woord als `wet` niet meer genoeg geacht om een artikelverwijzing als extern te behandelen.
-
-## Wat nog niet is gebouwd
-
-OCR, volledige formele volledigheid, volledige SE/CE-controle, jurisprudentie-analyse, inhoudelijke vergelijking, tegenlezing en semantische evidence-validatie ontbreken nog. Fasen B, E, F, G en H blijven zichtbaar `not_implemented`. Fasen D en I zijn `partial` omdat daar slechts kandidaatselectie respectievelijk de bronpoort draait.
-
-Geen bron of regel staat op `production_approved=true`. De tool geeft geen juridische conformiteitsverklaring.
-
-## Architectuur
-
-`upload → extractie → contextbevestiging → registers → interne consistentie → bronkandidaten → bronpoort → findings → menselijke review`
-
-AI kan later alleen als optionele laag achter deze keten worden toegevoegd. De no-AI-route blijft zelfstandig.
+- inhoudelijke SE/CE-controle (inclusief PTA-, rooster- en hulpmiddelenregels);
+- jurisprudentie-analyse;
+- live-webactualiteitscontrole;
+- AI-analyse.
 
 ## Valideren
 
 ```sh
-python scripts/validate_all.py
+python -m unittest discover -s tests -v
+node scripts/test_html.cjs
+node scripts/test_v3_html.cjs
 python scripts/verify_package.py
 ```
 
-De huidige release bevat **37 Python-tests** plus twee JavaScript/HTML-controles. Zie `docs/VALIDATIE-V3.1.md`.
-
-## Productiestatus
-
-`production_ready=false`.
+Zie `docs/IMPLEMENTATIESTATUS-V3.3.md` en `docs/API-V3.md`. `production_ready=false` zolang de juridische bron- en regelset niet onafhankelijk is goedgekeurd.

@@ -9,14 +9,14 @@ class ServerTests(unittest.TestCase):
  def fixture(self,td):
   p=Path(td)/'x.docx';d=Document();d.add_paragraph('Examenreglement 2026-2027');d.add_paragraph('De kandidaat meldt zich binnen 2 dagen aan voor beroep.');d.add_paragraph('De kandidaat meldt zich binnen 5 dagen aan voor beroep.');d.save(p);return p
  def test_health_and_ai_block(self):
-  c=TestClient(app);h=c.get('/api/health').json();self.assertTrue(h['ok']);self.assertEqual(h['version'],'0.4.1');self.assertFalse(h['ai']['available'])
+  c=TestClient(app);h=c.get('/api/health').json();self.assertTrue(h['ok']);self.assertEqual(h['version'],'0.5.0');self.assertFalse(h['ai']['available']);self.assertIn('ocr',h);self.assertIn('SE/CE-inhoudelijke controle',h['scope']['excluded'])
   with tempfile.TemporaryDirectory() as td:
    p=self.fixture(td);r=c.post('/api/parse',files={'file':('x.docx',p.read_bytes(),'application/vnd.openxmlformats-officedocument.wordprocessingml.document')},data={'school_year':'2026-2027','ai_mode':'on'});self.assertEqual(r.status_code,409)
  def test_parse_confirm_analyze_run_contract(self):
   c=TestClient(app)
   with tempfile.TemporaryDirectory() as td:
    p=self.fixture(td);r=c.post('/api/parse',files={'file':('x.docx',p.read_bytes(),'application/vnd.openxmlformats-officedocument.wordprocessingml.document')},data={'school_year':'2026-2027','school_types':'vwo','document_status':'concept','ai_mode':'off'});self.assertEqual(r.status_code,200);x=r.json();self.assertEqual(x['status'],'awaiting_confirmation')
-   rid=x['run_id'];r=c.post('/api/analyze/'+rid,json={'school_year':'2026-2027','school_types':['vwo'],'document_status':'concept','confirmed':True,'ai_mode':'off'});self.assertEqual(r.status_code,200);x=r.json();self.assertEqual(x['status'],'partial');self.assertTrue(x['findings']);self.assertEqual(x['phase_status']['B_volledigheid'],'not_implemented');self.assertEqual(x['phase_status']['I_evidence_validatie'],'partial');Draft202012Validator(json.loads((ROOT/'schemas/run.schema.json').read_text())).validate(x)
+   rid=x['run_id'];r=c.post('/api/analyze/'+rid,json={'school_year':'2026-2027','school_types':['vwo'],'document_status':'concept','confirmed':True,'ai_mode':'off'});self.assertEqual(r.status_code,200);x=r.json();self.assertEqual(x['status'],'complete');self.assertTrue(x['findings']);self.assertEqual(x['phase_status']['B_volledigheid'],'complete');self.assertEqual(x['phase_status']['E_se_ce'],'out_of_scope');self.assertEqual(x['phase_status']['F_jurisprudentie'],'out_of_scope');self.assertEqual(x['phase_status']['I_evidence_validatie'],'complete');Draft202012Validator(json.loads((ROOT/'schemas/run.schema.json').read_text())).validate(x)
  def test_fake_docx_is_rejected_by_content(self):
   c=TestClient(app);r=c.post('/api/parse',files={'file':('x.docx',b'not a zip','application/vnd.openxmlformats-officedocument.wordprocessingml.document')},data={'school_year':'2026-2027','school_types':'vwo','ai_mode':'off'});self.assertEqual(r.status_code,415)
  def test_fake_pdf_is_rejected_by_content(self):
