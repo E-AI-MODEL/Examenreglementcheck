@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1 - v3.3.1 - 2026-09-11
+
+Operationele release: GitHub Actions valideert Python, HTML/JavaScript en het distributiemanifest op iedere push en pull request. Een niet-root Docker-image levert de webapp met Tesseract en Nederlandse taaldata, zodat de OCR-fallback reproduceerbaar beschikbaar is. De lokale/Docker-instructies zijn bijgewerkt.
+
 ## 0.5.0 - v3.3 - 2026-09-10
 
 De afgesproken no-AI-keten is aangevuld met formele volledigheidsscreening, bronactualiteit binnen de snapshot, vergelijking, kritische tegenlezing en evidence-/provenancevalidatie. Dunne PDF-pagina's gebruiken optioneel lokale Tesseract-OCR. De browser kan runs hervatten en verwijderen en rapporten als JSON of Markdown exporteren. Een expliciet lege schoolsoortselectie wordt niet meer stilzwijgend vervangen door eerdere waarden en reviewacties verversen nu direct het auditlog. SE/CE (inclusief PTA/rooster/hulpmiddelen) en jurisprudentie hebben bewust status `out_of_scope`. Alle regels blijven concept; juridische `must` blijft geblokkeerd.

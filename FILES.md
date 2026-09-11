@@ -1,15 +1,18 @@
 # Bestanden v3.3
 
-Totaal: **186 gecontroleerde distributiebestanden exclusief `MANIFEST.sha256`**. De twee runtime-`.gitkeep`-bestanden worden niet gehasht.
+Totaal: **189 gecontroleerde distributiebestanden exclusief `MANIFEST.sha256`**. De twee runtime-`.gitkeep`-bestanden worden niet gehasht.
 
 De actuele runtimebestanden staan onder `app/`, de browserinterface onder `web/`, de bronlaag onder `sources/` en `rules/`, en de tests onder `tests/`.
 
 ## Volledige lijst
 
 - `.env.example`
+- `.dockerignore`
+- `.github/workflows/ci.yml`
 - `.gitignore`
 - `AGENTS.md`
 - `CHANGELOG.md`
+- `Dockerfile`
 - `FILES.md`
 - `README.md`
 - `app/__init__.py`

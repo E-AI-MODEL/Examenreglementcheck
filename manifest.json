@@ -1,7 +1,7 @@
 {
-  "version": "0.5.0",
-  "delivery": "functional-v3.3-scoped-no-ai",
-  "created_at": "2026-09-10",
+  "version": "0.5.1",
+  "delivery": "functional-v3.3.1-scoped-no-ai",
+  "created_at": "2026-09-11",
   "source_snapshot": "2026-09-07-first-content",
   "html_version": "3.3",
   "original_v1_files": 34,
@@ -16,7 +16,8 @@
     "Fasen A, B, C, D, G, H en I zijn geïmplementeerd; E (SE/CE) en F (jurisprudentie) zijn bewust buiten scope.",
     "OCR gebruikt optioneel een lokaal Tesseract-proces met vaste argumenten.",
     "Runhervatting, verwijderen en JSON/Markdown-export zijn in API en UI beschikbaar.",
-    "Bronpoort en evidence-validatie draaien; alle regels blijven concept en juridische must blijft geblokkeerd."
+    "Bronpoort en evidence-validatie draaien; alle regels blijven concept en juridische must blijft geblokkeerd.",
+    "GitHub Actions en een niet-root Docker-image met Tesseract maken validatie en OCR reproduceerbaar."
   ],
   "analysis_modes": {
     "without_ai": "implemented",
@@ -44,7 +45,7 @@
       "F"
     ]
   },
-  "distribution_files_excluding_manifest_sha256": 186,
-  "tests_passed": 46,
+  "distribution_files_excluding_manifest_sha256": 189,
+  "tests_passed": 47,
   "integration_test": "health + parse + context confirmation + all in-scope phases + review + resume + export + delete passed"
 }

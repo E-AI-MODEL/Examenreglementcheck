@@ -1,6 +1,6 @@
 # Examenreglement-checker v3.3
 
-**Pakketversie 0.5.0 · deterministische analyzer zonder AI**
+**Pakketversie 0.5.1 · deterministische analyzer zonder AI**
 
 V3.3 leest een PDF of DOCX en voert de afgesproken controleketen lokaal uit. SE/CE-controle en jurisprudentie-analyse zijn bewust buiten scope. De interface toont **Met AI** alleen als uitgeschakelde toekomstige optie; de API weigert modelgebruik.
 
@@ -12,6 +12,13 @@ python run.py
 ```
 
 Open `http://127.0.0.1:8765`.
+
+Voor een reproduceerbare installatie met werkende OCR:
+
+```sh
+docker build -t examenreglement-checker .
+docker run --rm -p 8765:8765 examenreglement-checker
+```
 
 ## Actieve keten
 
@@ -45,4 +52,4 @@ node scripts/test_v3_html.cjs
 python scripts/verify_package.py
 ```
 
-Zie `docs/IMPLEMENTATIESTATUS-V3.3.md` en `docs/API-V3.md`. `production_ready=false` zolang de juridische bron- en regelset niet onafhankelijk is goedgekeurd.
+Zie `docs/IMPLEMENTATIESTATUS-V3.3.md`, `docs/API-V3.md` en `docs/RUN-LOCAL.md`. GitHub Actions voert dezelfde validatie automatisch uit. `production_ready=false` zolang de juridische bron- en regelset niet onafhankelijk is goedgekeurd.

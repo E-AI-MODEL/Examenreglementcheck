@@ -1,6 +1,6 @@
 # AGENTS.md
 
-## Status v3.3 / 0.5.0
+## Status v3.3 / 0.5.1
 
 V3.3 heeft een werkende deterministische runtime zonder AI. Fasen A, B, C, D, G, H en I zijn gebouwd. OCR werkt als lokale Tesseract beschikbaar is. E (SE/CE) en F (jurisprudentie) zijn per productbesluit buiten scope. De AI-modus is alleen een uitgeschakeld geraamte. Raadpleeg `docs/IMPLEMENTATIESTATUS-V3.3.md` voordat je doelarchitectuur als bestaande functionaliteit beschrijft.
 
@@ -268,7 +268,7 @@ Bij een substantiële wijziging:
 8. visuele verfijning.
 
 
-## Pakketstatus 0.5.0
+## Pakketstatus 0.5.1
 
 Lees `docs/IMPLEMENTATIESTATUS-V3.3.md` voordat je functionaliteit veronderstelt. Gebruik `sources/registry.json`, `sources/fragments.json` en `rules/candidates.json` als leidende gegevens voor controles binnen scope. Jurisprudentiebestanden zijn alleen historische/voorbereidende data en worden niet door de actieve analyzer gebruikt. `archive/v1/` is alleen historisch.
 

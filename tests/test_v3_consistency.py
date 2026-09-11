@@ -15,4 +15,9 @@ class V3ConsistencyTests(unittest.TestCase):
  def test_runtime_dirs_are_release_cleanable(self):
   for rel in ['runtime/uploads','runtime/runs']:
    self.assertTrue((ROOT/rel).is_dir())
+ def test_ci_and_ocr_container_are_declared(self):
+  workflow=(ROOT/'.github/workflows/ci.yml').read_text();docker=(ROOT/'Dockerfile').read_text();ignore=(ROOT/'.dockerignore').read_text()
+  self.assertIn('python scripts/validate_all.py',workflow);self.assertIn('python scripts/verify_package.py',workflow);self.assertIn('docker build -t examenreglement-checker:test .',workflow)
+  self.assertIn('tesseract-ocr-nld',docker);self.assertIn('USER checker',docker);self.assertIn('HEALTHCHECK',docker)
+  self.assertIn('runtime/runs/*',ignore);self.assertIn('runtime/uploads/*',ignore)
 if __name__=='__main__':unittest.main()

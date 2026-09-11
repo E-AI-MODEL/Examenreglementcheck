@@ -1,4 +1,4 @@
-# Implementatiestatus v3.3 / 0.5.0
+# Implementatiestatus v3.3 / 0.5.1
 
 | Onderdeel | Status | Begrenzing |
 |---|---|---|
@@ -18,6 +18,8 @@
 | Review/audit | **werkend** | UI herlaadt na opslaan zodat audit direct actueel is |
 | Runbeheer | **werkend** | Lijst, hervatten en verwijderen in UI/API |
 | Export | **werkend** | JSON en Markdown |
-| Tests | **46 Python + 2 HTML** | Inclusief scope-, OCR-, export- en hard-stopregressies |
+| CI | **werkend** | GitHub Actions valideert tests en manifest |
+| Docker | **configuratie aanwezig** | Niet-root image met Tesseract; build wordt door CI gevalideerd |
+| Tests | **47 Python + 2 HTML** | Inclusief scope-, OCR-, export-, CI- en hard-stopregressies |
 
 `complete` betekent uitsluitend dat alle controles binnen de gekozen productscope technisch zijn uitgevoerd. De tool geeft geen juridisch keurmerk. `production_ready=false` blijft gelden totdat bronnen en regels onafhankelijk zijn beoordeeld en geactiveerd.

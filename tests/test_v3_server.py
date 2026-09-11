@@ -9,7 +9,7 @@ class ServerTests(unittest.TestCase):
  def fixture(self,td):
   p=Path(td)/'x.docx';d=Document();d.add_paragraph('Examenreglement 2026-2027');d.add_paragraph('De kandidaat meldt zich binnen 2 dagen aan voor beroep.');d.add_paragraph('De kandidaat meldt zich binnen 5 dagen aan voor beroep.');d.save(p);return p
  def test_health_and_ai_block(self):
-  c=TestClient(app);h=c.get('/api/health').json();self.assertTrue(h['ok']);self.assertEqual(h['version'],'0.5.0');self.assertFalse(h['ai']['available']);self.assertIn('ocr',h);self.assertIn('SE/CE-inhoudelijke controle',h['scope']['excluded'])
+  c=TestClient(app);h=c.get('/api/health').json();self.assertTrue(h['ok']);self.assertEqual(h['version'],'0.5.1');self.assertFalse(h['ai']['available']);self.assertIn('ocr',h);self.assertIn('SE/CE-inhoudelijke controle',h['scope']['excluded'])
   with tempfile.TemporaryDirectory() as td:
    p=self.fixture(td);r=c.post('/api/parse',files={'file':('x.docx',p.read_bytes(),'application/vnd.openxmlformats-officedocument.wordprocessingml.document')},data={'school_year':'2026-2027','ai_mode':'on'});self.assertEqual(r.status_code,409)
  def test_parse_confirm_analyze_run_contract(self):
